@@ -6758,16 +6758,28 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   transform: scale(1.1, 1.1);
 }
 
-/* line 1, ../sass/_tabs.scss */
+/* line 7, ../sass/_tabs.scss */
+.content_areas_left_textbody {
+  font-family: calibri;
+  margin: 20px 0px 20px 0px;
+  height: auto;
+}
+
+/* line 13, ../sass/_tabs.scss */
+#answer1, #answer2, #answer3, #answer4 {
+  display: none;
+}
+
+/* line 16, ../sass/_tabs.scss */
 .tab-content {
-  border: 1px solid #666;
   background: white;
   /*#FFF3B3;*/
   color: black;
   padding: 0.5em;
+  margin-top: 60px;
 }
 
-/* line 9, ../sass/_tabs.scss */
+/* line 24, ../sass/_tabs.scss */
 .tab-header {
   position: relative;
   height: 3em;
@@ -6777,72 +6789,114 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding-bottom: 0px;
 }
 
-/* line 17, ../sass/_tabs.scss */
+/* line 32, ../sass/_tabs.scss */
 .tab-header ul.tab-list {
   margin: 0;
   padding: 0;
   position: absolute;
   bottom: -1px;
-  width: 50em;
-  /* a width is required for Opera, older Mozilla browsers, and Konqueror browsers */
+  width: 87%;
+  margin-bottom: 20px;
+  left: 46px;
+  top: 15px;
 }
 
-/* line 25, ../sass/_tabs.scss */
+/* line 43, ../sass/_tabs.scss */
 .tab-header ul.tab-list li {
   display: inline;
   list-style: none;
   margin: 0;
 }
 
-/* line 31, ../sass/_tabs.scss */
+/* line 49, ../sass/_tabs.scss */
 .tab-header ul.tab-list a, .tab-header ul.tab-list span, .tab-header ul.tab-list a.tab-active {
   width: 8em;
   display: block;
   float: left;
   padding: 4px 0;
-  margin: 1px 2px 0 0;
+  margin: 1px 0 0 0;
   text-align: center;
   font-family: tahoma, verdana, sans-serif;
   font-size: 85%;
   text-decoration: none;
-  color: #333;
-}
-
-/* line 44, ../sass/_tabs.scss */
-.tab-header ul.tab-list span, .tab-header ul.tab-list a.tab-active, .tab-header ul.tab-list a.tab-active:hover {
-  border-top: 1px solid #666;
-  border-left: 1px solid #666;
-  border-right: 1px solid #666;
-  border-bottom: none;
-  background: #99F;
-  color: black;
-  padding-bottom: 6px;
-  margin-top: 0;
+  color: #fff;
+  width: 34%;
+  padding: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 /* a link in a background tab */
-/* line 56, ../sass/_tabs.scss */
+/* line 71, ../sass/_tabs.scss */
 .tab-header ul.tab-list a {
-  background: #ddd;
-  border-top: 1px solid #AAA;
-  border-left: 1px solid #AAA;
-  border-right: 1px solid #AAA;
+  background-color: #fea700;
   border-bottom: none;
+  width: 34%;
+  padding: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+/* line 78, ../sass/_tabs.scss */
+.tab-header ul.tab-list a:hover {
+  background-color: #e09505;
 }
 
 /* hover on a background tab */
-/* line 65, ../sass/_tabs.scss */
-.tab-header ul.tab-list a:hover {
-  margin-top: 0;
-  border-color: #666;
-  background: #bbb;
-  color: black;
-  padding-bottom: 5px;
-}
-
-/* line 73, ../sass/_tabs.scss */
+/* line 88, ../sass/_tabs.scss */
 .tab {
   display: none;
+}
+
+/* line 92, ../sass/_tabs.scss */
+#tab-container-tab-0 a {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+/* line 96, ../sass/_tabs.scss */
+#tab-container-tab-1 a {
+  background-color: #20b373;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* line 101, ../sass/_tabs.scss */
+#tab-container-tab-1 a:hover {
+  background-color: #1b9962;
+}
+
+/* line 105, ../sass/_tabs.scss */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+}
+
+/* line 110, ../sass/_tabs.scss */
+.forgot-pass {
+  float: right;
+  background: transparent;
+  border: none;
+  color: #fea700;
+  font-size: 14px;
+}
+
+/* line 117, ../sass/_tabs.scss */
+.signup-designer {
+  background-color: #fea700 !important;
+}
+/* line 119, ../sass/_tabs.scss */
+.signup-designer:hover {
+  background-color: #e09505 !important;
+}
+
+/* line 123, ../sass/_tabs.scss */
+.signup-logo {
+  background-color: #20b373 !important;
+}
+/* line 125, ../sass/_tabs.scss */
+.signup-logo:hover {
+  background-color: #1b9962 !important;
 }
 
 /* line 10, ../sass/style.scss */

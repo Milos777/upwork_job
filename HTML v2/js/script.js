@@ -17,10 +17,10 @@ $(document).ready(function(){
         return false;
     });
 
-    
+
 
     //colorPicker
-    
+
     $('.pickColor').delegate('.lColor:not(.act)', 'click', function() {
         $('.pickColor .lColor').removeClass('act');
         $(this).addClass('act');
@@ -57,7 +57,7 @@ $(document).ready(function(){
 
     $('ul.usMenu').delegate('li:not(.act)', 'click', function() {
         $(this).addClass('act').siblings().removeClass('act').closest('div.jaw').find('div.bam').hide().eq($(this).index()).fadeIn(150);
-        
+
     });
 
     //like btn
@@ -65,7 +65,7 @@ $(document).ready(function(){
         $(this).toggleClass('act');
     });
 
-    //interBopards 
+    //interBopards
     $('ul.uITab').delegate('li:not(.act)', 'click', function() {
         $(this).addClass('act').siblings().removeClass('act').closest('div.jaw').find('div.box3').hide().eq($(this).index()).fadeIn(150);
     });
@@ -114,7 +114,7 @@ $(document).ready(function(){
         $(this).closest('li').toggleClass('open');
         return false;
     });
-    
+
 
     $('.seaHead').click(function(){
         $(this).parent().toggleClass('act');
@@ -126,7 +126,25 @@ $(document).ready(function(){
         $(this).closest('li').toggleClass('banAct');
         return false;
     });
-    
 
-    
-}); 
+
+
+});
+$(document).ready(function() {
+$('.question1').click(function(){
+	$('.new_member_box_display').html($('#answer1').html());
+})
+
+$('.question2').click(function(){
+	$('.new_member_box_display').html($('#answer2').html());
+})
+
+$('.question3').click(function(){
+	$('.new_member_box_display').html($('#answer3').html());
+})
+
+$('.question4').click(function(){
+	$('.new_member_box_display').html($('#answer4').html());
+})
+
+});//end of ready

@@ -1,8 +1,23 @@
+
+.new_member_box_display{
+
+}
+
+
+.content_areas_left_textbody{
+	font-family: calibri;
+	margin: 20px 0px 20px 0px;
+	height: auto;
+}
+
+#answer1, #answer2, #answer3, #answer4{
+	display: none;
+}
 .tab-content {
-	border: 1px solid #666;
 	background: white; /*#FFF3B3;*/
 	color: black;
 	padding: 0.5em;
+    margin-top: 60px;
 }
 
 
@@ -19,7 +34,10 @@
 	padding: 0;
 	position: absolute;
 	bottom: -1px;
-	width: 50em; /* a width is required for Opera, older Mozilla browsers, and Konqueror browsers */
+	width: 87%;
+    margin-bottom: 20px;
+    left:46px;
+    top:15px;
 }
 
 .tab-header ul.tab-list li  {
@@ -33,44 +51,78 @@
 	display: block;
 	float: left;
 	padding: 4px 0;
-	margin: 1px 2px 0 0;
+	margin: 1px 0 0 0;
 	text-align: center;
 	font-family: tahoma, verdana, sans-serif;
 	font-size: 85%;
 	text-decoration: none;
-	color: #333;
-}
+	color: #fff;
+    width:34%;
+    padding: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    }
 
 .tab-header ul.tab-list span,.tab-header ul.tab-list a.tab-active,.tab-header ul.tab-list a.tab-active:hover {
-	border-top: 1px solid #666;
-	border-left: 1px solid #666;
-	border-right: 1px solid #666;
-	border-bottom: none;
-	background: #99F;
-	color: black;
-	padding-bottom: 6px;
-	margin-top: 0;
+
 }
 
 /* a link in a background tab */
 .tab-header ul.tab-list a {
-	background: #ddd;
-	border-top: 1px solid #AAA;
-	border-left: 1px solid #AAA;
-	border-right: 1px solid #AAA;
+	background-color: #fea700;
 	border-bottom: none;
+    width:34%;
+    padding: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    &:hover{
+        background-color: #e09505;
+    }
 }
 
 /* hover on a background tab */
 .tab-header ul.tab-list a:hover {
-	margin-top: 0;
-	border-color: #666;
-	background: #bbb;
-	color: black;
-	padding-bottom: 5px;
+
 }
 
 .tab  /* the heading that became the li */
 {
 	display: none;
+}
+#tab-container-tab-0 a{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#tab-container-tab-1 a{
+    background-color: #20b373;
+    border:none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    &:hover{
+        background-color: #1b9962;
+    }
+}
+.close{
+    position: absolute;
+    top: 10px;
+    right: 12px;
+}
+.forgot-pass{
+    float: right;
+    background: transparent;
+    border: none;
+    color: #fea700;
+    font-size: 14px;
+}
+.signup-designer{
+    background-color: #fea700 !important;
+    &:hover{
+        background-color: #e09505 !important;
+    }
+}
+.signup-logo{
+    background-color: #20b373 !important;
+    &:hover{
+        background-color: #1b9962 !important;
+    }
 }
