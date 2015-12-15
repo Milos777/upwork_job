@@ -1,0 +1,1216 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1100px) {
+	.tNav ul li{
+		font: 11px/14px 'proxima_nova_rgbold';
+	}
+	.fCont{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.fCopy{
+		float: none;
+		width: 100%;
+		margin: 15px 0 0;
+	}
+	.days a{
+		width: 35%;
+	}
+	.uData h1, .uData .dP2, .uData .dP3 {
+	  font: 30px/30px "proxima_nova_ltsemibold";
+	}
+	.uData .left i, .uData .right i {
+	  font: 30px/30px "proxima_nova_ltsemibold";
+	}
+	.uParty li{
+		width: 29%;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.jSearch .pConf .forCh {
+		margin:0 7px -2px 0;
+	}
+	.head .hj2{
+		width:80.9%;
+		padding: 9px 0 0;
+	}
+	.head .hj3{
+		width:62%;
+		padding: 8px 0 15px;
+		float: left;
+		min-width: 160px;
+		text-align: right;
+	}
+	.head .hj4{
+		width:25%;
+		float: right;
+		min-width: 160px;
+		padding: 10px 0 0;
+	}
+	.hj2 ul{
+		text-align: left;
+		padding-left: 30px;
+	}
+	.tNav ul li{
+		margin: 0 2%;
+		font: 12px/15px 'proxima_nova_rgbold'
+	}
+	.hCall span{
+		display: none;
+	}
+	.hCall:after{
+		right: 10px;
+	}
+	.welc h1{
+		font: 50px/50px 'proxima_nova_ltlight';
+		margin: 0 0 32px;
+	}
+	.welc .pWelc{
+		color: #fff;
+		font: 19px/29px 'proxima_nova_ltlight';
+		margin: 0 0 116px;
+	}
+	.jobs h2{
+		margin: 0 0 30px;
+	}
+	.iText p{
+		margin: 0 0 29px;
+		font: 24px/29px 'proxima_nova_rgregular';
+	}
+	.iText h5{
+		font: 17px/21px 'proxima_nova_ltsemibold';
+	}
+	.undStars {
+		font: 17px/21px 'proxima_nova_rgbold';
+	}
+	.uPart li img{
+		width: 90%;
+		height: auto;
+	}
+	.partn{
+		padding: 35px 0 80px;
+	}
+	.help{
+		padding: 67px 57px;
+	}
+	.help p{
+		font: 19px/24px 'proxima_nova_rgregular';
+		text-align: center;
+	}
+	.help p a{
+		margin: 20px 0 0;
+	}
+	.dropzone .spBtn{
+		font-size: 12px;
+		width: 90%;
+	}
+	.dropzone .spBtn i,.dropzone .spBtn span{
+		display: none;
+	}
+	.congrat h1 {
+	  font: 70px/70px "proxima_nova_ltlight";
+	}
+	.congrat .c1 {
+	  font: 20px/24px "proxima_nova_ltsemibold";
+	}
+	.thank h1 {
+	  font: 70px/70px "proxima_nova_ltlight";
+	}
+	.thank .t1 {
+	  font: 20px/24px "proxima_nova_ltsemibold";
+	}
+	.payForm{
+		margin: 0 4% 0 4%
+	}
+	.join{
+		text-align: center;
+	}
+	.join a{
+		display: block;
+		margin: 24px auto 0;
+	}
+	.col-xs-55,.col-xs-22{
+		width: 100%;
+	}
+	.hAnot{
+		white-space: normal;
+		font: 12px/14px "proxima_nova_ltsemibold";
+		width: 115px;
+		text-align: center;
+		vertical-align: middle;
+	}
+	.uData h1, .uData .dP2, .uData .dP3 {
+	  font: 27px/27px "proxima_nova_ltsemibold";
+	}
+	.uData .left i, .uData .right i {
+	  font: 27px/27px "proxima_nova_ltsemibold";
+	}
+	.uData .dIco {
+	  padding: 0 0 0 20px;
+	  font: 11px/16px "proxima_nova_ltsemibold";
+	}
+	
+	.uData .dIco:after{
+		font-size: 16px;
+		top: -2px;
+	}
+	.uParty li{
+		width: 32%;
+	}
+	.skills {
+		margin: 0 0 70px 9px;
+	}
+	.uCard li{
+		width: 48%;
+	}
+	.uWorks li {
+	  width: 48.6%;
+	  margin: 0 0.8% 14px 0;
+	}
+
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.userBox {
+	  float:none;
+	  margin:0 0 15px;
+	  width:100%;
+	  padding-bottom: 15px;
+	}
+	.intCont {
+	  float: none;
+	  width: 100%;
+	}
+
+	.uUbox {
+	  margin:0 0 15px;
+	}
+	.uUbox li {
+	  padding-left: 11%;
+	}
+	.uUbox li .avaUser {
+	  right: 89%;
+	}
+
+
+
+	.commsJaw .comm {
+	  position: relative;
+	  margin: 0 0 19px 0;
+	  padding: 0;
+	}
+	.commsJaw .comm h5{
+		padding: 21px 0 0;
+	}
+	.commsJaw .comm .comm h5{
+		padding: 11px 0 0;
+	}
+	.commsJaw .comm .cAva {
+	  position: relative;
+	  float: left;
+	  left: auto;
+	  top: auto;
+	  margin: 0 10px 7px 0;
+	}
+	.commsJaw .comm .time:after{
+	    content: '';
+	    display: table;
+	    clear: both;
+	}
+	.commsJaw .comm .text {
+	  padding: 0;
+	}
+	.commsJaw .comm .text .like{
+		opacity: 0.5;
+	}
+	.commsJaw .comm .text .like:hover{
+		opacity: 1;
+	}
+	.commsJaw .comm .comm .cAva {
+	  left:auto;
+	  top:auto;
+	}
+
+
+	.jobLeft {
+	  float: none;
+	  width: 100%;
+	  margin: 0 0 25px;
+	}
+
+	.jobRight {
+	  float: none;
+	  width: 100%;
+	}
+	.jSearch{
+		margin: 0 0 15px;
+	}
+	.jSearch .seaFormJaw{
+		display: none;
+	}
+	.seaHead{
+		cursor: pointer;
+	}
+	.jSearch.act .seaFormJaw{
+		display: block;
+	}
+	.userJar .seaHead{
+		display: block;
+		cursor: pointer;
+	}
+	.userJar .usInf,.userJar .usMenu{
+		display: none;
+	}
+	.userJar.act .usInf,.userJar.act .usMenu{
+		display: block;
+	}
+
+
+	.welc .pWelc{
+		font: 18px/28px 'proxima_nova_ltlight';
+	}
+
+	.iText p{
+		margin: 0 0 29px;
+		font: 22px/27px 'proxima_nova_rgregular';
+	}
+	.iText h5{
+		font: 16px/20px 'proxima_nova_ltsemibold';
+	}
+	.undStars {
+		font: 16px/20px 'proxima_nova_rgbold';
+	}
+	.uPart li img{
+		width: 90%;
+		height: auto;
+	}
+	.partn{
+		padding: 30px 0 70px;
+	}
+	.help{
+		padding: 57px 0 47px;
+	}
+	.help p{
+		font: 19px/24px 'proxima_nova_rgregular';
+		text-align: center;
+		margin: 0;
+		
+	}
+	.help p a{
+		margin: 20px auto 0;
+		display: block;
+		width: 100%;
+		padding: 0;
+	}
+	.footTop{
+		margin-bottom: 23px;
+	}
+	.fCont{
+		font: 11px/30px 'proxima_nova_rgregular';
+	}
+	.fCont span,.fCont a{
+		margin: 0 15px 0 0;
+	}
+	.uProg li {
+		display: block;
+		margin: 0 auto 70px;
+	}
+	.uProg li:last-child {
+		margin: 0 auto 0;
+	}
+	.uProg li:after{
+		content:'';
+		display:block;
+		position:absolute;
+		width:1px;
+		height:50px;
+		right: 0;
+		margin: auto;
+		left: 0;
+		top:105%;
+		background:#fff;
+	}
+	.drCol .iWrap2{
+		margin: 0 0 18px;
+		width: 100%;
+	}
+	.btnNext{
+	  margin:0 0 20px 0;
+	}
+	.dropzone .spBtn{
+		font-size: 14px;
+		width: 169px;
+	}
+	.dropzone .spBtn i,.dropzone .spBtn span{
+		display: inline-block;
+	}
+	.days a{
+		width: 80%;
+	}
+	.uRate>li{
+		width: 100%;
+		margin-bottom: 70px;
+	}
+	.uRate>li:last-child{
+		margin-bottom: 0;
+	}
+	.dropzone {
+	  margin: 0 0 29px 0;
+	}
+	.hAnot{
+		width: 65px;
+	}
+	.uData h1, .uData .dP2, .uData .dP3 {
+	  font: 35px/35px "proxima_nova_ltsemibold";
+	}
+	.uData .left i, .uData .right i {
+	  font: 35px/35px "proxima_nova_ltsemibold";
+	}
+	.uData .dIco {
+	  padding: 0 0 0 27px;
+	  font: 14px/17px "proxima_nova_ltsemibold";
+	}
+	.uData .dIco:after{
+		top: auto;
+		font-size: 20px;
+	}
+	.uData li{
+		text-align: center;
+		height: 120px;
+		padding: 25px 2% 0 3%;
+	}
+	.uData .left,.uData .right{
+		width: 50%;
+	}
+	.uData li.ud1{
+		width: 100%;
+		float: none;
+		border-radius: 3px 3px 0 0;
+		margin: 0 0 -2px 0;
+		border-width: 3px 3px 2px;
+	}
+	.uData li.ud2{
+		width: 100%;
+		float: none;
+		margin: 0 0 -2px 0;
+		border-width: 2px 3px 2px;
+	}
+	.uData li.ud3{
+		width: 100%;
+		float: none;
+		margin: 0 0 -2px 0;
+		border-width: 2px 3px 2px;
+	}
+	.uData li.ud4{
+		width: 100%;
+		float: none;
+		border-radius: 0 3px 3px;
+		margin: 0;
+		border-width: 2px 3px 3px;
+	}
+	.uTabs li {
+	  font: 13px/40px "proxima_nova_ltsemibold";
+	  padding: 0 1.5%;
+	  height: 40px;
+	}
+	.uParty li{
+		width: 45%;
+	}
+	.user{
+		width: 100%;
+		float: none;
+	}
+	.userInfo{
+		width: 100%;
+		float: none;
+	}
+	.user .usMenu li a{
+		text-align: center;
+		padding-left: 20px;
+	}
+	.userInfo .row{
+		width: auto;
+	}
+	.uData2 li{
+		padding: 0 0 0 190px;
+	}
+	.uDeser > li .ud .ud1 {
+	  width: 33%;
+	  padding-right: 0;
+	}
+	.uDeser > li .ud .ud2 {
+	  width: 66%;
+	}
+	.uDeser > li .ud .ud3 {
+		width: 100%;
+	}
+	.briefLogo,.uWorks3 .briefLogo{
+		width:35%;
+		margin: 0 0 25px;
+	}
+	.briefCont,.uWorks3 .briefCont{
+		width: 100%;
+	}
+	.uWorks3 .briefCont{
+		width: 96%;
+		padding: 0 2%;
+	}
+	.briefPrice,.uWorks3 .briefPrice{
+		width: 50%;
+		position: absolute;
+		top: 20px;
+		right: 2.6%;
+	}
+	.briefCont .pSum{
+		margin: 0 0 10px;
+	}
+
+
+	.uWorks2 .inf {
+	  padding: 0 160px 0 0;
+	}
+	.uWorks2 .uwCont{
+		padding-right: 0;
+	}
+	.uWorks2 > li.open .btnMin{
+		display: inline-block;
+		margin: 0 15px 0 0;
+	}
+	.uWorks2 .btnMin.bm2{
+		display: none;
+	}
+	.uWorks2 li.open .btnSelect2 {
+		width:128px;
+		position: relative;
+		bottom: auto;
+		height: 29px;
+		line-height: 29px;
+		display: inline-block;
+		left: auto;
+		margin: 0 15px 15px 0; 
+	}
+}
+
+@media only screen and (max-width : 660px) {
+	.uWorks2 .btnMin.bm2{
+		top: 15px;
+		right: 5px;
+	}
+
+	.head .hj3{
+		width:calc(89% - 165px);
+	}
+	.uStat li{
+		width: 47%;
+		margin-bottom: 25px;
+	}
+	.uJobs2 li{
+		width: 48%;
+	}
+	.briefLogo,.uWorks3 .briefLogo{
+		width:50%;
+	}
+
+
+	.uWorks2>li{
+		padding: 7px 2%;
+	}
+	.uWorks2 .wImg{
+		width: auto;
+		height: auto;
+		position: relative;
+		left: auto;
+		top: auto;
+		max-width: 100%;
+	}
+	.uWorks2 .inf {
+	  padding:0;
+	  height: auto;
+	}
+	.uWorks2 .inBtns{
+		display: block;
+		position: relative;
+		right: auto;
+		top: auto;
+		margin: 0 0 15px;
+	}
+	.uWorks2 .iPrice {
+	  position: relative;
+	  display: table;
+	  background: #fea700;
+	  padding: 0;
+	  height: 35px;
+	  right: auto;
+	  width: 149px;
+	  font: 30px/35px "proxima_nova_ltsemibold";
+	  bottom: auto;
+	  top: auto;
+	  margin: 0 0 15px;
+	  text-align: center;
+
+	}
+	.uWorks2 .btnSelect {
+	  display: table;
+	  border: 1px solid #ffd688;
+	  border-radius: 3px;
+	  background: #fff;
+	  text-align: center;
+	  height: 34px;
+	  width: 148px;
+	  color: #848484;
+	  text-decoration: none;
+	  font: 16px/34px "proxima_nova_ltsemibold";
+	  position: relative;
+	  margin: 0 0 15px;
+	  right: auto;
+	  top: auto;
+	  left: auto;
+	  bottom: auto;
+	}
+	
+
+}
+
+
+@media only screen and (max-width : 615px) {
+	.header{
+		background: #fff url(../img/head.png) repeat-x 0 85px;
+	}
+	.head {
+		padding-bottom: 10px;
+	}
+	.head .hj1{
+		clear: right;
+		min-width: 95px;
+
+	}
+	.head .hj1,.head .hj2,.head .hj3,.head .hj4{
+		min-height: 70px;
+	}
+	.head .hj2{
+		width:calc(100% - 250px);
+		padding: 9px 0 0;
+		clear: left;
+		min-height: 50px;
+	}
+	.head .hj3{
+		min-height: 50px;
+		width:25%;
+		padding: 0;
+		float: right;
+	}
+	.head .hj4{
+		margin-top: -130px;
+		clear: right;
+		text-align: right;
+		width:25%;
+		float: right;
+		min-width: 250px;
+		padding: 0;
+	}
+
+	.head .hCall{
+		white-space: nowrap;
+		padding: 0 11px;
+	}
+	.head .hCall:before{
+		content:'\f095 \00a0 \00a0 CALL US';
+		font-family: FontAwesome, 'proxima_nova_rgregular';
+	    color: #fea700;
+	    left: auto;
+	    top: auto;
+	    font-size: 13px;
+	    height: 43px;
+	    margin: 0 12px 0 0;
+	    padding: 0 14px;
+	    line-height: 43px;
+	    display: inline-block;
+	    border: 1px solid #fea700;
+	    position: relative;
+	    white-space: nowrap;
+	    background: #fea700;
+	    border-radius: 4px;
+	    color: #fff;
+	    transition: all 0.3s;
+	    vertical-align: middle;
+	}
+	.head .hCall:hover:before{
+		background: #fff;
+		color: #fea700;
+	}
+	.head .hCall:after{
+		display: inline-block;
+		position: relative;
+		left: auto;
+	    top: auto;
+	    right: auto;
+	    vertical-align: middle;
+	    bottom: auto;
+	}
+	
+	.hBtn{
+		padding: 0 18px;
+		height: 50px;
+		border-radius: 6px;
+		border: 2px solid #bcc3d1;
+		font: 18px/51px 'proxima_nova_rgbold';
+		margin:0 10px 0 0;
+	}
+	.hBtn:last-child{
+		margin: 0;
+	}
+	.tNav .aMob{
+		display: block;
+	}
+	.tNav ul.open{
+		display: none;
+	}
+	.tNav ul{
+
+		display: none;
+		text-align: left;
+		position: absolute;
+		top: 29px;
+		left: -5px;
+		background: #fff;
+		padding: 7px 0 2px 0;
+		height: auto;
+		border-radius: 0 0 3px 3px;
+		box-shadow: 1px 1px 3px rgba(0,0,0,0.3); 
+	}
+	.tNav ul li{
+		font: 15px/19px 'proxima_nova_rgbold';
+		display: block;
+		background: #fff;
+		white-space: nowrap;
+		margin: 0;
+	}
+	.tNav ul li a{
+		padding: 7px 8px;
+		display: block;
+		margin: 0;
+	}
+	.tNav ul li a:hover{
+		background: #fea700;
+		color: #fff;
+	}
+	.uJobs li {
+		width: 99%;
+	}
+	.uJobs {
+		margin-bottom: 25px;
+	}
+	.twoBtns a {
+		margin-bottom: 20px;
+	}
+	.jobs .jaw {
+		padding-bottom: 20px;
+	}
+	.iText p{
+		margin: 0 0 29px;
+		font: 18px/24px 'proxima_nova_rgregular';
+	}
+	.iText h5{
+		font: 15px/18px 'proxima_nova_ltsemibold';
+	}
+	.undStars {
+		font: 15px/18px 'proxima_nova_rgbold';
+	}
+	.uPart{
+		display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+	    -webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	    flex-direction: column;
+	    -webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	    -webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	    justify-content: center;
+	    -webkit-align-content: stretch;
+	    -ms-flex-line-pack: stretch;
+	    align-content: stretch;
+	    -webkit-align-items: center;
+	    -ms-flex-align: center;
+	    align-items: center;
+	}
+	.partn{
+		padding: 20px 0 30px;
+	}
+	.partn li {
+		-webkit-order: 0;
+	    -ms-flex-order: 0;
+	    order: 0;
+	    -webkit-flex: 0 1 auto;
+	    -ms-flex: 0 1 auto;
+	    flex: 0 1 auto;
+	    -webkit-align-self: center;
+	    -ms-flex-item-align: center;
+	    align-self: center;
+	    margin: 0 0 25px;
+	}
+	.partn li img{
+		width: auto;
+	}
+	.partn h2{
+		font: 19px/22px 'proxima_nova_rgbold';
+		margin-bottom: 30px;
+	}
+	.fMenu{
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin: 0 0 15px;
+	}
+	.fSoc{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.days{
+		padding: 25px 5% 100px 5%;
+	}
+	.days:after{
+		width: 100%;
+		height: 1px;
+		bottom: 100px;
+		top: auto;
+		left: 0;
+		right: 0;
+	}
+	.days .total{
+		width: 100%;
+		top: auto;
+		bottom: 30px;
+		font-size: 40px;
+		left: 15px;
+		right: 0;
+	}
+	.days .pTotal{
+		text-align: center;
+	}
+	.days .total sub{
+		bottom: -1em;
+	}
+	.days a{
+		width: 80%;
+	}
+	.regNow{
+		font: 19px/22px 'proxima_nova_rgbold';
+		padding: 36px 4.5% 70px 4.5%;
+
+	}
+	.regNow a{
+		right: 0;
+		top: auto;
+		left: 0;
+		bottom: 15px;
+	}
+	.congrat {
+		padding: 80px 0 80px;
+	}
+	.congrat h1 {
+	  font: 50px/50px "proxima_nova_ltlight";
+	}
+	.congrat .c1 {
+	  font: 16px/20px "proxima_nova_ltsemibold";
+	}
+	.thank {
+		padding: 80px 0 80px;
+	}
+	.thank h1 {
+	  font: 50px/50px "proxima_nova_ltlight";
+	}
+	.thank .t1 {
+	  font: 16px/20px "proxima_nova_ltsemibold";
+	}
+	.hAnot{
+		width: 170px;
+	}
+	.briefPrice .bPrice {
+	  padding: 0 12px 0 12px;
+	  height: 40px;
+	  font: 30px/40px "proxima_nova_ltsemibold";
+	}
+	
+	
+}
+@media only screen and (max-width : 550px) {
+	.uUbox li {
+	  padding-left: 60px;
+	}
+	.uUbox li .avaUser {
+	  right: auto;
+	  left: 10px;
+	}
+	.uITab {
+	  padding: 0;
+	}
+	.uITab li {
+	  display: block;
+	  font: 15px/18px "proxima_nova_rgbold";
+	  padding: 11px 0 10px;
+	  width: 100%;
+	  text-align: center;
+	  margin: 0 0 -1px 0;
+
+	}
+	.uRes li .forAva:after {
+	  left: 45px;
+	}
+	.uRes li .forAva{
+		width: 45px;
+	}
+	.uRes li .rFile {
+	  padding:20px 0 10px;
+	  width:calc(100% - 60px);
+	}
+	.uRes li .rBtns {
+		clear: both;
+	  bottom:auto;
+	  display:block;
+	  height:31px;
+	  margin:0 0 10px 50px;
+	  position:relative;
+	  right:auto;
+	  text-align:right;
+	  top:auto;
+	  width:180px;
+	}
+
+	.uStrem li {
+	  padding-left: 50px;
+	}
+	.uStrem li:after {
+	  left: 24px;
+	}
+	.uStrem li .cAva {
+	  right:auto;
+	  left: 8px;
+	}
+	.uStrem li .openBox {
+	  width: 75%;
+	}
+	.uStrem li .btnlike2 {
+	  margin: 0 5px 10px 0;
+	  width: 100%;
+	}
+	.uStrem li .openBox {
+	  width:100%;
+	}
+	.uStrem li .btnComm{
+		width: 100%;
+	}
+	.uStrem li .openBox .fComm .forTAr2 {
+	  float:none;
+	  width:100%;
+	  margin: 0 0 7px;
+	}
+	.uStrem li .openBox .fComm button{
+		float: none;
+		width: 100%;
+	}
+
+	.fCommBase .forTAr2 {
+	  float:none;
+	  width:100%;
+	  margin: 0 0 7px;
+	}
+	.fCommBase button{
+		float: none;
+		width: 100%;
+	}
+
+	.sortBy {
+		margin: 0 7px 0 0;
+	}
+	.uWorks li {
+	  width: 99%;
+	  margin: 0 0 14px;
+	}
+	.uParty li{
+		width: 95%;
+	}
+	.uData2 li{
+		/*font: 11px/16px 'proxima_nova_rgregular';*/
+		padding: 0;
+	}
+	.uData2 li b{
+		/*font-size: 11px;*/
+		position: relative;
+		display: block;
+		margin: 0 0 5px;
+	}
+	.uStat li{
+		width: 100%;
+		margin-bottom: 25px;
+	}
+	.tEarn th {
+	  font: 12px/14px "proxima_nova_rgbold";
+	}
+	.tEarn td {
+	  font: 11px/13px "proxima_nova_rgregular";
+	}
+	.tEarn .tTotal{
+		font: 18px/20px "proxima_nova_rgbold";
+	}
+	.uCard li{
+		width: 100%;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	.welc{
+		min-height: 0;
+	}
+	.welc h1{
+		font: 30px/30px 'proxima_nova_ltlight';
+		margin: 0 0 32px;
+	}
+	.welc .pWelc{
+		color: #fff;
+		font: 14px/19px 'proxima_nova_ltlight';
+		margin: 0 0 70px;
+	}
+	.iText p{
+		margin: 0 0 29px;
+		font: 16px/21px 'proxima_nova_rgregular';
+	}
+	.iText h5{
+		font: 13px/16px 'proxima_nova_ltsemibold';
+	}
+	.undStars {
+		font: 13px/16px 'proxima_nova_rgbold';
+	}
+	.partn h2{
+		font: 17px/20px 'proxima_nova_rgbold';
+		margin-bottom: 20px;
+	}
+	.help{
+		padding: 37px 27px;
+	}
+	.help p{
+		font: 16px/20px 'proxima_nova_rgregular';
+		text-align: center;
+	}
+	.fMenu li a{
+		height: 25px;
+		border-radius: 2px;
+		padding: 0 8px;
+		font: 11px/27px 'proxima_nova_rgbold';
+		margin: 0 5px 0 0;
+	}
+	.fCont span{
+		font-size: 10px;
+	}
+	.uProm li {
+		padding:22px 20px 80px 80px;
+	}
+	.uProm .aSel{
+		bottom: 15px;
+		top: auto;
+		left: 0;
+		right: 0;
+	}
+	.uProm h5{
+		font: 20px/23px 'proxima_nova_rgbold';
+		margin-bottom: 5px;
+	}
+	.uProm li i{
+		bottom: 80px;
+	}
+	.forBtn .btnNext{
+		width: 100%;
+	}
+	.congrat {
+		padding: 60px 15px 40px;
+	}
+	.congrat h1 {
+	  font: 38px/38px "proxima_nova_ltlight";
+	}
+	.congrat .c1 {
+	  font: 14px/18px "proxima_nova_ltsemibold";
+	}
+	.congrat .c2 {
+	  font: 13px/16px "proxima_nova_rgregular";
+	  margin-bottom: 35px;
+	}
+	.congrat .fa {
+	  width: 160px;
+	  height: 160px;
+	  font-size: 115px;
+	  line-height: 160px;
+	}
+	.congrat .c3 a{
+		display: block;
+		margin: 0 auto 25px;
+	}
+	.thank {
+		padding: 60px 15px 40px;
+	}
+	.thank h1 {
+	  font: 38px/38px "proxima_nova_ltlight";
+	}
+	.thank .t1 {
+	  font: 14px/18px "proxima_nova_ltsemibold";
+	  margin-bottom: 30px;
+	}
+	.thank .t2 {
+	  font: 13px/16px "proxima_nova_rgregular";
+	  margin-bottom: 35px;
+	}
+	.thank .fa {
+	  width: 160px;
+	  height: 160px;
+	  font-size: 115px;
+	  line-height: 160px;
+	}
+	.thank .t3 a{
+		display: block;
+		margin: 0 auto 25px;
+	}
+	.mailImg{
+		margin: 0 auto 25px;
+		width: 180px;
+	}
+	.hBtn{
+		padding: 0 10px;
+		height: 30px;
+		border-radius: 6px;
+		border: 1px solid #bcc3d1;
+		font: 12px/31px 'proxima_nova_rgbold';
+	}
+	.head .hj4{
+		margin-top: -118px;
+	}
+	.dCode .group1{
+		width: 50px;
+		font: 13px/32px "proxima_nova_rgregular";
+		margin: 0 8px 38px 0;
+	}
+	.hAnot{
+		width: 115px;
+	}
+	.uTabs li {
+	  display: block;
+	  width: 100%;
+	  text-align: center;
+	  border-bottom: 1px solid #f7f7f7;
+	}
+	.uFilt li.uf1,.uFilt li.uf2,.uFilt li.uf3 {
+		width: 100%;
+		float: none;
+		padding-bottom: 11px;
+	}
+	.tEarn th {
+	  font: 10px/12px "proxima_nova_rgbold";
+	}
+	.tEarn td {
+	  font: 10px/12px "proxima_nova_rgregular";
+	}
+	.tEarn .tTotal{
+		font: 16px/18px "proxima_nova_rgbold";
+	}
+	.uJobs2 li{
+		width: 100%;
+	}
+	.uDeser > li .ud .ud1 {
+	  width: 100%;
+	}
+	.uDeser > li .ud .ud2 {
+	  width: 100%;
+	}
+	.uDeser > li .ud .ud3 {
+		width: 100%;
+	}
+	.uDeser > li .ud .ud3 li{
+		width: 47%;
+	}
+	.bColor {
+		width: 100%;
+	}
+
+	.uWorks2 .index{
+		padding: 10px 20px 0 0;
+	}
+	.uWorks2 .index .aSub {
+	  right: 15px;
+	  width: auto;
+	  
+	}
+	.uWorks2 .index .aSub .fa {
+	  margin: 0;
+	  bottom: 0;
+	}
+	.uWorks2 .index .aSub span {
+	  display: none;
+	}
+
+	.uWorks2 > li.open .btnSelect2 {
+	  width: 100%;
+	}
+	.uWorks2 .btnSelect {
+	  width: 100%;
+	}
+	.uWorks2 .btnMin{
+		width: 100%;
+	}
+	.uWorks2 .btnMin.bm2{
+		width: 137px;
+	}
+	.uWorks2 .iPrice{
+		width: 100%;
+		padding: 0;
+	}
+}
+@media only screen and (max-width : 360px) {
+
+
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 615px) {
+	.tNav ul.open{
+		display: block !important;
+	}
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

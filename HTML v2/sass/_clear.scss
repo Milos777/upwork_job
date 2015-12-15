@@ -1,0 +1,125 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+input[type=submit]::-moz-focus-inner { padding:0; border:0; }
+h1,h2,h3,h4,h5{
+	font-weight:normal;
+}
+button{outline:none;}
+input, textarea, select {
+	font:100% arial,sans-serif;
+	vertical-align:middle;
+	outline:none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	border-radius: 0px;
+	box-sizing: border-box;
+}
+textarea:focus, input:focus{
+	outline: none;
+}
+input::-ms-clear {
+   display: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of Eric Meyer's CSS Reset */
+a {
+	color:#fea700;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover{
+	text-decoration:none;
+}
+a:visit{}
+a, a:link,
+a:active,
+a:visited {
+	-webkit-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+	outline: none;
+}
+html{
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	color:#3d4553;
+	font: 14px/17px 'proxima_nova_rgregular';
+	-webkit-font-smoothing: subpixel-antialiased !important;
+	-webkit-text-size-adjust: none !important;
+	-webkit-backface-visibility: hidden;
+    -moz-backface-visibility:    visible;
+	-ms-backface-visibility:     hidden;
+	height: 100%;
+}
+em,i{
+	font-family: 'proxima_nova_ththin';
+	font-style:normal;
+}
+strong,b{
+	font-family: 'proxima_nova_rgbold';
+	font-weight:normal;
+}
+strong i,strong em,b i,b em,i strong ,em strong,i b,em b{
+	font-family: 'proxima_nova_rgbold-2';
+	font-style:normal;
+	font-weight:normal;
+}
+/*::-webkit-input-placeholder {color:#a2a2a2;}
+input[type="text"]:-moz-placeholder {color:#a2a2a2;}
+input[type="text"].placeholder {color:#a2a2a2;}*/
+.wrapper {
+	width: 100%;
+	max-height: 9999em;
+	margin:0 auto;
+	position:relative;
+	min-width: 320px;
+	overflow: hidden;
+
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
