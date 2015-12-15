@@ -153,7 +153,7 @@
 	  padding: 0 0 0 20px;
 	  font: 11px/16px "proxima_nova_ltsemibold";
 	}
-	
+
 	.uData .dIco:after{
 		font-size: 16px;
 		top: -2px;
@@ -300,7 +300,7 @@
 		font: 19px/24px 'proxima_nova_rgregular';
 		text-align: center;
 		margin: 0;
-		
+
 	}
 	.help p a{
 		margin: 20px auto 0;
@@ -493,7 +493,7 @@
 		line-height: 29px;
 		display: inline-block;
 		left: auto;
-		margin: 0 15px 15px 0; 
+		margin: 0 15px 15px 0;
 	}
 }
 
@@ -573,7 +573,7 @@
 	  left: auto;
 	  bottom: auto;
 	}
-	
+
 
 }
 
@@ -653,7 +653,7 @@
 	    vertical-align: middle;
 	    bottom: auto;
 	}
-	
+
 	.hBtn{
 		padding: 0 18px;
 		height: 50px;
@@ -682,7 +682,7 @@
 		padding: 7px 0 2px 0;
 		height: auto;
 		border-radius: 0 0 3px 3px;
-		box-shadow: 1px 1px 3px rgba(0,0,0,0.3); 
+		box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 	}
 	.tNav ul li{
 		font: 15px/19px 'proxima_nova_rgbold';
@@ -840,8 +840,8 @@
 	  height: 40px;
 	  font: 30px/40px "proxima_nova_ltsemibold";
 	}
-	
-	
+
+
 }
 @media only screen and (max-width : 550px) {
 	.uUbox li {
@@ -1145,7 +1145,7 @@
 	.uWorks2 .index .aSub {
 	  right: 15px;
 	  width: auto;
-	  
+
 	}
 	.uWorks2 .index .aSub .fa {
 	  margin: 0;
@@ -1207,7 +1207,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-	
+
 }
 
  /* Large Devices, Wide Screens */

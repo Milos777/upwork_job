@@ -5,11 +5,11 @@
 @import "owl.carousel.scss";
 @import "jquery-ui.scss";
 @import "tooltipster.scss";
-
+@import "tabs.scss";
 
 .row{
-	margin-left:auto; 
-	margin-right:auto; 
+	margin-left:auto;
+	margin-right:auto;
 	position: relative;
 	max-width: 1170px;
 }
@@ -24,6 +24,31 @@ $act : #fea700;
 
 /* Header
 -----------------------------------------------------------------------------*/
+/* Tab Navigation */
+.nav-tabs {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.nav-tabs > li > a {
+    background: #DADADA;
+    border-radius: 0;
+    box-shadow: inset 0 -8px 7px -9px rgba(0,0,0,.4),-2px -2px 5px -2px rgba(0,0,0,.4);
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover {
+    background: #F5F5F5;
+    box-shadow: inset 0 0 0 0 rgba(0,0,0,.4),-2px -3px 5px -2px rgba(0,0,0,.4);
+}
+
+/* Tab Content */
+.tab-pane {
+    background: #F5F5F5;
+    box-shadow: 0 0 4px rgba(0,0,0,.4);
+    border-radius: 0;
+    text-align: center;
+    padding: 10px;
+}
 .header{
 	position: relative;
 	z-index: 15;
@@ -73,7 +98,7 @@ $act : #fea700;
 	height: 15px;
 	li{
 		display:-moz-inline-stack;
-		display:inline-block; 
+		display:inline-block;
 		zoom:1;
 		*display:inline;
 		vertical-align:top;
@@ -191,7 +216,7 @@ $act : #fea700;
 		background:darken(#24a36c, 15%);
 	}
 }
- 
+
 /* Content
 -----------------------------------------------------------------------------*/
 .middle{
@@ -280,7 +305,7 @@ $act : #fea700;
 }
 .uJobs li{
 	display:-moz-inline-stack;
-	display:inline-block; 
+	display:inline-block;
 	zoom:1;
 	*display:inline;
 	vertical-align:top;
@@ -447,7 +472,7 @@ $act : #fea700;
 	display: inline-block;
 	width: 100%;
 	height: 27px;
-	
+
 	top: 0;
 	left: 0;
 	content:'\f005\00a0\f005\00a0\f005\00a0\f005\00a0\f005';
@@ -566,7 +591,7 @@ $act : #fea700;
 }
 .fMenu li{
 	display:-moz-inline-stack;
-	display:inline-block; 
+	display:inline-block;
 	zoom:1;
 	*display:inline;
 	vertical-align:top;
@@ -594,7 +619,7 @@ $act : #fea700;
 	text-align: center;
 	li{
 		display:-moz-inline-stack;
-		display:inline-block; 
+		display:inline-block;
 		zoom:1;
 		*display:inline;
 		vertical-align:top;
@@ -603,7 +628,7 @@ $act : #fea700;
 		color: #5b5d60;
 		font-size: 18px;
 		padding: 0 8px;
-		
+
 	}
 	& a:hover{
 		color:#fff;
@@ -623,7 +648,7 @@ $act : #fea700;
     border-radius: 2px;
     text-transform: uppercase;
 }
-  
+
     #tooltip:after /* triangle decoration */
     {
         width: 0;
@@ -637,7 +662,7 @@ $act : #fea700;
         top: -5px;
         margin-left: -5px;
     }
-  
+
         #tooltip.top:after
         {
             border-top-color: transparent;
@@ -645,13 +670,13 @@ $act : #fea700;
             top: -10px;
             bottom: auto;
         }
-  
+
         #tooltip.left:after
         {
             left: 5px;
             margin: 0;
         }
-  
+
         #tooltip.right:after
         {
             right: 5px;
@@ -724,7 +749,7 @@ $act : #fea700;
 	padding: 0 20px 0 0;
 	li{
 		display:-moz-inline-stack;
-		display:inline-block; 
+		display:inline-block;
 		zoom:1;
 		*display:inline;
 		vertical-align:top;
@@ -1115,7 +1140,7 @@ $act : #fea700;
 	margin: 0 0 29px;
 	width: 72%;
 	display:-moz-inline-stack;
-	display:inline-block; 
+	display:inline-block;
 	zoom:1;
 	*display:inline;
 	vertical-align:top;
@@ -1428,7 +1453,7 @@ $act : #fea700;
 		-moz-box-shadow:    inset 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
 		box-shadow:         inset 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
 	}
-	
+
 }
 
 .days{
@@ -1865,7 +1890,7 @@ $act : #fea700;
 		color: #bfbfbf;
 	}
 	& .grey label{
-		color:#000; 
+		color:#000;
 	}
 }
 .radio2,.radio3{
@@ -1966,7 +1991,7 @@ $act : #fea700;
 		/* Disabled state of the fake select */
 	}
 		.ik_select_link_text {
-			
+
 			display:block;
 			overflow:hidden;
 			white-space:nowrap;
@@ -1986,7 +2011,7 @@ $act : #fea700;
 		top: -2px;
 		left: -5px;
 		*/
-		
+
 	}
 		.ik_select_list {
 			/*
@@ -2198,7 +2223,7 @@ $act : #fea700;
 	overflow: hidden;
 	li{
 		display:-moz-inline-stack;
-		display:inline-block; 
+		display:inline-block;
 		zoom:1;
 		*display:inline;
 		vertical-align:top;
@@ -2247,7 +2272,7 @@ $act : #fea700;
 			background:url(../img/sprite.png) no-repeat -150px 0;
 		}
 	}
-	
+
 }
 
 .filtJaw{
@@ -2348,7 +2373,7 @@ $act : #fea700;
 }
 .raty{
 	display:-moz-inline-stack;
-	display:inline-block; 
+	display:inline-block;
 	zoom:1;
 	*display:inline;
 	vertical-align:top;
@@ -2374,7 +2399,7 @@ $act : #fea700;
     -ms-flex-align: start;
     align-items: flex-start;
 	li{
-		
+
 		-webkit-order: 0;
 	    -ms-flex-order: 0;
 	    order: 0;
@@ -2479,8 +2504,8 @@ $act : #fea700;
 				background: none;
 				border: 1px solid transparent;
 			}
-			
-		}	
+
+		}
 	}
 	& li.banAct{
 		.pBtns{
@@ -2535,8 +2560,8 @@ $act : #fea700;
 			right: 0;
 			width: 0;
 			height: 0;
-			border-top: 9px solid #959595; 
-			border-right: 12px solid transparent;	
+			border-top: 9px solid #959595;
+			border-right: 12px solid transparent;
 		}
 		&.first .who{
 			color: #fea700;
@@ -2748,7 +2773,7 @@ $act : #fea700;
 			margin: 0;
 		}
 	}
-	
+
 }
 .usMenu{
 	li{
@@ -3308,7 +3333,7 @@ $act : #fea700;
 .box-modal2 h3{
 	border-bottom: 1px solid #d5d5d5;
 	padding: 0 37px 10px;
-	
+
 	margin: 0 -38px 22px;
 	color: #000;
 	font: 30px/33px $semibold;
@@ -3388,7 +3413,7 @@ $act : #fea700;
 			padding: 17px 0 14px;
 			&>li{
 				display:-moz-inline-stack;
-				display:inline-block; 
+				display:inline-block;
 				zoom:1;
 				*display:inline;
 				vertical-align:top;
@@ -3447,7 +3472,7 @@ $act : #fea700;
 				}
 				.inf{
 					text-transform: uppercase;
-					font:11px/13px $regular;	
+					font:11px/13px $regular;
 					margin: 0;
 				}
 			}
@@ -3480,7 +3505,7 @@ $act : #fea700;
 					width: 20%;
 					margin: 0 2.3% 15px 0;
 					display:-moz-inline-stack;
-					display:inline-block; 
+					display:inline-block;
 					zoom:1;
 					*display:inline;
 					vertical-align:top;
@@ -3490,7 +3515,7 @@ $act : #fea700;
 						border: 1px solid #d9d9d9;
 					}
 				}
-				
+
 			}
 		}
 	}
@@ -3627,7 +3652,7 @@ $act : #fea700;
 		font: 24px/28px $bold;
 		margin: 0 0 12px;
 	}
-	
+
 	.inf{
 		p{
 			margin: 0 0 21px;
@@ -3662,7 +3687,7 @@ $act : #fea700;
 	margin: 13px 0 35px;
 	li{
 		display:-moz-inline-stack;
-		display:inline-block; 
+		display:inline-block;
 		zoom:1;
 		*display:inline;
 		vertical-align:top;
@@ -3861,7 +3886,7 @@ $act : #fea700;
 				color: #242424;
 			}
 		}
-		
+
 
 		button{
 			text-transform: uppercase;
@@ -4103,7 +4128,7 @@ $act : #fea700;
 		position: relative;
 		.forAva{
 			display:-moz-inline-stack;
-			display:inline-block; 
+			display:inline-block;
 			zoom:1;
 			*display:inline;
 			vertical-align:top;
@@ -4131,7 +4156,7 @@ $act : #fea700;
 		}
 		.rFile{
 			display:-moz-inline-stack;
-			display:inline-block; 
+			display:inline-block;
 			zoom:1;
 			*display:inline;
 			vertical-align:top;
@@ -4166,7 +4191,7 @@ $act : #fea700;
 		}
 		.rBtns{
 			display:-moz-inline-stack;
-			display:inline-block; 
+			display:inline-block;
 			zoom:1;
 			*display:inline;
 			vertical-align:top;
@@ -4240,14 +4265,14 @@ $act : #fea700;
 
 .invite{
 	padding: 23px 5% 45px 5%;
-	
+
 }
 .invForm{
 	max-width: 633px;
 	margin: 0 0 28px;
 	.forIText{
 		display:-moz-inline-stack;
-		display:inline-block; 
+		display:inline-block;
 		zoom:1;
 		*display:inline;
 		vertical-align:top;
@@ -4322,7 +4347,7 @@ $act : #fea700;
 	}
 	li{
 		display:-moz-inline-stack;
-		display:inline-block; 
+		display:inline-block;
 		zoom:1;
 		*display:inline;
 		vertical-align:top;
@@ -4362,7 +4387,7 @@ $act : #fea700;
 			opacity: 1;
 		}
 	}
-	
+
 }
 
 .stream{
@@ -4463,7 +4488,7 @@ $act : #fea700;
 		}
 		.openBox{
 			display:-moz-inline-stack;
-			display:inline-block; 
+			display:inline-block;
 			zoom:1;
 			*display:inline;
 			vertical-align:top;
@@ -4552,11 +4577,11 @@ $act : #fea700;
 		.downJar{
 			background: #eaebec;
 			max-width: 275px;
-			
+
 			font: 14px/22px $regular;
 			padding: 9px 106px 9px 14px;
 			position: relative;
-			
+
 			p{
 				height: 44px;
 				overflow: hidden;
@@ -4699,7 +4724,7 @@ $act : #fea700;
 	border: 1px solid #e0e0e0;
 	border-radius: 3px;
 	margin: 0 0 27px;
-	
+
 	.seaFormJaw{
 		padding: 25px 0 30px;
 	}
@@ -5042,7 +5067,7 @@ $act : #fea700;
 	right: 0;
 	li{
 		display:-moz-inline-stack;
-		display:inline-block; 
+		display:inline-block;
 		zoom:1;
 		*display:inline;
 		vertical-align:top;
@@ -5081,7 +5106,7 @@ $act : #fea700;
 	width: 101.5%;
 	&>li{
 		display:-moz-inline-stack;
-		display:inline-block; 
+		display:inline-block;
 		zoom:1;
 		*display:inline;
 		vertical-align:top;
@@ -5116,7 +5141,7 @@ $act : #fea700;
 				display: none;
 			}
 		}
-		
+
 	}
 	.inf{
 		height: 70px;
@@ -5172,7 +5197,7 @@ $act : #fea700;
 			display: none;
 		}
 	}
-	
+
 }
 
 .uWorks2{
@@ -5200,7 +5225,7 @@ $act : #fea700;
 		color: #b3acac;
 		font: 14px/17px $regular;
 		margin: 8px 0 7px;
-		padding: 0 148px 0 0;		
+		padding: 0 148px 0 0;
 	}
 	.inBtns{
 		width: 148px;
@@ -5410,7 +5435,7 @@ $act : #fea700;
 		.btnSelect2{
 			display: block;
 		}
-	} 
+	}
 
 	li.act {
 		.btnSelect2{
@@ -5422,7 +5447,7 @@ $act : #fea700;
 			display: none;
 		}
 	}
-	
+
 }
 
 
@@ -5472,7 +5497,7 @@ $act : #fea700;
 		background: #f7f7f7;
 		.rFile{
 			display:-moz-inline-stack;
-			display:inline-block; 
+			display:inline-block;
 			zoom:1;
 			*display:inline;
 			vertical-align:top;
@@ -5505,7 +5530,7 @@ $act : #fea700;
 		}
 		.rBtns{
 			display:-moz-inline-stack;
-			display:inline-block; 
+			display:inline-block;
 			zoom:1;
 			*display:inline;
 			vertical-align:top;
@@ -5539,7 +5564,6 @@ $act : #fea700;
 	}
 }
 
-
 .ui-autocomplete{
 	width: 150px;
 	background:#FFFFFF;
@@ -5559,9 +5583,9 @@ $act : #fea700;
 		transition: background 0.3s;
 		&:hover{
 			background:$act;
-			
+
 			span{
-				color: #fff !important;	
+				color: #fff !important;
 			}
 		}
 		a{
@@ -5583,6 +5607,3 @@ $act : #fea700;
 		}
 	}
 }
-
-
-
