@@ -6899,7 +6899,34 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   background-color: #1b9962 !important;
 }
 
-/* line 10, ../sass/style.scss */
+/* line 1, ../sass/_project_block.scss */
+.project-block {
+  width: 22.9%;
+  border: 1px solid #e3e3e3;
+  border-right: 0px;
+  position: relative;
+  float: left;
+  /* border-radius: 3px; */
+  webkit-box-sizing: border-box;
+  moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+  /* line 1, ../sass/_project_block.scss */
+  .project-block {
+    float: none;
+    width: 100%;
+    margin-bottom: 30px;
+    border-right: 1px solid #e3e3e3;
+  }
+}
+/* line 17, ../sass/_project_block.scss */
+.project-block h2 {
+  padding: 16px;
+  font: 15px/18px "proxima_nova_rgbold";
+}
+
+/* line 11, ../sass/style.scss */
 .row {
   margin-left: auto;
   margin-right: auto;
@@ -6910,21 +6937,21 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
 /* Header
 -----------------------------------------------------------------------------*/
 /* Tab Navigation */
-/* line 28, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 .nav-tabs {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
-/* line 33, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .nav-tabs > li > a {
   background: #DADADA;
   border-radius: 0;
   box-shadow: inset 0 -8px 7px -9px rgba(0, 0, 0, 0.4), -2px -2px 5px -2px rgba(0, 0, 0, 0.4);
 }
 
-/* line 38, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover {
   background: #F5F5F5;
@@ -6932,7 +6959,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
 }
 
 /* Tab Content */
-/* line 45, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
 .tab-pane {
   background: #F5F5F5;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
@@ -6941,19 +6968,19 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 10px;
 }
 
-/* line 52, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 .header {
   position: relative;
   z-index: 15;
 }
 
-/* line 56, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 .header.gray {
   background: #f7f7f7;
   border-bottom: 1px solid #dadada;
 }
 
-/* line 60, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 .head {
   margin: 0 auto;
   max-width: 1170px;
@@ -6961,14 +6988,14 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   position: relative;
 }
 
-/* line 66, ../sass/style.scss */
+/* line 67, ../sass/style.scss */
 .head:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 71, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 .head .hCol {
   webkit-box-sizing: border-box;
   moz-box-sizing: border-box;
@@ -6977,40 +7004,40 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   float: left;
 }
 
-/* line 78, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 .head .hj1 {
   width: 11.7%;
   padding: 7px 0 0;
 }
 
-/* line 82, ../sass/style.scss */
+/* line 83, ../sass/style.scss */
 .head .hj2 {
   width: 43.9%;
   padding: 9px 0 0;
 }
 
-/* line 86, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
 .head .hj3 {
   width: 25%;
   padding: 9px 0 0;
 }
 
-/* line 90, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 .head .hj4 {
   width: 19%;
 }
 
-/* line 93, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 .tNav {
   position: relative;
 }
 
-/* line 96, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 .tNav ul {
   text-align: center;
   height: 15px;
 }
-/* line 99, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 .tNav ul li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -7021,17 +7048,17 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-transform: uppercase;
   font: 12px/15px "proxima_nova_rgbold";
 }
-/* line 108, ../sass/style.scss */
+/* line 109, ../sass/style.scss */
 .tNav ul li.act a, .tNav ul li:hover a {
   color: #fea700;
 }
-/* line 111, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 .tNav ul li a {
   color: #3d4553;
   text-decoration: none;
 }
 
-/* line 118, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 .tNav .aMob {
   display: none;
   position: absolute;
@@ -7041,12 +7068,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   cursor: pointer;
 }
 
-/* line 126, ../sass/style.scss */
+/* line 127, ../sass/style.scss */
 .tNav .aMob:hover {
   color: #3d4553;
 }
 
-/* line 129, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 .hCall {
   position: relative;
   display: inline-block;
@@ -7055,12 +7082,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 12px/15px "proxima_nova_rgbold";
   text-decoration: none;
 }
-/* line 136, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 .hCall:hover {
   color: #fea700;
 }
 
-/* line 140, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 .hCall:before {
   content: '\f098';
   font-family: FontAwesome;
@@ -7075,7 +7102,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font-size: 30px;
 }
 
-/* line 153, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
 .hCall:after {
   content: '\f17e';
   font-family: FontAwesome;
@@ -7092,7 +7119,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font-size: 20px;
 }
 
-/* line 168, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 .hBtn {
   display: inline-block;
   padding: 0 9px;
@@ -7106,21 +7133,21 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 5px 0 0;
   text-transform: uppercase;
 }
-/* line 180, ../sass/style.scss */
+/* line 181, ../sass/style.scss */
 .hBtn:hover {
   color: #fff;
   background: #fea700;
   border-color: #fea700;
 }
 
-/* line 187, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 .juBtn {
   white-space: nowrap;
   text-align: right;
   float: right;
 }
 
-/* line 192, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 .hAnot {
   display: inline-block;
   white-space: nowrap;
@@ -7131,13 +7158,13 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 4px 0 0;
 }
 
-/* line 201, ../sass/style.scss */
+/* line 202, ../sass/style.scss */
 .hAnot:hover {
   color: #fea700;
   text-decoration: underline;
 }
 
-/* line 205, ../sass/style.scss */
+/* line 206, ../sass/style.scss */
 .signOut {
   text-transform: uppercase;
   background: #24a36c;
@@ -7149,20 +7176,20 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 34px;
   font: 12px/35px "proxima_nova_rgbold";
 }
-/* line 215, ../sass/style.scss */
+/* line 216, ../sass/style.scss */
 .signOut:hover {
   background: #166442;
 }
 
 /* Content
 -----------------------------------------------------------------------------*/
-/* line 222, ../sass/style.scss */
+/* line 223, ../sass/style.scss */
 .middle {
   position: relative;
   padding: 0 0 215px;
 }
 
-/* line 226, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 .jaw {
   margin: 0 auto;
   max-width: 1170px;
@@ -7170,7 +7197,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   position: relative;
 }
 
-/* line 232, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 .welc {
   position: relative;
   background: url(../img/bigImg.jpg) no-repeat center;
@@ -7179,26 +7206,26 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   min-height: 680px;
   text-align: center;
 }
-/* line 239, ../sass/style.scss */
+/* line 240, ../sass/style.scss */
 .welc .jaw {
   margin: 0 auto;
   max-width: 1170px;
   padding: 117px 15px 25px;
   position: relative;
 }
-/* line 245, ../sass/style.scss */
+/* line 246, ../sass/style.scss */
 .welc h1 {
   color: #fff;
   font: 60px/60px "proxima_nova_ltlight";
   margin: 0 0 39px;
 }
-/* line 250, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 .welc .pWelc {
   color: #fff;
   font: 22px/32px "proxima_nova_ltlight";
   margin: 0 0 126px;
 }
-/* line 255, ../sass/style.scss */
+/* line 256, ../sass/style.scss */
 .welc .btnWelc {
   display: block;
   background: #fea700;
@@ -7214,12 +7241,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border: 1px solid #fea700;
   margin: 0 auto 28px;
 }
-/* line 269, ../sass/style.scss */
+/* line 270, ../sass/style.scss */
 .welc .btnWelc:hover {
   background: #fff;
   color: #fea700;
 }
-/* line 274, ../sass/style.scss */
+/* line 275, ../sass/style.scss */
 .welc .btnWelc2 {
   text-transform: uppercase;
   text-decoration: none;
@@ -7227,20 +7254,20 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 14px/17px "proxima_nova_rgbold";
   display: inline-block;
 }
-/* line 281, ../sass/style.scss */
+/* line 282, ../sass/style.scss */
 .welc .btnWelc2:hover {
   text-decoration: underline;
   color: #fff;
 }
 
-/* line 287, ../sass/style.scss */
+/* line 288, ../sass/style.scss */
 .jobs .jaw {
   margin: 0 auto;
   max-width: 1170px;
   padding: 45px 15px 50px;
   position: relative;
 }
-/* line 293, ../sass/style.scss */
+/* line 294, ../sass/style.scss */
 .jobs h2 {
   text-align: center;
   margin: 0 0 47px;
@@ -7249,13 +7276,13 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 18px/22px "proxima_nova_rgbold";
 }
 
-/* line 302, ../sass/style.scss */
+/* line 303, ../sass/style.scss */
 .uJobs {
   text-align: center;
   margin: 0 0 48px -1%;
 }
 
-/* line 306, ../sass/style.scss */
+/* line 307, ../sass/style.scss */
 .uJobs li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -7266,12 +7293,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 0.4% 10px;
   position: relative;
 }
-/* line 315, ../sass/style.scss */
+/* line 316, ../sass/style.scss */
 .uJobs li img {
   display: block;
   width: 100%;
 }
-/* line 319, ../sass/style.scss */
+/* line 320, ../sass/style.scss */
 .uJobs li .aPrev {
   position: absolute;
   display: inline-block;
@@ -7289,7 +7316,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: auto;
   bottom: 35px;
 }
-/* line 335, ../sass/style.scss */
+/* line 336, ../sass/style.scss */
 .uJobs li .aPrev:after {
   content: '\f002';
   font-family: FontAwesome;
@@ -7306,12 +7333,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   z-index: 5;
   display: inline-block;
 }
-/* line 351, ../sass/style.scss */
+/* line 352, ../sass/style.scss */
 .uJobs li .aPrev:hover {
   background: #fea700;
   /*border-color: #fea700;*/
 }
-/* line 355, ../sass/style.scss */
+/* line 356, ../sass/style.scss */
 .uJobs li .price {
   position: absolute;
   display: inline-block;
@@ -7324,7 +7351,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   top: 17px;
   z-index: 10;
 }
-/* line 367, ../sass/style.scss */
+/* line 368, ../sass/style.scss */
 .uJobs li .price:after {
   content: '';
   display: block;
@@ -7336,13 +7363,13 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   background: url(../img/sprite.png) no-repeat 0 0;
 }
 
-/* line 378, ../sass/style.scss */
+/* line 379, ../sass/style.scss */
 .twoBtns {
   text-align: center;
   margin: 0;
 }
 
-/* line 382, ../sass/style.scss */
+/* line 383, ../sass/style.scss */
 .twoBtns a {
   background: #fff;
   display: inline-block;
@@ -7357,25 +7384,25 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   width: 182px;
   text-align: center;
 }
-/* line 395, ../sass/style.scss */
+/* line 396, ../sass/style.scss */
 .twoBtns a span {
   display: inline-block;
   position: relative;
   top: -1px;
 }
 
-/* line 401, ../sass/style.scss */
+/* line 402, ../sass/style.scss */
 .twoBtns a:hover {
   background: #fea700;
   border-color: #fea700;
   color: #fff;
 }
 
-/* line 406, ../sass/style.scss */
+/* line 407, ../sass/style.scss */
 .partn {
   padding: 45px 0 100px;
 }
-/* line 408, ../sass/style.scss */
+/* line 409, ../sass/style.scss */
 .partn h2 {
   text-align: center;
   margin: 0 0 70px;
@@ -7383,7 +7410,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 24px/27px "proxima_nova_rgbold";
 }
 
-/* line 415, ../sass/style.scss */
+/* line 416, ../sass/style.scss */
 .uPart {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -7406,7 +7433,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 0 30px;
 }
 
-/* line 436, ../sass/style.scss */
+/* line 437, ../sass/style.scss */
 .uPart li {
   -webkit-order: 0;
   -ms-flex-order: 0;
@@ -7419,19 +7446,19 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   align-self: center;
 }
 
-/* line 447, ../sass/style.scss */
+/* line 448, ../sass/style.scss */
 .twoBtns a:active, .uJobs li .aPrev:active, .welc .btnWelc:active, .hBtn:active {
   -webkit-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.55);
   -moz-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.55);
   box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.55);
 }
 
-/* line 453, ../sass/style.scss */
+/* line 454, ../sass/style.scss */
 .forSlider {
   background: #f5f5f5;
   padding: 58px 0 65px;
 }
-/* line 456, ../sass/style.scss */
+/* line 457, ../sass/style.scss */
 .forSlider h2 {
   text-align: center;
   text-transform: uppercase;
@@ -7439,7 +7466,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 18px/22px "proxima_nova_rgbold";
 }
 
-/* line 463, ../sass/style.scss */
+/* line 464, ../sass/style.scss */
 .starsJaw {
   text-align: center;
   margin: 0 auto 20px;
@@ -7448,7 +7475,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 27px;
 }
 
-/* line 470, ../sass/style.scss */
+/* line 471, ../sass/style.scss */
 .starsJaw:before {
   position: absolute;
   display: inline-block;
@@ -7465,7 +7492,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   line-height: 30px;
 }
 
-/* line 487, ../sass/style.scss */
+/* line 488, ../sass/style.scss */
 .starsJaw i {
   overflow: hidden;
   display: inline-block;
@@ -7475,7 +7502,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   top: 0;
 }
 
-/* line 495, ../sass/style.scss */
+/* line 496, ../sass/style.scss */
 .starsJaw i:before {
   position: absolute;
   display: inline-block;
@@ -7493,23 +7520,23 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   overflow: hidden;
 }
 
-/* line 513, ../sass/style.scss */
+/* line 514, ../sass/style.scss */
 .help {
   background: #20b373;
   padding: 77px 0 67px;
 }
-/* line 516, ../sass/style.scss */
+/* line 517, ../sass/style.scss */
 .help p {
   text-align: right;
   color: #f6f3f3;
   font: 24px/27px "proxima_nova_rgregular";
   margin: 0 38px 0 0;
 }
-/* line 522, ../sass/style.scss */
+/* line 523, ../sass/style.scss */
 .help b {
   white-space: nowrap;
 }
-/* line 525, ../sass/style.scss */
+/* line 526, ../sass/style.scss */
 .help p a {
   background: transparent;
   display: inline-block;
@@ -7525,25 +7552,25 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 0 21px;
   text-align: center;
 }
-/* line 539, ../sass/style.scss */
+/* line 540, ../sass/style.scss */
 .help p a span {
   display: inline-block;
   position: relative;
   top: -1px;
 }
-/* line 545, ../sass/style.scss */
+/* line 546, ../sass/style.scss */
 .help p a:hover {
   background: #fea700;
   border-color: #fea700;
 }
-/* line 549, ../sass/style.scss */
+/* line 550, ../sass/style.scss */
 .help p a:active {
   -webkit-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
 }
 
-/* line 555, ../sass/style.scss */
+/* line 556, ../sass/style.scss */
 .bShad:active, .bShad:focus {
   -webkit-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
@@ -7552,7 +7579,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
 
 /* Footer
 -----------------------------------------------------------------------------*/
-/* line 565, ../sass/style.scss */
+/* line 566, ../sass/style.scss */
 .footer {
   background: #2c2f34;
   position: relative;
@@ -7564,21 +7591,21 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 41px 0 15px;
 }
 
-/* line 576, ../sass/style.scss */
+/* line 577, ../sass/style.scss */
 .footTop:after, .footer:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 581, ../sass/style.scss */
+/* line 582, ../sass/style.scss */
 .footTop {
   border-bottom: 1px solid #35383d;
   padding: 0 0 30px;
   margin: 0 0 33px;
 }
 
-/* line 586, ../sass/style.scss */
+/* line 587, ../sass/style.scss */
 .fMenu {
   display: block;
   float: left;
@@ -7586,7 +7613,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 0 0 0 2px;
 }
 
-/* line 592, ../sass/style.scss */
+/* line 593, ../sass/style.scss */
 .fMenu li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -7594,7 +7621,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   *display: inline;
   vertical-align: top;
 }
-/* line 598, ../sass/style.scss */
+/* line 599, ../sass/style.scss */
 .fMenu li a {
   display: block;
   border: 1px solid transparent;
@@ -7607,20 +7634,20 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 12px/32px "proxima_nova_rgbold";
   margin: 0 9px 0 0;
 }
-/* line 610, ../sass/style.scss */
+/* line 611, ../sass/style.scss */
 .fMenu li.act a, .fMenu li a:hover {
   border: 1px solid #e1e1e1;
   color: #e1e1e1;
 }
 
-/* line 615, ../sass/style.scss */
+/* line 616, ../sass/style.scss */
 .fSoc {
   display: block;
   float: left;
   width: 30.5%;
   text-align: center;
 }
-/* line 620, ../sass/style.scss */
+/* line 621, ../sass/style.scss */
 .fSoc li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -7628,18 +7655,18 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   *display: inline;
   vertical-align: top;
 }
-/* line 627, ../sass/style.scss */
+/* line 628, ../sass/style.scss */
 .fSoc a {
   color: #5b5d60;
   font-size: 18px;
   padding: 0 8px;
 }
-/* line 633, ../sass/style.scss */
+/* line 634, ../sass/style.scss */
 .fSoc a:hover {
   color: #fff;
 }
 
-/* line 639, ../sass/style.scss */
+/* line 640, ../sass/style.scss */
 #tooltip {
   text-align: center;
   color: #fff;
@@ -7652,7 +7679,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-transform: uppercase;
 }
 
-/* line 652, ../sass/style.scss */
+/* line 653, ../sass/style.scss */
 #tooltip:after {
   width: 0;
   height: 0;
@@ -7666,7 +7693,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin-left: -5px;
 }
 
-/* line 666, ../sass/style.scss */
+/* line 667, ../sass/style.scss */
 #tooltip.top:after {
   border-top-color: transparent;
   border-bottom: 5px solid #969696;
@@ -7674,20 +7701,20 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   bottom: auto;
 }
 
-/* line 674, ../sass/style.scss */
+/* line 675, ../sass/style.scss */
 #tooltip.left:after {
   left: 5px;
   margin: 0;
 }
 
-/* line 680, ../sass/style.scss */
+/* line 681, ../sass/style.scss */
 #tooltip.right:after {
   right: 5px;
   left: auto;
   margin: 0;
 }
 
-/* line 687, ../sass/style.scss */
+/* line 688, ../sass/style.scss */
 .fCont {
   display: block;
   float: left;
@@ -7696,29 +7723,29 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   color: #5b5d60;
   white-space: normal;
 }
-/* line 694, ../sass/style.scss */
+/* line 695, ../sass/style.scss */
 .fCont span {
   margin: 0 35px 0 0;
   text-transform: uppercase;
   white-space: nowrap;
 }
-/* line 699, ../sass/style.scss */
+/* line 700, ../sass/style.scss */
 .fCont a {
   margin: 0 35px 0 0;
   color: #5b5d60;
   text-decoration: none;
   white-space: nowrap;
 }
-/* line 705, ../sass/style.scss */
+/* line 706, ../sass/style.scss */
 .fCont a:hover {
   color: #fff;
 }
-/* line 708, ../sass/style.scss */
+/* line 709, ../sass/style.scss */
 .fCont a:hover .fa {
   background: #fff;
 }
 
-/* line 712, ../sass/style.scss */
+/* line 713, ../sass/style.scss */
 .fCont .fa {
   display: inline-block;
   margin: 0 8px 0 0;
@@ -7733,7 +7760,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   transition: background 0.3s;
 }
 
-/* line 725, ../sass/style.scss */
+/* line 726, ../sass/style.scss */
 .fCopy {
   display: block;
   float: left;
@@ -7745,7 +7772,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
 
 /* get started
 -----------------------------------------------------------------------------*/
-/* line 740, ../sass/style.scss */
+/* line 741, ../sass/style.scss */
 .sProg {
   position: relative;
   background: url(../img/bigImg2.jpg) no-repeat center;
@@ -7754,12 +7781,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 85px 0 60px;
 }
 
-/* line 747, ../sass/style.scss */
+/* line 748, ../sass/style.scss */
 .uProg {
   text-align: center;
   padding: 0 20px 0 0;
 }
-/* line 750, ../sass/style.scss */
+/* line 751, ../sass/style.scss */
 .uProg li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -7770,11 +7797,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 33px;
   position: relative;
 }
-/* line 760, ../sass/style.scss */
+/* line 761, ../sass/style.scss */
 .uProg li.done span {
   background: #fff;
 }
-/* line 763, ../sass/style.scss */
+/* line 764, ../sass/style.scss */
 .uProg li.done span:after {
   content: '\f00c';
   font-family: FontAwesome;
@@ -7788,7 +7815,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   top: 0;
   font-size: 22px;
 }
-/* line 775, ../sass/style.scss */
+/* line 776, ../sass/style.scss */
 .uProg li span {
   text-align: center;
   display: block;
@@ -7800,18 +7827,18 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   position: relative;
   line-height: 91px;
 }
-/* line 786, ../sass/style.scss */
+/* line 787, ../sass/style.scss */
 .uProg li span i {
   color: #fff;
   font-size: 22px;
 }
-/* line 790, ../sass/style.scss */
+/* line 791, ../sass/style.scss */
 .uProg p {
   text-align: center;
   color: #fff;
   font: 18px/20px "proxima_nova_ltsemibold";
 }
-/* line 795, ../sass/style.scss */
+/* line 796, ../sass/style.scss */
 .uProg li:after {
   content: '';
   display: block;
@@ -7822,126 +7849,126 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   top: 44px;
   background: #fff;
 }
-/* line 805, ../sass/style.scss */
+/* line 806, ../sass/style.scss */
 .uProg li:last-child:after {
   display: none;
 }
 
-/* line 810, ../sass/style.scss */
+/* line 811, ../sass/style.scss */
 .bigForm {
   margin: 77px auto 76px;
   max-width: 1170px;
   padding: 0 15px 0;
   position: relative;
 }
-/* line 815, ../sass/style.scss */
+/* line 816, ../sass/style.scss */
 .bigForm .p1 {
   color: #383838;
   font: 14px/17px "proxima_nova_rgregular";
   margin: 0 0 37px;
 }
-/* line 820, ../sass/style.scss */
+/* line 821, ../sass/style.scss */
 .bigForm .p2 {
   color: #383838;
   font: 14px/17px "proxima_nova_rgregular";
   margin: 0 0 67px;
 }
-/* line 825, ../sass/style.scss */
+/* line 826, ../sass/style.scss */
 .bigForm .p3 {
   color: #383838;
   font: 14px/17px "proxima_nova_rgregular";
   margin: 0 0 42px;
 }
-/* line 830, ../sass/style.scss */
+/* line 831, ../sass/style.scss */
 .bigForm .p4 {
   color: #999898;
   font: 14px/17px "proxima_nova_rgregular";
   margin: 0 0 20px;
 }
-/* line 835, ../sass/style.scss */
+/* line 836, ../sass/style.scss */
 .bigForm .jaj1 {
   border-bottom: 1px solid #dbdbdb;
   margin: 0 4% 30px;
   padding: 0 0 15px;
 }
-/* line 840, ../sass/style.scss */
+/* line 841, ../sass/style.scss */
 .bigForm .jaj2 {
   border-bottom: 1px solid #dbdbdb;
   margin: 0 4% 30px;
   padding: 0 0 15px;
 }
-/* line 845, ../sass/style.scss */
+/* line 846, ../sass/style.scss */
 .bigForm .jaj3 {
   margin: 0 4% 0;
   padding: 0 0 10px;
 }
-/* line 849, ../sass/style.scss */
+/* line 850, ../sass/style.scss */
 .bigForm .jaj4 {
   border-bottom: 1px solid #dbdbdb;
   margin: 0 4% 30px;
   padding: 0 0 27px;
 }
-/* line 854, ../sass/style.scss */
+/* line 855, ../sass/style.scss */
 .bigForm .jaj5 {
   border-bottom: 1px solid #dbdbdb;
   margin: 0 4% 43px;
   padding: 0 0 30px;
 }
-/* line 859, ../sass/style.scss */
+/* line 860, ../sass/style.scss */
 .bigForm .jaj6 {
   margin: 0 4% 60px;
   padding: 0;
 }
-/* line 863, ../sass/style.scss */
+/* line 864, ../sass/style.scss */
 .bigForm .jaj1:after, .bigForm .jaj2:after, .bigForm .jaj3:after, .bigForm .jaj4:after, .bigForm .jaj5:after, .bigForm .jaj6:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 869, ../sass/style.scss */
+/* line 870, ../sass/style.scss */
 .bigForm .jaw {
   border-radius: 2px;
   border: 1px solid #b7b7b7;
   padding: 43px 2.77% 37px;
   margin: 0;
 }
-/* line 874, ../sass/style.scss */
+/* line 875, ../sass/style.scss */
 .bigForm .jaw.totPay {
   padding-top: 30px;
 }
 
-/* line 878, ../sass/style.scss */
+/* line 879, ../sass/style.scss */
 .bigForm h1 {
   color: #383838;
   font: 32px/32px "proxima_nova_ltsemibold";
   margin: 0 0 8px;
 }
 
-/* line 883, ../sass/style.scss */
+/* line 884, ../sass/style.scss */
 .bigForm h2 {
   color: #383838;
   font: 32px/32px "proxima_nova_ltsemibold";
   margin: 30px 0 28px;
 }
 
-/* line 888, ../sass/style.scss */
+/* line 889, ../sass/style.scss */
 .bigForm h2.h2 {
   margin: 0 0 8px;
 }
 
-/* line 891, ../sass/style.scss */
+/* line 892, ../sass/style.scss */
 .bigForm h2.h2_2 {
   margin: 0 0 17px;
   font: 36px/36px "proxima_nova_rgregular";
 }
 
-/* line 895, ../sass/style.scss */
+/* line 896, ../sass/style.scss */
 .pers {
   margin: 0 -15px;
 }
 
-/* line 898, ../sass/style.scss */
+/* line 899, ../sass/style.scss */
 .pers input {
   border: 1px solid #dbdbdb;
   background: #fff;
@@ -7954,7 +7981,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 14px/44px "proxima_nova_rgregular";
 }
 
-/* line 909, ../sass/style.scss */
+/* line 910, ../sass/style.scss */
 .pers textarea, .iTextar {
   border: 1px solid #dbdbdb;
   background: #fff;
@@ -7970,7 +7997,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   resize: none;
 }
 
-/* line 923, ../sass/style.scss */
+/* line 924, ../sass/style.scss */
 .pers input:focus, .pers textarea:focus, .iTextar:focus {
   border-color: #6dc068;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(109, 192, 104, 0.33);
@@ -7978,43 +8005,43 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   box-shadow: 0px 0px 5px 0px rgba(109, 192, 104, 0.33);
 }
 
-/* line 929, ../sass/style.scss */
+/* line 930, ../sass/style.scss */
 .pers input::-webkit-input-placeholder, .pers textarea::-webkit-input-placeholder, .iTextar::-webkit-input-placeholder {
   color: #3d4553;
 }
 
-/* line 930, ../sass/style.scss */
+/* line 931, ../sass/style.scss */
 .pers input:-moz-placeholder, .pers textarea:-moz-placeholder, .iTextar:-moz-placeholder {
   color: #3d4553;
 }
 
-/* line 931, ../sass/style.scss */
+/* line 932, ../sass/style.scss */
 .pers input.placeholder, .pers textarea.placeholder, .iTextar.placeholder {
   color: #3d4553;
 }
 
-/* line 932, ../sass/style.scss */
+/* line 933, ../sass/style.scss */
 .pers input:focus::-webkit-input-placeholder, .pers textarea:focus::-webkit-input-placeholder, .iTextar:focus::-webkit-input-placeholder {
   color: #828da1;
 }
 
-/* line 933, ../sass/style.scss */
+/* line 934, ../sass/style.scss */
 .pers input:focus:-moz-placeholder, .pers textarea:focus:-moz-placeholder, .iTextar:focus:-moz-placeholder {
   color: #828da1;
 }
 
-/* line 934, ../sass/style.scss */
+/* line 935, ../sass/style.scss */
 .pers input:focus.placeholder, .pers textarea:focus.placeholder, .iTextar:focus.placeholder {
   color: #828da1;
 }
 
-/* line 936, ../sass/style.scss */
+/* line 937, ../sass/style.scss */
 .iWrap, .costTit, .iWrap2 {
   margin: 0 0 19px;
   position: relative;
 }
 
-/* line 940, ../sass/style.scss */
+/* line 941, ../sass/style.scss */
 .iWrap:after, .costTit:after {
   content: '\f007';
   font-family: FontAwesome;
@@ -8027,7 +8054,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font-size: 14px;
 }
 
-/* line 951, ../sass/style.scss */
+/* line 952, ../sass/style.scss */
 .iWrap2:after {
   content: '\f003';
   font-family: FontAwesome;
@@ -8040,12 +8067,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font-size: 14px;
 }
 
-/* line 963, ../sass/style.scss */
+/* line 964, ../sass/style.scss */
 .sliders {
   margin: 10px -15px 25px;
 }
 
-/* line 966, ../sass/style.scss */
+/* line 967, ../sass/style.scss */
 .uSlid li {
   display: block;
   margin: 0 0 22px;
@@ -8053,28 +8080,28 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 15px/20px "proxima_nova_ltsemibold";
   color: #3e6372;
 }
-/* line 972, ../sass/style.scss */
+/* line 973, ../sass/style.scss */
 .uSlid li .iLeft {
   display: inline-block;
   width: 80px;
   margin: 0 13px 0 0;
   text-align: right;
 }
-/* line 978, ../sass/style.scss */
+/* line 979, ../sass/style.scss */
 .uSlid li .iSlide {
   display: inline-block;
   width: calc(100% - 174px);
   position: relative;
   top: -2px;
 }
-/* line 984, ../sass/style.scss */
+/* line 985, ../sass/style.scss */
 .uSlid li .iRight {
   display: inline-block;
   width: 80px;
   margin: 0 0 0 13px;
 }
 
-/* line 990, ../sass/style.scss */
+/* line 991, ../sass/style.scss */
 .btnReset {
   border: 2px solid #bcc3d1;
   border-radius: 2px;
@@ -8088,20 +8115,20 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 14px/41px "proxima_nova_rgbold";
   margin: 0 auto;
 }
-/* line 1002, ../sass/style.scss */
+/* line 1003, ../sass/style.scss */
 .btnReset:hover {
   background: #fea700;
   color: #fff;
   border-color: #fea700;
 }
-/* line 1007, ../sass/style.scss */
+/* line 1008, ../sass/style.scss */
 .btnReset:active {
   -webkit-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
   box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.15);
 }
 
-/* line 1015, ../sass/style.scss */
+/* line 1016, ../sass/style.scss */
 .lColor, .lType {
   display: block;
   position: relative;
@@ -8114,7 +8141,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 0 18px;
   border: none;
 }
-/* line 1026, ../sass/style.scss */
+/* line 1027, ../sass/style.scss */
 .lColor .cLeft, .lType .cLeft {
   display: block;
   float: left;
@@ -8122,7 +8149,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-radius: 2px 0 0 0;
   height: 50px;
 }
-/* line 1033, ../sass/style.scss */
+/* line 1034, ../sass/style.scss */
 .lColor .cRight, .lType .cRight {
   display: block;
   float: right;
@@ -8130,7 +8157,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-radius: 0 2px 0 0;
   height: 50px;
 }
-/* line 1040, ../sass/style.scss */
+/* line 1041, ../sass/style.scss */
 .lColor .sColor, .lType .sColor {
   color: #333;
   text-transform: uppercase;
@@ -8138,24 +8165,24 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 12px/20px "proxima_nova_ltsemibold";
   vertical-align: middle;
 }
-/* line 1047, ../sass/style.scss */
+/* line 1048, ../sass/style.scss */
 .lColor .cRadio, .lType .cRadio {
   position: relative;
   padding: 9px 3px 7px 8px;
   display: block;
   clear: both;
 }
-/* line 1053, ../sass/style.scss */
+/* line 1054, ../sass/style.scss */
 .lColor .cRadio:before, .lType .cRadio:before {
   content: '';
   display: table;
   clear: both;
 }
-/* line 1058, ../sass/style.scss */
+/* line 1059, ../sass/style.scss */
 .lColor.act, .act.lType {
   border-color: #a0d468;
 }
-/* line 1061, ../sass/style.scss */
+/* line 1062, ../sass/style.scss */
 .lColor .forRad, .lType .forRad {
   position: relative;
   vertical-align: middle;
@@ -8164,47 +8191,47 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 20px;
   display: none;
 }
-/* line 1069, ../sass/style.scss */
+/* line 1070, ../sass/style.scss */
 .lColor.act .forRad, .act.lType .forRad {
   display: inline-block;
 }
-/* line 1072, ../sass/style.scss */
+/* line 1073, ../sass/style.scss */
 .lColor:hover, .lType:hover {
   -webkit-box-shadow: 0px 2px 4px 0px #e3e4e8;
   -moz-box-shadow: 0px 2px 4px 0px #e3e4e8;
   box-shadow: 0px 2px 4px 0px #e3e4e8;
 }
 
-/* line 1080, ../sass/style.scss */
+/* line 1081, ../sass/style.scss */
 .lType.act {
   border-color: #fff;
 }
-/* line 1083, ../sass/style.scss */
+/* line 1084, ../sass/style.scss */
 .lType .forRad {
   display: inline-block;
 }
-/* line 1086, ../sass/style.scss */
+/* line 1087, ../sass/style.scss */
 .lType .cLeft {
   height: 76px;
 }
-/* line 1089, ../sass/style.scss */
+/* line 1090, ../sass/style.scss */
 .lType .cRight {
   height: 76px;
 }
 
-/* line 1093, ../sass/style.scss */
+/* line 1094, ../sass/style.scss */
 .pickColor {
   margin: 0 -15px;
 }
 
-/* line 1096, ../sass/style.scss */
+/* line 1097, ../sass/style.scss */
 .pickColor:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 1101, ../sass/style.scss */
+/* line 1102, ../sass/style.scss */
 .radio, .check {
   height: 20px;
   width: 20px;
@@ -8218,7 +8245,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   overflow: hidden;
 }
 
-/* line 1113, ../sass/style.scss */
+/* line 1114, ../sass/style.scss */
 .check2 {
   height: 15px;
   width: 15px;
@@ -8232,20 +8259,20 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   overflow: hidden;
 }
 
-/* line 1125, ../sass/style.scss */
+/* line 1126, ../sass/style.scss */
 .radio.disabled, .check.disabled {
   opacity: 0.5;
   filter: Alpha(opacity="50");
 }
 
-/* line 1129, ../sass/style.scss */
+/* line 1130, ../sass/style.scss */
 .check input, .radio input, .check2 input {
   position: absolute;
   left: -400px;
   top: 0px;
 }
 
-/* line 1131, ../sass/style.scss */
+/* line 1132, ../sass/style.scss */
 .pSup {
   float: none;
   display: block;
@@ -8255,7 +8282,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 14px/17px "proxima_nova_rgregular";
 }
 
-/* line 1139, ../sass/style.scss */
+/* line 1140, ../sass/style.scss */
 .drCol .iWrap2 {
   margin: 0 0 29px;
   width: 72%;
@@ -8266,12 +8293,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   vertical-align: top;
 }
 
-/* line 1148, ../sass/style.scss */
+/* line 1149, ../sass/style.scss */
 .drCol .iWrap2 textarea {
   min-height: 278px;
 }
 
-/* line 1152, ../sass/style.scss */
+/* line 1153, ../sass/style.scss */
 .btnNext, .btnNext2 {
   border: none;
   border-radius: 2px;
@@ -8293,19 +8320,19 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   white-space: nowrap;
 }
 
-/* line 1172, ../sass/style.scss */
+/* line 1173, ../sass/style.scss */
 .btnNext:hover, .btnNext2:hover {
   background: #fea700;
 }
 
-/* line 1175, ../sass/style.scss */
+/* line 1176, ../sass/style.scss */
 .btnNext:active, .btnNext2:active {
   -webkit-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
 }
 
-/* line 1180, ../sass/style.scss */
+/* line 1181, ../sass/style.scss */
 .btnNext i, .btnNext2 i {
   margin: 0 11px 0 0;
   color: #6dc068;
@@ -8313,12 +8340,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font-size: 18px;
 }
 
-/* line 1186, ../sass/style.scss */
+/* line 1187, ../sass/style.scss */
 .btnNext i, .btnNext2 i {
   color: #fff;
 }
 
-/* line 1189, ../sass/style.scss */
+/* line 1190, ../sass/style.scss */
 .btnNext span, .btnNext2 span {
   position: relative;
   top: -2px;
@@ -8327,7 +8354,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
 
 /* get started #2
 -----------------------------------------------------------------------------*/
-/* line 1198, ../sass/style.scss */
+/* line 1199, ../sass/style.scss */
 .regNow {
   font: 24px/24px "proxima_nova_rgbold";
   padding: 36px 200px 36px 43px;
@@ -8336,7 +8363,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   color: #3d4553;
   position: relative;
 }
-/* line 1205, ../sass/style.scss */
+/* line 1206, ../sass/style.scss */
 .regNow a {
   position: absolute;
   top: 0;
@@ -8354,31 +8381,31 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   background: #fea700;
   text-align: center;
 }
-/* line 1222, ../sass/style.scss */
+/* line 1223, ../sass/style.scss */
 .regNow a:hover {
   background: #d88e01;
 }
-/* line 1225, ../sass/style.scss */
+/* line 1226, ../sass/style.scss */
 .regNow a:active {
   -webkit-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.55);
   -moz-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.55);
   box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.55);
 }
 
-/* line 1232, ../sass/style.scss */
+/* line 1233, ../sass/style.scss */
 .uRate:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 1237, ../sass/style.scss */
+/* line 1238, ../sass/style.scss */
 .uRate {
   margin: 0 0 59px;
   padding: 0 0 72px;
   border-bottom: 1px solid #dbdbdb;
 }
-/* line 1241, ../sass/style.scss */
+/* line 1242, ../sass/style.scss */
 .uRate > li {
   display: block;
   width: 25%;
@@ -8391,13 +8418,13 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 -1px 0 0;
   position: relative;
 }
-/* line 1253, ../sass/style.scss */
+/* line 1254, ../sass/style.scss */
 .uRate li.ur3 {
   border: 2px solid #f15b5a;
   position: relative;
   z-index: 5;
 }
-/* line 1258, ../sass/style.scss */
+/* line 1259, ../sass/style.scss */
 .uRate h4 {
   display: block;
   text-align: center;
@@ -8407,11 +8434,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   background: #c45f3c;
   font: 22px/61px "proxima_nova_ltlight";
 }
-/* line 1267, ../sass/style.scss */
+/* line 1268, ../sass/style.scss */
 .uRate li.ur2 h4 {
   background: #e6e9ec;
 }
-/* line 1268, ../sass/style.scss */
+/* line 1269, ../sass/style.scss */
 .uRate li.ur3 h4 {
   background: #f2b808;
   height: 80px;
@@ -8419,11 +8446,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: -21px -2px 0;
   line-height: 82px;
 }
-/* line 1275, ../sass/style.scss */
+/* line 1276, ../sass/style.scss */
 .uRate li.ur4 h4 {
   background: #a7a7a7;
 }
-/* line 1276, ../sass/style.scss */
+/* line 1277, ../sass/style.scss */
 .uRate p {
   text-align: center;
   background: #f7f8f9;
@@ -8434,19 +8461,19 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 36px/72px "proxima_nova_rgregular";
   white-space: nowrap;
 }
-/* line 1286, ../sass/style.scss */
+/* line 1287, ../sass/style.scss */
 .uRate li.ur3 p {
   background: #f15b5a;
   color: #fff;
 }
-/* line 1290, ../sass/style.scss */
+/* line 1291, ../sass/style.scss */
 .uRate p sup {
   font-size: 18px;
   vertical-align: baseline;
   position: relative;
   top: -0.75em;
 }
-/* line 1294, ../sass/style.scss */
+/* line 1295, ../sass/style.scss */
 .uRate > li li {
   display: block;
   height: 50px;
@@ -8455,15 +8482,15 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 14px/52px "proxima_nova_rgregular";
   white-space: nowrap;
 }
-/* line 1302, ../sass/style.scss */
+/* line 1303, ../sass/style.scss */
 .uRate > li li:nth-child(even) {
   background: #f7f8f9;
 }
-/* line 1305, ../sass/style.scss */
+/* line 1306, ../sass/style.scss */
 .uRate > li.ur3 li:nth-child(even) {
   margin: 0;
 }
-/* line 1308, ../sass/style.scss */
+/* line 1309, ../sass/style.scss */
 .uRate .btnLike {
   position: absolute;
   text-align: center;
@@ -8480,35 +8507,35 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 41px;
   width: 138px;
 }
-/* line 1323, ../sass/style.scss */
+/* line 1324, ../sass/style.scss */
 .uRate li.ur3 .btnLike {
   background: #f15b5a;
 }
-/* line 1326, ../sass/style.scss */
+/* line 1327, ../sass/style.scss */
 .uRate .btnLike:hover {
   background: #1d2027;
 }
-/* line 1329, ../sass/style.scss */
+/* line 1330, ../sass/style.scss */
 .uRate li.ur3 .btnLike:hover {
   background: #eb1514;
 }
-/* line 1332, ../sass/style.scss */
+/* line 1333, ../sass/style.scss */
 .uRate .btnLike:active {
   -webkit-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.55);
   -moz-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.55);
   box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.55);
 }
-/* line 1337, ../sass/style.scss */
+/* line 1338, ../sass/style.scss */
 .uRate .forPrice {
   position: relative;
 }
-/* line 1340, ../sass/style.scss */
+/* line 1341, ../sass/style.scss */
 .uRate .forPrice sup {
   position: absolute;
   left: 21px;
   top: -13px;
 }
-/* line 1345, ../sass/style.scss */
+/* line 1346, ../sass/style.scss */
 .uRate .forPrice input {
   border-radius: 3px;
   background: #fff;
@@ -8519,38 +8546,38 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 36px/38px "proxima_nova_rgregular";
   padding: 0 0 0 36px;
 }
-/* line 1355, ../sass/style.scss */
+/* line 1356, ../sass/style.scss */
 .uRate .forPrice ::-webkit-input-placeholder {
   color: #3d4553;
 }
-/* line 1356, ../sass/style.scss */
+/* line 1357, ../sass/style.scss */
 .uRate .forPrice input[type="text"]:-moz-placeholder {
   color: #3d4553;
 }
-/* line 1357, ../sass/style.scss */
+/* line 1358, ../sass/style.scss */
 .uRate .forPrice input[type="text"].placeholder {
   color: #3d4553;
 }
-/* line 1358, ../sass/style.scss */
+/* line 1359, ../sass/style.scss */
 .uRate .forPrice input:focus::-webkit-input-placeholder {
   color: #8c95a4;
 }
-/* line 1359, ../sass/style.scss */
+/* line 1360, ../sass/style.scss */
 .uRate .forPrice input[type="text"]:focus:-moz-placeholder {
   color: #8c95a4;
 }
-/* line 1360, ../sass/style.scss */
+/* line 1361, ../sass/style.scss */
 .uRate .forPrice input[type="text"]:focus.placeholder {
   color: #8c95a4;
 }
 
-/* line 1363, ../sass/style.scss */
+/* line 1364, ../sass/style.scss */
 .costTit {
   width: 50%;
   margin: 0;
 }
 
-/* line 1368, ../sass/style.scss */
+/* line 1369, ../sass/style.scss */
 .costTit input {
   border: 1px solid #dbdbdb;
   background: #fff;
@@ -8563,7 +8590,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 14px/42px "proxima_nova_rgregular";
 }
 
-/* line 1380, ../sass/style.scss */
+/* line 1381, ../sass/style.scss */
 .costTit input:focus {
   border-color: #6dc068;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(109, 192, 104, 0.33);
@@ -8571,41 +8598,41 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   box-shadow: 0px 0px 5px 0px rgba(109, 192, 104, 0.33);
 }
 
-/* line 1387, ../sass/style.scss */
+/* line 1388, ../sass/style.scss */
 .costTit input::-webkit-input-placeholder {
   color: #3d4553;
 }
 
-/* line 1388, ../sass/style.scss */
+/* line 1389, ../sass/style.scss */
 .costTit input[type="text"]:-moz-placeholder {
   color: #3d4553;
 }
 
-/* line 1389, ../sass/style.scss */
+/* line 1390, ../sass/style.scss */
 .costTit input[type="text"].placeholder {
   color: #3d4553;
 }
 
-/* line 1390, ../sass/style.scss */
+/* line 1391, ../sass/style.scss */
 .costTit input:focus::-webkit-input-placeholder {
   color: #8c95a4;
 }
 
-/* line 1391, ../sass/style.scss */
+/* line 1392, ../sass/style.scss */
 .costTit input[type="text"]:focus:-moz-placeholder {
   color: #8c95a4;
 }
 
-/* line 1392, ../sass/style.scss */
+/* line 1393, ../sass/style.scss */
 .costTit input[type="text"]:focus.placeholder {
   color: #8c95a4;
 }
 
-/* line 1394, ../sass/style.scss */
+/* line 1395, ../sass/style.scss */
 .uProm {
   margin: 0 4% 50px;
 }
-/* line 1396, ../sass/style.scss */
+/* line 1397, ../sass/style.scss */
 .uProm li {
   position: relative;
   background: #f7f8f9;
@@ -8613,7 +8640,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 0 25px;
   padding: 21px 155px 23px 80px;
 }
-/* line 1403, ../sass/style.scss */
+/* line 1404, ../sass/style.scss */
 .uProm li i {
   position: absolute;
   top: 0;
@@ -8625,19 +8652,19 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   color: #3d4553;
   height: 35px;
 }
-/* line 1414, ../sass/style.scss */
+/* line 1415, ../sass/style.scss */
 .uProm h5 {
   color: #3d4553;
   font: 24px/27px "proxima_nova_rgbold";
   margin: 0 0 7px;
 }
-/* line 1419, ../sass/style.scss */
+/* line 1420, ../sass/style.scss */
 .uProm p {
   color: #3d4553;
   font: 14px/17px "proxima_nova_rgregular";
   margin: 0;
 }
-/* line 1424, ../sass/style.scss */
+/* line 1425, ../sass/style.scss */
 .uProm .aSel {
   background: transparent;
   border: 2px solid #bcc3d1;
@@ -8655,33 +8682,33 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   right: 30px;
   margin: auto;
 }
-/* line 1441, ../sass/style.scss */
+/* line 1442, ../sass/style.scss */
 .uProm .aSel.act {
   background: #6dc068;
   border-color: #6dc068;
   color: #fff;
 }
-/* line 1446, ../sass/style.scss */
+/* line 1447, ../sass/style.scss */
 .uProm .aSel:hover, .uProm .aSel.act:hover {
   background: #fea700;
   border-color: #fea700;
   color: #fff;
 }
-/* line 1451, ../sass/style.scss */
+/* line 1452, ../sass/style.scss */
 .uProm .aSel:active, .uProm .aSel.act:active {
   -webkit-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
 }
 
-/* line 1459, ../sass/style.scss */
+/* line 1460, ../sass/style.scss */
 .days {
   margin: 0 4% 47px;
   position: relative;
   padding: 47px 220px 23px 5%;
   background: #f7f8f9;
 }
-/* line 1464, ../sass/style.scss */
+/* line 1465, ../sass/style.scss */
 .days .total {
   position: absolute;
   color: #383838;
@@ -8694,7 +8721,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-align: center;
   width: 180px;
 }
-/* line 1476, ../sass/style.scss */
+/* line 1477, ../sass/style.scss */
 .days .total sub {
   font-size: 18px;
   vertical-align: baseline;
@@ -8702,20 +8729,20 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   bottom: -1.75em;
   left: -47px;
 }
-/* line 1481, ../sass/style.scss */
+/* line 1482, ../sass/style.scss */
 .days .pTotal {
   color: #383838;
   font: 32px/32px "proxima_nova_ltsemibold";
   margin: 0 0 30px;
 }
-/* line 1486, ../sass/style.scss */
+/* line 1487, ../sass/style.scss */
 .totPay .days {
   margin: 0 5.5% 74px 3.5%;
   padding-left: 35px;
   padding-top: 52px;
 }
 
-/* line 1492, ../sass/style.scss */
+/* line 1493, ../sass/style.scss */
 .days a {
   display: inline-block;
   margin: 0 4.5% 20px 0;
@@ -8732,33 +8759,33 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 0 14px;
 }
 
-/* line 1507, ../sass/style.scss */
+/* line 1508, ../sass/style.scss */
 .days a.act {
   background: #6dc068;
   border-color: #6dc068;
   color: #fff;
 }
 
-/* line 1512, ../sass/style.scss */
+/* line 1513, ../sass/style.scss */
 .days a:last-child {
   margin-right: 0;
 }
 
-/* line 1515, ../sass/style.scss */
+/* line 1516, ../sass/style.scss */
 .days a:hover, .days a.act:hover {
   background: #fea700;
   border-color: #fea700;
   color: #fff;
 }
 
-/* line 1520, ../sass/style.scss */
+/* line 1521, ../sass/style.scss */
 .days a:active, .days a.act:active {
   -webkit-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
 }
 
-/* line 1525, ../sass/style.scss */
+/* line 1526, ../sass/style.scss */
 .days:after {
   content: '';
   display: block;
@@ -8770,7 +8797,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   background: #fff;
 }
 
-/* line 1535, ../sass/style.scss */
+/* line 1536, ../sass/style.scss */
 .days a span:after {
   content: '\f05e';
   font-family: FontAwesome;
@@ -8780,64 +8807,64 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 0 0 9px;
 }
 
-/* line 1543, ../sass/style.scss */
+/* line 1544, ../sass/style.scss */
 .days a.act span:after {
   content: '\f00c';
 }
 
-/* line 1547, ../sass/style.scss */
+/* line 1548, ../sass/style.scss */
 .forBtn {
   text-align: right;
   margin: 0 4% 13px;
 }
 
-/* line 1551, ../sass/style.scss */
+/* line 1552, ../sass/style.scss */
 .totPay .forBtn {
   margin-top: -29px;
 }
 
-/* line 1557, ../sass/style.scss */
+/* line 1558, ../sass/style.scss */
 .forBtn .btnNext, .forBtn .btnNext2 {
   width: 182px;
   margin: 0;
 }
 
-/* line 1563, ../sass/style.scss */
+/* line 1564, ../sass/style.scss */
 .congrat {
   padding: 150px 0 200px;
   margin: 0 auto;
   max-width: 1170px;
   position: relative;
 }
-/* line 1568, ../sass/style.scss */
+/* line 1569, ../sass/style.scss */
 .congrat .c1 {
   text-align: center;
   color: #000101;
   font: 24px/27px "proxima_nova_ltsemibold";
   margin: 0 0 34px;
 }
-/* line 1573, ../sass/style.scss */
+/* line 1574, ../sass/style.scss */
 .congrat .c1 a {
   text-decoration: none;
   color: #20b373;
 }
-/* line 1577, ../sass/style.scss */
+/* line 1578, ../sass/style.scss */
 .congrat .c1 a:hover {
   text-decoration: underline;
 }
-/* line 1581, ../sass/style.scss */
+/* line 1582, ../sass/style.scss */
 .congrat .c2 {
   text-align: center;
   color: #000101;
   font: 15px/18px "proxima_nova_rgregular";
   margin: 0 0 100px;
 }
-/* line 1587, ../sass/style.scss */
+/* line 1588, ../sass/style.scss */
 .congrat .c3 {
   text-align: center;
   margin: 0;
 }
-/* line 1590, ../sass/style.scss */
+/* line 1591, ../sass/style.scss */
 .congrat .c3 a {
   text-align: center;
   display: inline-block;
@@ -8851,18 +8878,18 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-radius: 4px;
   text-decoration: none;
 }
-/* line 1603, ../sass/style.scss */
+/* line 1604, ../sass/style.scss */
 .congrat .c3 .btnSee {
   background: #fff;
   color: #20b373;
 }
-/* line 1607, ../sass/style.scss */
+/* line 1608, ../sass/style.scss */
 .congrat .c3 a:hover {
   color: #fff;
   background: #3cb5cb;
   border-color: #3cb5cb;
 }
-/* line 1613, ../sass/style.scss */
+/* line 1614, ../sass/style.scss */
 .congrat .fa {
   display: block;
   margin: 0 auto 38px;
@@ -8876,7 +8903,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-radius: 100%;
 }
 
-/* line 1627, ../sass/style.scss */
+/* line 1628, ../sass/style.scss */
 .mailImg {
   display: block;
   margin: 0 auto 49px;
@@ -8884,7 +8911,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: auto;
 }
 
-/* line 1633, ../sass/style.scss */
+/* line 1634, ../sass/style.scss */
 .congrat h1 {
   color: #000101;
   font: 110px/110px "proxima_nova_ltlight";
@@ -8892,49 +8919,49 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-align: center;
 }
 
-/* line 1639, ../sass/style.scss */
+/* line 1640, ../sass/style.scss */
 .thank {
   padding: 155px 0 200px;
   margin: 0 auto;
   max-width: 1170px;
   position: relative;
 }
-/* line 1644, ../sass/style.scss */
+/* line 1645, ../sass/style.scss */
 .thank h1 {
   color: #000101;
   font: 120px/120px "proxima_nova_ltlight";
   margin: 0 0 8px;
   text-align: center;
 }
-/* line 1650, ../sass/style.scss */
+/* line 1651, ../sass/style.scss */
 .thank .t1 {
   text-align: center;
   color: #4a4a4a;
   font: 24px/27px "proxima_nova_ltsemibold";
   margin: 0 0 59px;
 }
-/* line 1655, ../sass/style.scss */
+/* line 1656, ../sass/style.scss */
 .thank .t1 b {
   font: 24px/27px "proxima_nova_ltsemibold";
   color: #000;
 }
-/* line 1659, ../sass/style.scss */
+/* line 1660, ../sass/style.scss */
 .thank .t1 span {
   color: #20b373;
 }
-/* line 1663, ../sass/style.scss */
+/* line 1664, ../sass/style.scss */
 .thank .t2 {
   text-align: center;
   color: #4a4a4a;
   font: 18px/36px "proxima_nova_rgregular";
   margin: 0 0 97px;
 }
-/* line 1669, ../sass/style.scss */
+/* line 1670, ../sass/style.scss */
 .thank .t3 {
   text-align: center;
   margin: 0;
 }
-/* line 1672, ../sass/style.scss */
+/* line 1673, ../sass/style.scss */
 .thank .t3 a {
   text-align: center;
   display: inline-block;
@@ -8948,7 +8975,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-radius: 4px;
   text-decoration: none;
 }
-/* line 1685, ../sass/style.scss */
+/* line 1686, ../sass/style.scss */
 .thank .t3 a:hover {
   color: #fff;
   background: #3cb5cb;
@@ -8957,7 +8984,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
 
 /* modal windows
 -----------------------------------------------------------------------------*/
-/* line 1695, ../sass/style.scss */
+/* line 1696, ../sass/style.scss */
 .arcticmodal-overlay,
 .arcticmodal-container {
   position: fixed;
@@ -8970,7 +8997,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   /* background:url(../img/overlay.png) repeat !important;*/
 }
 
-/* line 1697, ../sass/style.scss */
+/* line 1698, ../sass/style.scss */
 .arcticmodal-container {
   overflow: auto;
   margin: 0;
@@ -8979,18 +9006,18 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-collapse: collapse;
 }
 
-/* line 1698, ../sass/style.scss */
+/* line 1699, ../sass/style.scss */
 *:first-child + html .arcticmodal-container {
   height: 100%;
 }
 
-/* line 1699, ../sass/style.scss */
+/* line 1700, ../sass/style.scss */
 .arcticmodal-container_i {
   height: 100%;
   margin: 0 auto;
 }
 
-/* line 1700, ../sass/style.scss */
+/* line 1701, ../sass/style.scss */
 .arcticmodal-container_i2 {
   padding: 24px;
   margin: 0;
@@ -8998,7 +9025,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   vertical-align: middle;
 }
 
-/* line 1701, ../sass/style.scss */
+/* line 1702, ../sass/style.scss */
 .arcticmodal-error {
   padding: 20px;
   border-radius: 10px;
@@ -9006,7 +9033,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   color: #fff;
 }
 
-/* line 1702, ../sass/style.scss */
+/* line 1703, ../sass/style.scss */
 .arcticmodal-loading {
   width: 80px;
   height: 80px;
@@ -9014,7 +9041,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   background: #000 url(../img/loader.gif) no-repeat 50% 50%;
 }
 
-/* line 1704, ../sass/style.scss */
+/* line 1705, ../sass/style.scss */
 .box-modal {
   position: relative;
   width: 585px;
@@ -9022,7 +9049,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   background: #fff;
 }
 
-/* line 1710, ../sass/style.scss */
+/* line 1711, ../sass/style.scss */
 .box-modal h3 {
   border-bottom: 1px solid #d5d5d5;
   padding: 0 37px 10px;
@@ -9031,18 +9058,18 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 30px/33px "proxima_nova_ltsemibold";
 }
 
-/* line 1717, ../sass/style.scss */
+/* line 1718, ../sass/style.scss */
 .signForm {
   padding: 0 37px 0;
 }
-/* line 1719, ../sass/style.scss */
+/* line 1720, ../sass/style.scss */
 .signForm label {
   display: block;
   color: #000;
   font: 18px/21px "proxima_nova_ltsemibold";
   margin: 0 2px 4px;
 }
-/* line 1725, ../sass/style.scss */
+/* line 1726, ../sass/style.scss */
 .signForm input {
   display: block;
   border-radius: 3px;
@@ -9054,11 +9081,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 0 16px;
   width: 100%;
 }
-/* line 1736, ../sass/style.scss */
+/* line 1737, ../sass/style.scss */
 .signForm input:focus {
   border: 1px solid #3ebd86;
 }
-/* line 1739, ../sass/style.scss */
+/* line 1740, ../sass/style.scss */
 .signForm .left, .signForm .right {
   float: left;
   width: 50%;
@@ -9067,21 +9094,21 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   box-sizing: border-box;
   padding: 0 7px 0 0;
 }
-/* line 1747, ../sass/style.scss */
+/* line 1748, ../sass/style.scss */
 .signForm .right {
   padding: 0 0 0 7px;
 }
-/* line 1750, ../sass/style.scss */
+/* line 1751, ../sass/style.scss */
 .signForm .left:after, .signForm .right:after, .signForm .fBnt:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 1755, ../sass/style.scss */
+/* line 1756, ../sass/style.scss */
 .signForm .fBnt {
   margin: 73px 0 0;
 }
-/* line 1757, ../sass/style.scss */
+/* line 1758, ../sass/style.scss */
 .signForm .fBnt .noAcc {
   float: left;
   padding: 17px 0 0 5px;
@@ -9089,17 +9116,17 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   color: #767676;
   font: 13px/16px "proxima_nova_ltsemibold";
 }
-/* line 1763, ../sass/style.scss */
+/* line 1764, ../sass/style.scss */
 .signForm .fBnt .noAcc a {
   color: #fea700;
   text-decoration: none;
   margin: 0 0 0 8px;
 }
-/* line 1767, ../sass/style.scss */
+/* line 1768, ../sass/style.scss */
 .signForm .fBnt .noAcc a:hover {
   text-decoration: underline;
 }
-/* line 1774, ../sass/style.scss */
+/* line 1775, ../sass/style.scss */
 .signForm .fBnt button {
   float: right;
   width: 207px;
@@ -9112,12 +9139,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   cursor: pointer;
   transition: background-color 0.3s;
 }
-/* line 1785, ../sass/style.scss */
+/* line 1786, ../sass/style.scss */
 .signForm .fBnt button:hover {
   background: #1d2027;
 }
 
-/* line 1790, ../sass/style.scss */
+/* line 1791, ../sass/style.scss */
 .join {
   margin: 0 5.1% 45px 4%;
   position: relative;
@@ -9126,7 +9153,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   color: #3d4553;
   font: 24px/24px "proxima_nova_rgbold";
 }
-/* line 1797, ../sass/style.scss */
+/* line 1798, ../sass/style.scss */
 .join a {
   border: 2px solid #bcc3d1;
   border-radius: 2px;
@@ -9141,57 +9168,57 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   vertical-align: 0px;
   margin: 0 0 0 84px;
 }
-/* line 1810, ../sass/style.scss */
+/* line 1811, ../sass/style.scss */
 .join a:hover {
   background: #fea700;
   color: #fff;
   border-color: #fea700;
 }
 
-/* line 1817, ../sass/style.scss */
+/* line 1818, ../sass/style.scss */
 .payForm {
   margin: 0 26% 31px 4%;
 }
-/* line 1819, ../sass/style.scss */
+/* line 1820, ../sass/style.scss */
 .payForm.pF2 {
   padding-top: 58px;
   border-top: 1px solid #cfcfcf;
 }
-/* line 1823, ../sass/style.scss */
+/* line 1824, ../sass/style.scss */
 .payForm label {
   color: #000;
   font: 18px/21px "proxima_nova_rgregular";
   margin: 0 0 12px;
   display: block;
 }
-/* line 1828, ../sass/style.scss */
+/* line 1829, ../sass/style.scss */
 .payForm label span {
   color: #656565;
   margin: 0 0 0 12px;
   font-size: 24px;
 }
-/* line 1834, ../sass/style.scss */
+/* line 1835, ../sass/style.scss */
 .payForm .dGend label {
   display: inline-block;
   margin: 0 50px 0 0;
 }
-/* line 1838, ../sass/style.scss */
+/* line 1839, ../sass/style.scss */
 .payForm > .row {
   margin-left: -15px;
   margin-right: -15px;
 }
-/* line 1842, ../sass/style.scss */
+/* line 1843, ../sass/style.scss */
 .payForm > .row:after, .payForm .rowFDate:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 1847, ../sass/style.scss */
+/* line 1848, ../sass/style.scss */
 .payForm .rowFDate {
   margin-left: -8px;
   margin-right: -8px;
 }
-/* line 1851, ../sass/style.scss */
+/* line 1852, ../sass/style.scss */
 .payForm .oInp {
   border-radius: 3px;
   background: #fff;
@@ -9203,65 +9230,65 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 0 18px;
   margin: 0 0 43px;
 }
-/* line 1861, ../sass/style.scss */
+/* line 1862, ../sass/style.scss */
 .payForm .oInp:focus {
   border-color: #5ac696;
 }
-/* line 1864, ../sass/style.scss */
+/* line 1865, ../sass/style.scss */
 .payForm .oInp.alert {
   border-color: #f2595e;
 }
-/* line 1868, ../sass/style.scss */
+/* line 1869, ../sass/style.scss */
 .payForm .oInp::-webkit-input-placeholder {
   color: #ccc;
 }
-/* line 1869, ../sass/style.scss */
+/* line 1870, ../sass/style.scss */
 .payForm .oInp:-moz-placeholder {
   color: #ccc;
 }
-/* line 1870, ../sass/style.scss */
+/* line 1871, ../sass/style.scss */
 .payForm .oInp.placeholder {
   color: #ccc;
 }
-/* line 1871, ../sass/style.scss */
+/* line 1872, ../sass/style.scss */
 .payForm .oInp:focus::-webkit-input-placeholder {
   color: #fff;
 }
-/* line 1872, ../sass/style.scss */
+/* line 1873, ../sass/style.scss */
 .payForm .oInp:focus:-moz-placeholder {
   color: #fff;
 }
-/* line 1873, ../sass/style.scss */
+/* line 1874, ../sass/style.scss */
 .payForm .oInp:focus.placeholder {
   color: #fff;
 }
-/* line 1875, ../sass/style.scss */
+/* line 1876, ../sass/style.scss */
 .payForm .pAlert {
   color: #d92127;
   font: 14px/16px "proxima_nova_rgregular";
   margin: -35px 0 9px;
 }
-/* line 1880, ../sass/style.scss */
+/* line 1881, ../sass/style.scss */
 .payForm .fDate {
   padding: 0 8px;
 }
 
-/* line 1885, ../sass/style.scss */
+/* line 1886, ../sass/style.scss */
 .dGend {
   white-space: nowrap;
   padding: 20px 0 0;
   margin: 0 0 38px;
 }
-/* line 1889, ../sass/style.scss */
+/* line 1890, ../sass/style.scss */
 .dGend label {
   color: #bfbfbf;
 }
-/* line 1892, ../sass/style.scss */
+/* line 1893, ../sass/style.scss */
 .dGend .grey label {
   color: #000;
 }
 
-/* line 1896, ../sass/style.scss */
+/* line 1897, ../sass/style.scss */
 .radio2, .radio3 {
   height: 15px;
   width: 15px;
@@ -9275,12 +9302,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   overflow: hidden;
 }
 
-/* line 1908, ../sass/style.scss */
+/* line 1909, ../sass/style.scss */
 .radio3 {
   background: url("../img/radio3.png");
 }
 
-/* line 1911, ../sass/style.scss */
+/* line 1912, ../sass/style.scss */
 .forRad2 {
   position: relative;
   vertical-align: middle;
@@ -9289,7 +9316,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 20px;
 }
 
-/* line 1918, ../sass/style.scss */
+/* line 1919, ../sass/style.scss */
 .forRad3 {
   position: relative;
   vertical-align: middle;
@@ -9298,20 +9325,20 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 15px;
 }
 
-/* line 1925, ../sass/style.scss */
+/* line 1926, ../sass/style.scss */
 .radio2.disabled, .radio3.disabled {
   opacity: 0.5;
   filter: Alpha(opacity="50");
 }
 
-/* line 1929, ../sass/style.scss */
+/* line 1930, ../sass/style.scss */
 .radio2 input, .radio3 input {
   position: absolute;
   left: -400px;
   top: 0px;
 }
 
-/* line 1933, ../sass/style.scss */
+/* line 1934, ../sass/style.scss */
 .dCode .group1 {
   border-radius: 3px;
   background: #848484;
@@ -9325,28 +9352,28 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-radius: 8px;
   text-align: center;
 }
-/* line 1945, ../sass/style.scss */
+/* line 1946, ../sass/style.scss */
 .dCode .group1:focus {
   -webkit-box-shadow: -1px 0 0 #6acca2,0 1px 0 #6acca2,1px 0 0 #6acca2,0 -1px 0 #6acca2;
   box-shadow: -1px 0 0 #6acca2,0 1px 0 #6acca2,1px 0 0 #6acca2,0 -1px 0 #6acca2;
 }
-/* line 1950, ../sass/style.scss */
+/* line 1951, ../sass/style.scss */
 .dCode label {
   margin-bottom: 24px;
 }
 
-/* line 1954, ../sass/style.scss */
+/* line 1955, ../sass/style.scss */
 .rowFDate {
   margin-bottom: 25px;
 }
 
-/* line 1957, ../sass/style.scss */
+/* line 1958, ../sass/style.scss */
 .ikDate.ik_select {
   width: 100%;
   margin-bottom: 18px;
 }
 
-/* line 1962, ../sass/style.scss */
+/* line 1963, ../sass/style.scss */
 .ikDate .ik_select_link {
   border: 1px solid #dadada;
   border-radius: 3px;
@@ -9355,12 +9382,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   cursor: pointer;
 }
 
-/* line 1969, ../sass/style.scss */
+/* line 1970, ../sass/style.scss */
 .ikDate .ik_select_link_novalue .ik_select_link_text {
   color: #ccc;
 }
 
-/* line 1972, ../sass/style.scss */
+/* line 1973, ../sass/style.scss */
 .ikDate .ik_select_link:after {
   content: '\f107';
   font-family: FontAwesome;
@@ -9377,17 +9404,17 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font-size: 15px;
 }
 
-/* line 1987, ../sass/style.scss */
+/* line 1988, ../sass/style.scss */
 .ik_select_link_focus {
   /* Focused state of the fake select */
 }
 
-/* line 1990, ../sass/style.scss */
+/* line 1991, ../sass/style.scss */
 .ik_select_link_disabled {
   /* Disabled state of the fake select */
 }
 
-/* line 1993, ../sass/style.scss */
+/* line 1994, ../sass/style.scss */
 .ik_select_link_text {
   display: block;
   overflow: hidden;
@@ -9399,7 +9426,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   color: #000;
 }
 
-/* line 2005, ../sass/style.scss */
+/* line 2006, ../sass/style.scss */
 .ik_select_dropdown {
   /*
   Dropdown wrapper. Needed for script calculations.
@@ -9411,7 +9438,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   */
 }
 
-/* line 2016, ../sass/style.scss */
+/* line 2017, ../sass/style.scss */
 .ik_select_list {
   /*
   Wrapper for the options list.
@@ -9421,17 +9448,17 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   background: #fff;
 }
 
-/* line 2024, ../sass/style.scss */
+/* line 2025, ../sass/style.scss */
 .ik_select_optgroup {
   /* Optgroup */
 }
 
-/* line 2027, ../sass/style.scss */
+/* line 2028, ../sass/style.scss */
 .ik_select_optgroup_label {
   /* Optgroup label */
 }
 
-/* line 2030, ../sass/style.scss */
+/* line 2031, ../sass/style.scss */
 .ik_select_option {
   height: 32px;
   color: #000;
@@ -9440,59 +9467,59 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 14px/32px "proxima_nova_rgregular";
 }
 
-/* line 2037, ../sass/style.scss */
+/* line 2038, ../sass/style.scss */
 .ik_select_option.ik_select_option_disabled {
   display: none !important;
 }
 
-/* line 2040, ../sass/style.scss */
+/* line 2041, ../sass/style.scss */
 .ik_select_option_label {
   /* Option label */
 }
 
-/* line 2043, ../sass/style.scss */
+/* line 2044, ../sass/style.scss */
 .ik_select_hover {
   background: #fea700;
   color: #fff;
   text-decoration: underline;
 }
 
-/* line 2048, ../sass/style.scss */
+/* line 2049, ../sass/style.scss */
 .ik_select_active {
   font-family: "proxima_nova_rgbold";
   background: #f5f4f3;
 }
 
-/* line 2053, ../sass/style.scss */
+/* line 2054, ../sass/style.scss */
 .ik_select_filter_wrap {
   /* Wrapper for the filter input */
 }
 
-/* line 2056, ../sass/style.scss */
+/* line 2057, ../sass/style.scss */
 .ik_select_filter {
   /* Filter input */
 }
 
-/* line 2059, ../sass/style.scss */
+/* line 2060, ../sass/style.scss */
 .ik_nothing_found {
   /* Block that's shown when there's nothing found. */
 }
 
-/* line 2063, ../sass/style.scss */
+/* line 2064, ../sass/style.scss */
 .col-xs-55 {
   width: 37%;
   float: left;
   padding: 0 15px;
 }
 
-/* line 2068, ../sass/style.scss */
+/* line 2069, ../sass/style.scss */
 .col-xs-22 {
   width: 26%;
   float: left;
   padding: 0 15px;
 }
 
-/* line 2076, ../sass/style.scss */
+/* line 2077, ../sass/style.scss */
 .dataJaw {
   position: relative;
   background: url(../img/bigImg2.jpg) no-repeat center;
@@ -9502,7 +9529,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 0 37px;
 }
 
-/* line 2084, ../sass/style.scss */
+/* line 2085, ../sass/style.scss */
 .uData {
   margin: 0 auto;
   max-width: 1170px;
@@ -9510,7 +9537,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   position: relative;
   display: block;
 }
-/* line 2090, ../sass/style.scss */
+/* line 2091, ../sass/style.scss */
 .uData li {
   display: block;
   float: left;
@@ -9522,76 +9549,76 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 155px;
   padding: 45px 2% 0 3%;
 }
-/* line 2100, ../sass/style.scss */
+/* line 2101, ../sass/style.scss */
 .uData li:first-child {
   border-radius: 3px 0 0 3px;
 }
-/* line 2103, ../sass/style.scss */
+/* line 2104, ../sass/style.scss */
 .uData li:last-child {
   border-radius: 0 3px 3px 0;
 }
-/* line 2106, ../sass/style.scss */
+/* line 2107, ../sass/style.scss */
 .uData li.ud1 {
   border-width: 3px 2px 3px 3px;
   width: 36%;
 }
-/* line 2110, ../sass/style.scss */
+/* line 2111, ../sass/style.scss */
 .uData li.ud2 {
   border-width: 3px 2px;
   width: 19.5%;
 }
-/* line 2114, ../sass/style.scss */
+/* line 2115, ../sass/style.scss */
 .uData li.ud3 {
   border-width: 3px 2px;
   width: 26%;
 }
-/* line 2118, ../sass/style.scss */
+/* line 2119, ../sass/style.scss */
 .uData li.ud4 {
   border-width: 3px 3px 3px 2px;
   width: 18.5%;
 }
-/* line 2123, ../sass/style.scss */
+/* line 2124, ../sass/style.scss */
 .uData:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 2128, ../sass/style.scss */
+/* line 2129, ../sass/style.scss */
 .uData h1, .uData .dP2, .uData .dP3 {
   color: #fff;
   font: 35px/35px "proxima_nova_ltsemibold";
   margin: 0 0 15px;
 }
-/* line 2133, ../sass/style.scss */
+/* line 2134, ../sass/style.scss */
 .uData .dP3, .uData .dP4 {
   text-align: center;
 }
-/* line 2136, ../sass/style.scss */
+/* line 2137, ../sass/style.scss */
 .uData .dP4 span {
   margin: 0;
 }
-/* line 2139, ../sass/style.scss */
+/* line 2140, ../sass/style.scss */
 .uData .left {
   float: left;
   width: 60%;
 }
-/* line 2143, ../sass/style.scss */
+/* line 2144, ../sass/style.scss */
 .uData .right {
   float: left;
   width: 40%;
 }
-/* line 2147, ../sass/style.scss */
+/* line 2148, ../sass/style.scss */
 .uData .left i, .uData .right i {
   font: 35px/35px "proxima_nova_ltsemibold";
   margin: 0 0 15px;
   display: block;
   color: #3de39b;
 }
-/* line 2153, ../sass/style.scss */
+/* line 2154, ../sass/style.scss */
 .uData .right i {
   color: #f90303;
 }
-/* line 2156, ../sass/style.scss */
+/* line 2157, ../sass/style.scss */
 .uData .dIco {
   display: inline-block;
   padding: 0 0 0 27px;
@@ -9600,7 +9627,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 14px/17px "proxima_nova_ltsemibold";
   white-space: nowrap;
 }
-/* line 2163, ../sass/style.scss */
+/* line 2164, ../sass/style.scss */
 .uData .dIco:after {
   display: inline-block;
   position: absolute;
@@ -9612,63 +9639,63 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   color: #fff;
   font-size: 20px;
 }
-/* line 2175, ../sass/style.scss */
+/* line 2176, ../sass/style.scss */
 .uData .dIco.dHost:after {
   content: '\f15c';
 }
-/* line 2178, ../sass/style.scss */
+/* line 2179, ../sass/style.scss */
 .uData .dIco.dDate:after {
   content: '\f073';
 }
-/* line 2181, ../sass/style.scss */
+/* line 2182, ../sass/style.scss */
 .uData .dIco.dTime:after {
   content: '\f017';
 }
-/* line 2184, ../sass/style.scss */
+/* line 2185, ../sass/style.scss */
 .uData .dIco.dSub:after {
   content: '\f0aa';
 }
-/* line 2187, ../sass/style.scss */
+/* line 2188, ../sass/style.scss */
 .uData .dIco.dRej:after {
   content: '\f1f8';
 }
-/* line 2190, ../sass/style.scss */
+/* line 2191, ../sass/style.scss */
 .uData .dIco.dBud:after {
   content: '\f0d6';
 }
-/* line 2194, ../sass/style.scss */
+/* line 2195, ../sass/style.scss */
 .uData .dP1 .dIco {
   margin: 0 8% 0 0;
 }
-/* line 2197, ../sass/style.scss */
+/* line 2198, ../sass/style.scss */
 .uData p {
   margin: 0;
 }
 
-/* line 2203, ../sass/style.scss */
+/* line 2204, ../sass/style.scss */
 .catalog {
   padding-bottom: 40px;
 }
 
-/* line 2206, ../sass/style.scss */
+/* line 2207, ../sass/style.scss */
 .boxs {
   margin: 0 0 24px;
   /*border: 1px solid #eaeaea;*/
   border-top: none;
 }
 
-/* line 2211, ../sass/style.scss */
+/* line 2212, ../sass/style.scss */
 .box {
   display: none;
   padding: 0 0 41px;
 }
 
-/* line 2215, ../sass/style.scss */
+/* line 2216, ../sass/style.scss */
 .box.vis {
   display: block;
 }
 
-/* line 2218, ../sass/style.scss */
+/* line 2219, ../sass/style.scss */
 .uTabs {
   display: block;
   background: #cacaca;
@@ -9676,7 +9703,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-bottom: none;
   overflow: hidden;
 }
-/* line 2224, ../sass/style.scss */
+/* line 2225, ../sass/style.scss */
 .uTabs li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -9693,11 +9720,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 -4px 0 0;
   color: #fff;
 }
-/* line 2239, ../sass/style.scss */
+/* line 2240, ../sass/style.scss */
 .uTabs li:hover {
   text-decoration: underline;
 }
-/* line 2243, ../sass/style.scss */
+/* line 2244, ../sass/style.scss */
 .uTabs li:after {
   content: '';
   display: block;
@@ -9710,21 +9737,21 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: auto;
   background: #e7e7e7;
 }
-/* line 2253, ../sass/style.scss */
+/* line 2254, ../sass/style.scss */
 .uTabs li:last-child:after {
   display: none;
 }
-/* line 2256, ../sass/style.scss */
+/* line 2257, ../sass/style.scss */
 .uTabs li.act {
   background: #fff;
   color: #000;
   cursor: default;
 }
-/* line 2260, ../sass/style.scss */
+/* line 2261, ../sass/style.scss */
 .uTabs li.act:hover {
   text-decoration: none;
 }
-/* line 2263, ../sass/style.scss */
+/* line 2264, ../sass/style.scss */
 .uTabs li.act:after {
   content: '';
   display: block;
@@ -9737,21 +9764,21 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   background: url(../img/sprite.png) no-repeat -150px 0;
 }
 
-/* line 2278, ../sass/style.scss */
+/* line 2279, ../sass/style.scss */
 .filtJaw {
   border: 1px solid #eaeaea;
   border-top: none;
   padding: 16px 2.69% 44px;
   margin: 0 0 24px;
 }
-/* line 2283, ../sass/style.scss */
+/* line 2284, ../sass/style.scss */
 .filtJaw h3 {
   color: #999898;
   font: 12px/14px "proxima_nova_ltsemibold";
   margin: 0 0 10px 3px;
 }
 
-/* line 2290, ../sass/style.scss */
+/* line 2291, ../sass/style.scss */
 .uFilt li {
   float: left;
   padding: 0 15px 0 0;
@@ -9760,25 +9787,25 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   box-sizing: border-box;
   width: 33.333%;
 }
-/* line 2297, ../sass/style.scss */
+/* line 2298, ../sass/style.scss */
 .uFilt li:last-child {
   padding: 0;
 }
-/* line 2301, ../sass/style.scss */
+/* line 2302, ../sass/style.scss */
 .uFilt li.uf1 {
   width: 41%;
   padding-top: 7px;
 }
-/* line 2305, ../sass/style.scss */
+/* line 2306, ../sass/style.scss */
 .uFilt li.uf2 {
   width: 27%;
 }
-/* line 2308, ../sass/style.scss */
+/* line 2309, ../sass/style.scss */
 .uFilt .uf3 {
   width: 32%;
   margin-top: -4px;
 }
-/* line 2312, ../sass/style.scss */
+/* line 2313, ../sass/style.scss */
 .uFilt .grayRadIn label {
   color: #999898;
   font: 15px/15px "proxima_nova_ltsemibold";
@@ -9786,33 +9813,33 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   vertical-align: middle;
   margin: 0 35px 0 0;
 }
-/* line 2319, ../sass/style.scss */
+/* line 2320, ../sass/style.scss */
 .uFilt .grayRadIn:last-child label {
   margin: 0;
 }
-/* line 2322, ../sass/style.scss */
+/* line 2323, ../sass/style.scss */
 .uFilt .grey.grayRadIn label {
   color: #000;
 }
-/* line 2325, ../sass/style.scss */
+/* line 2326, ../sass/style.scss */
 .uFilt .grayRadIn {
   white-space: nowrap;
   margin: 0 0 8px;
   display: inline-block;
 }
-/* line 2330, ../sass/style.scss */
+/* line 2331, ../sass/style.scss */
 .uFilt:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 2336, ../sass/style.scss */
+/* line 2337, ../sass/style.scss */
 .formDes {
   position: relative;
 }
 
-/* line 2339, ../sass/style.scss */
+/* line 2340, ../sass/style.scss */
 .formDes:after {
   content: '\f0c0';
   font-family: FontAwesome;
@@ -9827,7 +9854,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font-size: 15px;
 }
 
-/* line 2352, ../sass/style.scss */
+/* line 2353, ../sass/style.scss */
 .formDes input {
   border: 1px solid #d7d7d7;
   width: 100%;
@@ -9837,37 +9864,37 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 0 15px 0 39px;
 }
 
-/* line 2360, ../sass/style.scss */
+/* line 2361, ../sass/style.scss */
 .formDes input::-webkit-input-placeholder {
   color: #000;
 }
 
-/* line 2361, ../sass/style.scss */
+/* line 2362, ../sass/style.scss */
 .formDes input[type="text"]:-moz-placeholder {
   color: #000;
 }
 
-/* line 2362, ../sass/style.scss */
+/* line 2363, ../sass/style.scss */
 .formDes input[type="text"].placeholder {
   color: #000;
 }
 
-/* line 2363, ../sass/style.scss */
+/* line 2364, ../sass/style.scss */
 .formDes input:focus::-webkit-input-placeholder {
   color: #bfbebe;
 }
 
-/* line 2364, ../sass/style.scss */
+/* line 2365, ../sass/style.scss */
 .formDes input[type="text"]:focus:-moz-placeholder {
   color: #bfbebe;
 }
 
-/* line 2365, ../sass/style.scss */
+/* line 2366, ../sass/style.scss */
 .formDes input[type="text"]:focus.placeholder {
   color: #bfbebe;
 }
 
-/* line 2367, ../sass/style.scss */
+/* line 2368, ../sass/style.scss */
 .iRat {
   display: inline-block;
   color: #999898;
@@ -9876,7 +9903,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 18px 0 0;
 }
 
-/* line 2374, ../sass/style.scss */
+/* line 2375, ../sass/style.scss */
 .raty {
   display: -moz-inline-stack;
   display: inline-block;
@@ -9885,7 +9912,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   vertical-align: top;
 }
 
-/* line 2382, ../sass/style.scss */
+/* line 2383, ../sass/style.scss */
 .uParty {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -9906,7 +9933,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   -ms-flex-align: start;
   align-items: flex-start;
 }
-/* line 2401, ../sass/style.scss */
+/* line 2402, ../sass/style.scss */
 .uParty li {
   -webkit-order: 0;
   -ms-flex-order: 0;
@@ -9923,33 +9950,33 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border: 1px solid #dadada;
   width: 20.6%;
 }
-/* line 2419, ../sass/style.scss */
+/* line 2420, ../sass/style.scss */
 .uParty .dImg img {
   display: block;
 }
-/* line 2423, ../sass/style.scss */
+/* line 2424, ../sass/style.scss */
 .uParty .info {
   padding: 27px 12px 3px;
 }
-/* line 2426, ../sass/style.scss */
+/* line 2427, ../sass/style.scss */
 .uParty .numb {
   float: left;
   margin: 0 5px 4px 0;
   color: #000;
   font: 24px/24px "proxima_nova_ltsemibold";
 }
-/* line 2432, ../sass/style.scss */
+/* line 2433, ../sass/style.scss */
 .uParty .raty2 {
   float: right;
   margin: 0 0 4px 5px;
 }
-/* line 2435, ../sass/style.scss */
+/* line 2436, ../sass/style.scss */
 .uParty .raty2:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 2441, ../sass/style.scss */
+/* line 2442, ../sass/style.scss */
 .uParty .by {
   color: #acacac;
   font: 11px/13px "proxima_nova_ltsemibold";
@@ -9960,13 +9987,13 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   display: block;
   clear: both;
 }
-/* line 2451, ../sass/style.scss */
+/* line 2452, ../sass/style.scss */
 .uParty .by:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 2456, ../sass/style.scss */
+/* line 2457, ../sass/style.scss */
 .uParty .by:after {
   content: '\f007';
   font-family: FontAwesome;
@@ -9980,17 +10007,17 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   top: 0;
   font-size: 11px;
 }
-/* line 2469, ../sass/style.scss */
+/* line 2470, ../sass/style.scss */
 .uParty .pBtns {
   margin: 0;
   width: 120%;
 }
-/* line 2472, ../sass/style.scss */
+/* line 2473, ../sass/style.scss */
 .uParty .pBtns a {
   display: inline-block;
   margin: 0 19px 0 0;
 }
-/* line 2475, ../sass/style.scss */
+/* line 2476, ../sass/style.scss */
 .uParty .pBtns a i {
   display: inline-block;
   background: #fff;
@@ -10005,49 +10032,49 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-radius: 3px;
   transition: all 0.3s;
 }
-/* line 2489, ../sass/style.scss */
+/* line 2490, ../sass/style.scss */
 .uParty .pBtns a:hover i, .uParty .pBtns a.act i {
   color: #fff;
   background: #20b373;
   border: 1px solid #20b373;
 }
-/* line 2495, ../sass/style.scss */
+/* line 2496, ../sass/style.scss */
 .uParty .pBtns .btnTrophy {
   margin: 0 0 0 -6px;
 }
-/* line 2497, ../sass/style.scss */
+/* line 2498, ../sass/style.scss */
 .uParty .pBtns .btnTrophy i {
   border-color: transparent;
   width: 30px;
   color: #c8c8c8;
 }
-/* line 2502, ../sass/style.scss */
+/* line 2503, ../sass/style.scss */
 .uParty .pBtns .btnTrophy:hover i {
   color: #c8c8c8;
   background: none;
   border: 1px solid transparent;
 }
-/* line 2513, ../sass/style.scss */
+/* line 2514, ../sass/style.scss */
 .uParty li.banAct .pBtns .btnTrophy.red i {
   color: #f10000;
 }
-/* line 2516, ../sass/style.scss */
+/* line 2517, ../sass/style.scss */
 .uParty li.banAct .pBtns .btnTrophy.first i {
   color: #fea700;
 }
-/* line 2519, ../sass/style.scss */
+/* line 2520, ../sass/style.scss */
 .uParty li.banAct .pBtns .btnTrophy.second i {
   color: #e6e9ec;
 }
-/* line 2522, ../sass/style.scss */
+/* line 2523, ../sass/style.scss */
 .uParty li.banAct .pBtns .btnTrophy.third i {
   color: #c45f3c;
 }
-/* line 2527, ../sass/style.scss */
+/* line 2528, ../sass/style.scss */
 .uParty li.banAct .prize {
   display: block;
 }
-/* line 2531, ../sass/style.scss */
+/* line 2532, ../sass/style.scss */
 .uParty .prize {
   position: absolute;
   right: -12px;
@@ -10055,7 +10082,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   width: 56%;
   display: none;
 }
-/* line 2537, ../sass/style.scss */
+/* line 2538, ../sass/style.scss */
 .uParty .prize .who {
   display: block;
   height: 19px;
@@ -10066,7 +10093,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   color: #c45f3c;
   background: #fff;
 }
-/* line 2547, ../sass/style.scss */
+/* line 2548, ../sass/style.scss */
 .uParty .prize .money {
   color: #fff;
   display: block;
@@ -10076,7 +10103,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-transform: uppercase;
   background: #e6e9ec;
 }
-/* line 2556, ../sass/style.scss */
+/* line 2557, ../sass/style.scss */
 .uParty .prize:after {
   content: '';
   position: absolute;
@@ -10087,42 +10114,42 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-top: 9px solid #959595;
   border-right: 12px solid transparent;
 }
-/* line 2566, ../sass/style.scss */
+/* line 2567, ../sass/style.scss */
 .uParty .prize.first .who {
   color: #fea700;
 }
-/* line 2569, ../sass/style.scss */
+/* line 2570, ../sass/style.scss */
 .uParty .prize.first .money {
   background: #fea700;
   color: #fff;
 }
-/* line 2573, ../sass/style.scss */
+/* line 2574, ../sass/style.scss */
 .uParty .prize.first:after {
   border-top-color: #c68a22;
 }
-/* line 2576, ../sass/style.scss */
+/* line 2577, ../sass/style.scss */
 .uParty .prize.second .who {
   color: #727272;
 }
-/* line 2579, ../sass/style.scss */
+/* line 2580, ../sass/style.scss */
 .uParty .prize.second .money {
   background: #e6e9ec;
   color: #000;
 }
-/* line 2583, ../sass/style.scss */
+/* line 2584, ../sass/style.scss */
 .uParty .prize.third .who {
   color: #c45f3c;
 }
-/* line 2586, ../sass/style.scss */
+/* line 2587, ../sass/style.scss */
 .uParty .prize.third .money {
   background: #c45f3c;
   color: #fff;
 }
-/* line 2591, ../sass/style.scss */
+/* line 2592, ../sass/style.scss */
 .uParty li.emirat .prize {
   display: none;
 }
-/* line 2594, ../sass/style.scss */
+/* line 2595, ../sass/style.scss */
 .uParty li.emirat:after {
   content: '';
   display: block;
@@ -10134,7 +10161,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   z-index: 15;
   background: rgba(255, 255, 255, 0.84);
 }
-/* line 2605, ../sass/style.scss */
+/* line 2606, ../sass/style.scss */
 .uParty li.emirat:before {
   content: 'EMIRATED';
   display: block;
@@ -10148,7 +10175,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   color: #000;
   font: 24px/24px "proxima_nova_ltsemibold";
 }
-/* line 2618, ../sass/style.scss */
+/* line 2619, ../sass/style.scss */
 .uParty .btnRetr {
   border-radius: 2px;
   display: block;
@@ -10171,13 +10198,13 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   z-index: 50;
   position: absolute;
 }
-/* line 2638, ../sass/style.scss */
+/* line 2639, ../sass/style.scss */
 .uParty .btnRetr span {
   position: relative;
   top: -1px;
   margin: 0 0 0 4px;
 }
-/* line 2643, ../sass/style.scss */
+/* line 2644, ../sass/style.scss */
 .uParty .btnRetr i {
   color: #6dc068;
   font-size: 18px;
@@ -10187,18 +10214,18 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   vertical-align: middle;
   transition: color 0.3s;
 }
-/* line 2653, ../sass/style.scss */
+/* line 2654, ../sass/style.scss */
 .uParty .btnRetr:hover {
   background: #20b373;
   color: #fff;
   border-color: #20b373;
 }
-/* line 2657, ../sass/style.scss */
+/* line 2658, ../sass/style.scss */
 .uParty .btnRetr:hover i {
   color: #fff;
 }
 
-/* line 2663, ../sass/style.scss */
+/* line 2664, ../sass/style.scss */
 .commJaw {
   padding: 10px 12px 9px;
   position: absolute;
@@ -10210,7 +10237,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-top: none;
   display: none;
 }
-/* line 2672, ../sass/style.scss */
+/* line 2673, ../sass/style.scss */
 .commJaw textarea {
   display: block;
   width: 100%;
@@ -10223,11 +10250,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 7px 7px;
   color: #3D4553;
 }
-/* line 2684, ../sass/style.scss */
+/* line 2685, ../sass/style.scss */
 .commJaw .forBtn2 {
   text-align: right;
 }
-/* line 2687, ../sass/style.scss */
+/* line 2688, ../sass/style.scss */
 .commJaw button {
   background: #20b373;
   text-transform: uppercase;
@@ -10243,19 +10270,19 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   transition: background 0.3s;
   cursor: pointer;
 }
-/* line 2701, ../sass/style.scss */
+/* line 2702, ../sass/style.scss */
 .commJaw button i {
   color: #fff;
   font-size: 18.5px;
   transition: color 0.3s;
   line-height: 38px;
 }
-/* line 2707, ../sass/style.scss */
+/* line 2708, ../sass/style.scss */
 .commJaw button:hover {
   background: #188857;
 }
 
-/* line 2713, ../sass/style.scss */
+/* line 2714, ../sass/style.scss */
 .btnAll {
   display: block;
   margin: 23px auto 20px;
@@ -10272,26 +10299,26 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   white-space: nowrap;
   border: 2px solid #bcc3d1;
 }
-/* line 2728, ../sass/style.scss */
+/* line 2729, ../sass/style.scss */
 .btnAll:hover {
   background: #20b373;
   color: #fff;
   border-color: #20b373;
 }
 
-/* line 2734, ../sass/style.scss */
+/* line 2735, ../sass/style.scss */
 .profile {
   padding: 72px 0 95px;
 }
 
-/* line 2737, ../sass/style.scss */
+/* line 2738, ../sass/style.scss */
 .profile:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 2742, ../sass/style.scss */
+/* line 2743, ../sass/style.scss */
 .user {
   width: 23%;
   margin: 0 2.5% 55px 0;
@@ -10304,11 +10331,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 2753, ../sass/style.scss */
+/* line 2754, ../sass/style.scss */
 .user .userName {
   padding: 0 6px 28px;
 }
-/* line 2755, ../sass/style.scss */
+/* line 2756, ../sass/style.scss */
 .user .userName img {
   display: block;
   margin: 0 auto 15px;
@@ -10316,14 +10343,14 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-radius: 100%;
   border: 8px solid #e8e8e8;
 }
-/* line 2762, ../sass/style.scss */
+/* line 2763, ../sass/style.scss */
 .user .userName h3 {
   text-align: center;
   color: #000;
   font: 24px/27px "proxima_nova_rgbold";
   margin: 0 0 7px;
 }
-/* line 2768, ../sass/style.scss */
+/* line 2769, ../sass/style.scss */
 .user .userName p {
   text-align: center;
   color: #fea700;
@@ -10333,6 +10360,144 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
 }
 
 /* line 2780, ../sass/style.scss */
+.gdMenu .gd1 {
+  border-right: 3px solid #20b373;
+}
+/* line 2781, ../sass/style.scss */
+.gdMenu .gd2 {
+  border-right: 3px solid #c70e21;
+}
+/* line 2782, ../sass/style.scss */
+.gdMenu .gd3 {
+  border-right: 3px solid #fea700;
+}
+/* line 2783, ../sass/style.scss */
+.gdMenu .gd4 {
+  border-right: 3px solid #959595;
+}
+/* line 2784, ../sass/style.scss */
+.gdMenu .attach {
+  right: 5px;
+  top: 10px;
+  position: absolute;
+}
+@media screen and (min-width: 768px) and (max-width: 1090px) {
+  /* line 2784, ../sass/style.scss */
+  .gdMenu .attach {
+    width: auto;
+  }
+}
+/* line 2790, ../sass/style.scss */
+.gdMenu li {
+  webkit-box-sizing: border-box;
+  moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 2794, ../sass/style.scss */
+.gdMenu li div {
+  float: right;
+  width: 64%;
+  padding-right: 12px;
+}
+@media screen and (min-width: 768px) and (max-width: 1090px) {
+  /* line 2794, ../sass/style.scss */
+  .gdMenu li div {
+    width: 47%;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 2794, ../sass/style.scss */
+  .gdMenu li div {
+    width: 86%;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 2794, ../sass/style.scss */
+  .gdMenu li div {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 470px) {
+  /* line 2794, ../sass/style.scss */
+  .gdMenu li div {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 400px) {
+  /* line 2794, ../sass/style.scss */
+  .gdMenu li div {
+    width: 65%;
+  }
+}
+/* line 2803, ../sass/style.scss */
+.gdMenu li div h2 {
+  padding: 0px;
+  font: 15px/18px "proxima_nova_rgbold";
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+@media screen and (min-width: 769px) and (max-width: 1090px) {
+  /* line 2803, ../sass/style.scss */
+  .gdMenu li div h2 {
+    font: 12px/18px "proxima_nova_rgbold";
+  }
+}
+/* line 2812, ../sass/style.scss */
+.gdMenu li div p {
+  color: #909090;
+  font: 12px/12px "proxima_nova_rgregular";
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 2820, ../sass/style.scss */
+.gdMenu li span {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font: 14px/14px "proxima_nova_rgbold";
+  position: relative;
+  border: 1px solid #ebebeb;
+  border-width: 1px 0 0;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+@media screen and (min-width: 769px) and (max-width: 1090px) {
+  /* line 2821, ../sass/style.scss */
+  .gdMenu li span img {
+    width: 36%;
+  }
+}
+/* line 2837, ../sass/style.scss */
+.gdMenu li span i {
+  position: absolute;
+  color: #000;
+  font-size: 14px;
+  height: 14px;
+  display: inline-block;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 20%;
+  left: 0;
+  text-align: center;
+  transition: color 0.3s;
+}
+/* line 2852, ../sass/style.scss */
+.gdMenu li span:hover i {
+  color: #fff;
+}
+/* line 2857, ../sass/style.scss */
+.gdMenu li.act span {
+  color: #fff;
+  background: #fea700;
+}
+/* line 2860, ../sass/style.scss */
+.gdMenu li.act span i {
+  color: #fff;
+}
+
+/* line 2869, ../sass/style.scss */
 .usMenu li span {
   display: block;
   text-decoration: none;
@@ -10345,7 +10510,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   transition: all 0.3s;
   cursor: pointer;
 }
-/* line 2791, ../sass/style.scss */
+/* line 2880, ../sass/style.scss */
 .usMenu li span i {
   position: absolute;
   color: #000;
@@ -10360,26 +10525,26 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-align: center;
   transition: color 0.3s;
 }
-/* line 2805, ../sass/style.scss */
+/* line 2894, ../sass/style.scss */
 .usMenu li span:hover {
   color: #fff;
   background: #fea700;
 }
-/* line 2808, ../sass/style.scss */
+/* line 2897, ../sass/style.scss */
 .usMenu li span:hover i {
   color: #fff;
 }
-/* line 2813, ../sass/style.scss */
+/* line 2902, ../sass/style.scss */
 .usMenu li.act span {
   color: #fff;
   background: #fea700;
 }
-/* line 2816, ../sass/style.scss */
+/* line 2905, ../sass/style.scss */
 .usMenu li.act span i {
   color: #fff;
 }
 
-/* line 2823, ../sass/style.scss */
+/* line 2912, ../sass/style.scss */
 .userInfo {
   float: left;
   width: 74.5%;
@@ -10387,33 +10552,33 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 2829, ../sass/style.scss */
+/* line 2918, ../sass/style.scss */
 .userInfo .row {
   margin-left: -15px;
   margin-right: -15px;
   width: 89.5%;
 }
 
-/* line 2837, ../sass/style.scss */
+/* line 2926, ../sass/style.scss */
 .usSett h1 {
   color: #000;
   font: 30px/34px "proxima_nova_rgbold";
   margin: 0 0 47px;
 }
-/* line 2842, ../sass/style.scss */
+/* line 2931, ../sass/style.scss */
 .usSett h2 {
   color: #000;
   font: 30px/34px "proxima_nova_rgbold";
   margin: 0 0 50px;
 }
-/* line 2847, ../sass/style.scss */
+/* line 2936, ../sass/style.scss */
 .usSett label {
   display: block;
   color: #000;
   font: 15px/17px "proxima_nova_rgbold";
   margin: 0 0 12px;
 }
-/* line 2853, ../sass/style.scss */
+/* line 2942, ../sass/style.scss */
 .usSett .sInp {
   border-radius: 3px;
   background: #fff;
@@ -10425,47 +10590,47 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 0 21px;
   margin: 0 0 26px;
 }
-/* line 2863, ../sass/style.scss */
+/* line 2952, ../sass/style.scss */
 .usSett .sInp:focus {
   border-color: #5ac696;
 }
-/* line 2866, ../sass/style.scss */
+/* line 2955, ../sass/style.scss */
 .usSett .sInp.alert {
   border-color: #f2595e;
 }
-/* line 2870, ../sass/style.scss */
+/* line 2959, ../sass/style.scss */
 .usSett .sInp::-webkit-input-placeholder {
   color: #ccc;
 }
-/* line 2871, ../sass/style.scss */
+/* line 2960, ../sass/style.scss */
 .usSett .sInp:-moz-placeholder {
   color: #ccc;
 }
-/* line 2872, ../sass/style.scss */
+/* line 2961, ../sass/style.scss */
 .usSett .sInp.placeholder {
   color: #ccc;
 }
-/* line 2873, ../sass/style.scss */
+/* line 2962, ../sass/style.scss */
 .usSett .sInp:focus::-webkit-input-placeholder {
   color: #fff;
 }
-/* line 2874, ../sass/style.scss */
+/* line 2963, ../sass/style.scss */
 .usSett .sInp:focus:-moz-placeholder {
   color: #fff;
 }
-/* line 2875, ../sass/style.scss */
+/* line 2964, ../sass/style.scss */
 .usSett .sInp:focus.placeholder {
   color: #fff;
 }
 
-/* line 2877, ../sass/style.scss */
+/* line 2966, ../sass/style.scss */
 .usSett_1 {
   padding-bottom: 46px;
   border-bottom: 1px solid #ebebeb;
   margin-bottom: 45px;
 }
 
-/* line 2882, ../sass/style.scss */
+/* line 2971, ../sass/style.scss */
 .btnSave {
   background: #20b373;
   cursor: pointer;
@@ -10480,22 +10645,22 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   color: #ffffff;
   transition: background 0.3s;
 }
-/* line 2895, ../sass/style.scss */
+/* line 2984, ../sass/style.scss */
 .btnSave:hover {
   background: #2ed4f2;
 }
 
-/* line 2899, ../sass/style.scss */
+/* line 2988, ../sass/style.scss */
 .bam {
   display: none;
 }
 
-/* line 2902, ../sass/style.scss */
+/* line 2991, ../sass/style.scss */
 .bam.vis {
   display: block;
 }
 
-/* line 2905, ../sass/style.scss */
+/* line 2994, ../sass/style.scss */
 .uStat {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -10517,7 +10682,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   align-items: flex-start;
   margin: 0 0 40px;
 }
-/* line 2925, ../sass/style.scss */
+/* line 3014, ../sass/style.scss */
 .uStat li {
   width: 23%;
   -webkit-order: 0;
@@ -10533,13 +10698,13 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-radius: 4px;
   padding-bottom: 11px;
 }
-/* line 2939, ../sass/style.scss */
+/* line 3028, ../sass/style.scss */
 .uStat li .forIco {
   padding: 29px 0 23px;
   border-bottom: 1px solid #ebebeb;
   margin: 0 0 10px;
 }
-/* line 2943, ../sass/style.scss */
+/* line 3032, ../sass/style.scss */
 .uStat li .forIco i {
   display: block;
   width: 77px;
@@ -10552,14 +10717,14 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-align: center;
   border-radius: 77px;
 }
-/* line 2956, ../sass/style.scss */
+/* line 3045, ../sass/style.scss */
 .uStat li .num {
   text-align: center;
   color: #707070;
   font: 36px/36px "proxima_nova_ltsemibold";
   margin: 0 0 9px;
 }
-/* line 2962, ../sass/style.scss */
+/* line 3051, ../sass/style.scss */
 .uStat li .title {
   text-align: center;
   color: #707070;
@@ -10568,18 +10733,18 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-transform: uppercase;
 }
 
-/* line 2972, ../sass/style.scss */
+/* line 3061, ../sass/style.scss */
 .skills {
   margin: 0 23% 89px 9px;
 }
-/* line 2974, ../sass/style.scss */
+/* line 3063, ../sass/style.scss */
 .skills h2 {
   color: #707070;
   font: 20px/24px "proxima_nova_rgbold";
   margin: 0 0 16px;
 }
 
-/* line 2980, ../sass/style.scss */
+/* line 3069, ../sass/style.scss */
 .uSlid2 li {
   display: block;
   margin: 0 0 22px;
@@ -10587,14 +10752,14 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 15px/20px "proxima_nova_rgbold";
   color: #707070;
 }
-/* line 2986, ../sass/style.scss */
+/* line 3075, ../sass/style.scss */
 .uSlid2 li .iLeft {
   display: inline-block;
   width: 100px;
   margin: 0 12px 0 0;
   font: 15px/20px "proxima_nova_rgbold";
 }
-/* line 2992, ../sass/style.scss */
+/* line 3081, ../sass/style.scss */
 .uSlid2 li .iSlide {
   display: inline-block;
   width: calc(100% - 112px);
@@ -10602,11 +10767,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   top: -2px;
 }
 
-/* line 2999, ../sass/style.scss */
+/* line 3088, ../sass/style.scss */
 .uData2 {
   margin: 0 0 40px;
 }
-/* line 3001, ../sass/style.scss */
+/* line 3090, ../sass/style.scss */
 .uData2 li {
   font: 14px/16px "proxima_nova_rgregular";
   margin: 0 0 13px;
@@ -10614,7 +10779,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 0 0 0 31%;
   position: relative;
 }
-/* line 3007, ../sass/style.scss */
+/* line 3096, ../sass/style.scss */
 .uData2 li b {
   display: inline-block;
   width: 31%;
@@ -10626,12 +10791,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-transform: uppercase;
 }
 
-/* line 3019, ../sass/style.scss */
+/* line 3108, ../sass/style.scss */
 .tEarn {
   width: 100%;
   margin: 0 0 11px;
 }
-/* line 3022, ../sass/style.scss */
+/* line 3111, ../sass/style.scss */
 .tEarn th {
   border: 1px solid #eabf6c;
   background: #fea700;
@@ -10642,39 +10807,39 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-align: left;
   font: 15px/18px "proxima_nova_rgbold";
 }
-/* line 3032, ../sass/style.scss */
+/* line 3121, ../sass/style.scss */
 .tEarn tr th:first-child {
   border-radius: 6px 0 0 0;
 }
-/* line 3035, ../sass/style.scss */
+/* line 3124, ../sass/style.scss */
 .tEarn tr th:last-child {
   border-radius: 0 6px 0 0;
 }
-/* line 3038, ../sass/style.scss */
+/* line 3127, ../sass/style.scss */
 .tEarn tr:last-child td:first-child {
   border-radius: 0 0 0 6px;
 }
-/* line 3041, ../sass/style.scss */
+/* line 3130, ../sass/style.scss */
 .tEarn tr:last-child td:last-child {
   border-radius: 0 0 6px;
 }
-/* line 3044, ../sass/style.scss */
+/* line 3133, ../sass/style.scss */
 .tEarn .th1 {
   width: 23%;
 }
-/* line 3045, ../sass/style.scss */
+/* line 3134, ../sass/style.scss */
 .tEarn .th2 {
   width: 19.5%;
 }
-/* line 3046, ../sass/style.scss */
+/* line 3135, ../sass/style.scss */
 .tEarn .th3 {
   width: 25%;
 }
-/* line 3047, ../sass/style.scss */
+/* line 3136, ../sass/style.scss */
 .tEarn .th4 {
   width: 17%;
 }
-/* line 3048, ../sass/style.scss */
+/* line 3137, ../sass/style.scss */
 .tEarn td {
   border: 1px solid #ebebeb;
   font: 14px/17px "proxima_nova_rgregular";
@@ -10683,7 +10848,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 5px 10px 5px 20px;
   color: #999898;
 }
-/* line 3056, ../sass/style.scss */
+/* line 3145, ../sass/style.scss */
 .tEarn .tTotal {
   background: #fea700;
   color: #fff;
@@ -10691,25 +10856,25 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding-left: 12px;
 }
 
-/* line 3064, ../sass/style.scss */
+/* line 3153, ../sass/style.scss */
 .nextPrev {
   text-align: right;
   color: #010101;
   font: 14px/17px "proxima_nova_rgbold";
   margin: 0 5px 0 0;
 }
-/* line 3069, ../sass/style.scss */
+/* line 3158, ../sass/style.scss */
 .nextPrev a {
   text-decoration: none;
   color: #010101;
   margin: 0 0 0 18px;
 }
-/* line 3073, ../sass/style.scss */
+/* line 3162, ../sass/style.scss */
 .nextPrev a:hover {
   color: #fea700;
 }
 
-/* line 3079, ../sass/style.scss */
+/* line 3168, ../sass/style.scss */
 .uJobs2 {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -10730,7 +10895,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   -ms-flex-align: start;
   align-items: flex-start;
 }
-/* line 3098, ../sass/style.scss */
+/* line 3187, ../sass/style.scss */
 .uJobs2 li {
   width: 31%;
   -webkit-order: 0;
@@ -10744,13 +10909,13 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   align-self: auto;
   margin-bottom: 27px;
 }
-/* line 3110, ../sass/style.scss */
+/* line 3199, ../sass/style.scss */
 .uJobs2 li img {
   display: block;
   width: 100%;
 }
 
-/* line 3116, ../sass/style.scss */
+/* line 3205, ../sass/style.scss */
 .pLoad {
   text-align: right;
   margin: 0 5px 20px 0;
@@ -10758,7 +10923,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 13px/16px "proxima_nova_rgregular";
 }
 
-/* line 3123, ../sass/style.scss */
+/* line 3212, ../sass/style.scss */
 .uCard {
   margin: 0 0 20px;
   display: -ms-flexbox;
@@ -10780,7 +10945,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   -ms-flex-align: start;
   align-items: flex-start;
 }
-/* line 3143, ../sass/style.scss */
+/* line 3232, ../sass/style.scss */
 .uCard li {
   width: 31%;
   -webkit-order: 0;
@@ -10801,47 +10966,47 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-radius: 4px;
   position: relative;
 }
-/* line 3162, ../sass/style.scss */
+/* line 3251, ../sass/style.scss */
 .uCard li .cNumb {
   text-transform: uppercase;
   margin: 0 0 8px;
   font: 18px/20px "proxima_nova_rgregular";
   color: #262729;
 }
-/* line 3168, ../sass/style.scss */
+/* line 3257, ../sass/style.scss */
 .uCard li .cVal {
   margin: 0 0 26px;
   font: 12px/14px "proxima_nova_rgregular";
   color: #999898;
 }
-/* line 3172, ../sass/style.scss */
+/* line 3261, ../sass/style.scss */
 .uCard li .cVal b {
   font: 14px/14px "proxima_nova_rgregular";
   color: #262729;
 }
-/* line 3177, ../sass/style.scss */
+/* line 3266, ../sass/style.scss */
 .uCard li .cName {
   margin: 0 0 8px;
   font: 12px/14px "proxima_nova_rgregular";
   color: #999898;
 }
-/* line 3182, ../sass/style.scss */
+/* line 3271, ../sass/style.scss */
 .uCard li .cName2 {
   margin: 0 80px 0 0;
   font: 18px/22px "proxima_nova_rgbold";
   color: #fea700;
   text-transform: uppercase;
 }
-/* line 3187, ../sass/style.scss */
+/* line 3276, ../sass/style.scss */
 .uCard li .cName2 a {
   text-decoration: none;
   color: #fea700;
 }
-/* line 3190, ../sass/style.scss */
+/* line 3279, ../sass/style.scss */
 .uCard li .cName2 a:hover {
   color: #37bed6;
 }
-/* line 3195, ../sass/style.scss */
+/* line 3284, ../sass/style.scss */
 .uCard li .iEdit {
   position: absolute;
   display: block;
@@ -10859,13 +11024,13 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   transition: all 0.3s;
   border-radius: 21px;
 }
-/* line 3211, ../sass/style.scss */
+/* line 3300, ../sass/style.scss */
 .uCard li .iEdit:hover {
   color: #fff;
   background: #20b373;
   border-color: #20b373;
 }
-/* line 3217, ../sass/style.scss */
+/* line 3306, ../sass/style.scss */
 .uCard li .iDel {
   position: absolute;
   display: block;
@@ -10883,13 +11048,13 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   transition: all 0.3s;
   border-radius: 21px;
 }
-/* line 3233, ../sass/style.scss */
+/* line 3322, ../sass/style.scss */
 .uCard li .iDel:hover {
   color: #fff;
   background: #20b373;
   border-color: #20b373;
 }
-/* line 3240, ../sass/style.scss */
+/* line 3329, ../sass/style.scss */
 .uCard li.masterCard:after {
   content: '';
   display: block;
@@ -10900,7 +11065,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   bottom: 13px;
   background: url(../img/sprite.png) no-repeat 0 -50px;
 }
-/* line 3250, ../sass/style.scss */
+/* line 3339, ../sass/style.scss */
 .uCard li.visa:after {
   content: '';
   display: block;
@@ -10911,7 +11076,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   bottom: 13px;
   background: url(../img/sprite.png) no-repeat 0 -100px;
 }
-/* line 3260, ../sass/style.scss */
+/* line 3349, ../sass/style.scss */
 .uCard li.visaElectron:after {
   content: '';
   display: block;
@@ -10922,7 +11087,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   bottom: 13px;
   background: url(../img/sprite.png) no-repeat 0 -150px;
 }
-/* line 3270, ../sass/style.scss */
+/* line 3359, ../sass/style.scss */
 .uCard .btnAdd {
   color: #fea700;
   display: block;
@@ -10932,7 +11097,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 14px/21px "proxima_nova_rgbold";
   padding: 33px 0 55px 40%;
 }
-/* line 3279, ../sass/style.scss */
+/* line 3368, ../sass/style.scss */
 .uCard .btnAdd:after {
   content: '\f055';
   font-family: FontAwesome;
@@ -10945,12 +11110,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   line-height: 31px;
   transition: color 0.3s;
 }
-/* line 3291, ../sass/style.scss */
+/* line 3380, ../sass/style.scss */
 .uCard .btnAdd:hover:after {
   color: #fea700;
 }
 
-/* line 3298, ../sass/style.scss */
+/* line 3387, ../sass/style.scss */
 .box-modal2 {
   position: relative;
   width: 507px;
@@ -10961,7 +11126,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   box-shadow: 0px 13px 9px 0px rgba(0, 0, 0, 0.18);
 }
 
-/* line 3307, ../sass/style.scss */
+/* line 3396, ../sass/style.scss */
 .arcticmodal-close {
   position: absolute;
   top: 17px;
@@ -10971,7 +11136,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   width: 21px;
   height: 21px;
 }
-/* line 3315, ../sass/style.scss */
+/* line 3404, ../sass/style.scss */
 .arcticmodal-close i {
   display: block;
   font-size: 12px;
@@ -10985,13 +11150,13 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   transition: all 0.3s;
   cursor: pointer;
 }
-/* line 3327, ../sass/style.scss */
+/* line 3416, ../sass/style.scss */
 .arcticmodal-close i:hover {
   color: #fea700;
   border-color: #fea700;
 }
 
-/* line 3333, ../sass/style.scss */
+/* line 3422, ../sass/style.scss */
 .box-modal2 h3 {
   border-bottom: 1px solid #d5d5d5;
   padding: 0 37px 10px;
@@ -10999,7 +11164,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   color: #000;
   font: 30px/33px "proxima_nova_ltsemibold";
 }
-/* line 3340, ../sass/style.scss */
+/* line 3429, ../sass/style.scss */
 .box-modal2 h3 span {
   display: inline-block;
   color: #999898;
@@ -11007,14 +11172,14 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 0 0 24px;
 }
 
-/* line 3348, ../sass/style.scss */
+/* line 3437, ../sass/style.scss */
 .cEditForm label {
   display: block;
   color: #000;
   font: 18px/21px "proxima_nova_ltsemibold";
   margin: 0 2px 4px;
 }
-/* line 3354, ../sass/style.scss */
+/* line 3443, ../sass/style.scss */
 .cEditForm input {
   display: block;
   border-radius: 3px;
@@ -11026,11 +11191,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 0 16px;
   width: 100%;
 }
-/* line 3365, ../sass/style.scss */
+/* line 3454, ../sass/style.scss */
 .cEditForm input:focus {
   border: 1px solid #3ebd86;
 }
-/* line 3368, ../sass/style.scss */
+/* line 3457, ../sass/style.scss */
 .cEditForm .left, .cEditForm .right {
   float: left;
   width: 75.5%;
@@ -11039,18 +11204,18 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   box-sizing: border-box;
   padding: 0 13px 0 0;
 }
-/* line 3376, ../sass/style.scss */
+/* line 3465, ../sass/style.scss */
 .cEditForm .right {
   padding: 0 0 0 13px;
   width: 24.5%;
 }
-/* line 3380, ../sass/style.scss */
+/* line 3469, ../sass/style.scss */
 .cEditForm .left:after, .cEditForm .right:after, .cEditForm .fBnt:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 3385, ../sass/style.scss */
+/* line 3474, ../sass/style.scss */
 .cEditForm button {
   width: 182px;
   height: 65px;
@@ -11063,28 +11228,28 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   cursor: pointer;
   transition: background-color 0.3s;
 }
-/* line 3396, ../sass/style.scss */
+/* line 3485, ../sass/style.scss */
 .cEditForm button:hover {
   background: #a0a0a0;
 }
 
-/* line 3403, ../sass/style.scss */
+/* line 3492, ../sass/style.scss */
 .deserJaw {
   border: 1px solid #d9d9d9;
   border-top: none;
   padding: 0 4% 27px 2.34%;
 }
 
-/* line 3409, ../sass/style.scss */
+/* line 3498, ../sass/style.scss */
 .uDeser > li {
   display: block;
 }
-/* line 3411, ../sass/style.scss */
+/* line 3500, ../sass/style.scss */
 .uDeser > li .ud {
   border-bottom: 1px solid #ebebeb;
   padding: 17px 0 14px;
 }
-/* line 3414, ../sass/style.scss */
+/* line 3503, ../sass/style.scss */
 .uDeser > li .ud > li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -11093,45 +11258,45 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   vertical-align: top;
   margin: 0 -3px 0 0;
 }
-/* line 3422, ../sass/style.scss */
+/* line 3511, ../sass/style.scss */
 .uDeser > li .ud .ud1 {
   padding: 0 5.65% 0 0;
   width: 11.1%;
 }
-/* line 3426, ../sass/style.scss */
+/* line 3515, ../sass/style.scss */
 .uDeser > li .ud .ud2 {
   width: 22%;
   padding-top: 10px;
 }
-/* line 3429, ../sass/style.scss */
+/* line 3518, ../sass/style.scss */
 .uDeser > li .ud .ud2 h3 {
   text-transform: uppercase;
   font: 15px/17px "proxima_nova_rgbold";
   margin: 0 0 12px;
   color: #000;
 }
-/* line 3436, ../sass/style.scss */
+/* line 3525, ../sass/style.scss */
 .uDeser > li .ud .ud3 {
   width: 61.2%;
   padding-top: 12px;
 }
-/* line 3440, ../sass/style.scss */
+/* line 3529, ../sass/style.scss */
 .uDeser > li .ud .des {
   text-align: center;
 }
-/* line 3442, ../sass/style.scss */
+/* line 3531, ../sass/style.scss */
 .uDeser > li .ud .des .desImg {
   width: 70px;
   margin: 0 auto 9px;
   position: relative;
 }
-/* line 3446, ../sass/style.scss */
+/* line 3535, ../sass/style.scss */
 .uDeser > li .ud .des .desImg img {
   display: block;
   position: relative;
   border-radius: 50%;
 }
-/* line 3451, ../sass/style.scss */
+/* line 3540, ../sass/style.scss */
 .uDeser > li .ud .des .desImg:after {
   content: '';
   display: block;
@@ -11144,24 +11309,24 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   background: #848484;
   border-radius: 16px;
 }
-/* line 3463, ../sass/style.scss */
+/* line 3552, ../sass/style.scss */
 .uDeser > li .ud .des .desImg.online:after {
   background: #24a36c;
 }
-/* line 3467, ../sass/style.scss */
+/* line 3556, ../sass/style.scss */
 .uDeser > li .ud .des h4 {
   text-transform: uppercase;
   color: #20b373;
   font: 16px/19px "proxima_nova_rgbold";
   margin: 0 0 1px;
 }
-/* line 3473, ../sass/style.scss */
+/* line 3562, ../sass/style.scss */
 .uDeser > li .ud .des .inf {
   text-transform: uppercase;
   font: 11px/13px "proxima_nova_rgregular";
   margin: 0;
 }
-/* line 3480, ../sass/style.scss */
+/* line 3569, ../sass/style.scss */
 .uDeser > li .ud .uStats li {
   display: block;
   margin: 0 0 4px;
@@ -11170,24 +11335,24 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   position: relative;
   min-height: 17px;
 }
-/* line 3487, ../sass/style.scss */
+/* line 3576, ../sass/style.scss */
 .uDeser > li .ud .uStats li b {
   display: table;
   float: left;
   min-width: 31%;
   padding: 0 2% 0 0;
 }
-/* line 3493, ../sass/style.scss */
+/* line 3582, ../sass/style.scss */
 .uDeser > li .ud .uStats li .nowr {
   white-space: nowrap;
 }
-/* line 3497, ../sass/style.scss */
+/* line 3586, ../sass/style.scss */
 .uDeser > li .ud .uStats:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 3504, ../sass/style.scss */
+/* line 3593, ../sass/style.scss */
 .uDeser > li .ud .uGal li {
   width: 20%;
   margin: 0 2.3% 15px 0;
@@ -11197,19 +11362,19 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   *display: inline;
   vertical-align: top;
 }
-/* line 3512, ../sass/style.scss */
+/* line 3601, ../sass/style.scss */
 .uDeser > li .ud .uGal li img {
   display: block;
   width: 100%;
   border: 1px solid #d9d9d9;
 }
 
-/* line 3524, ../sass/style.scss */
+/* line 3613, ../sass/style.scss */
 .iTrops {
   display: block;
   position: relative;
 }
-/* line 3527, ../sass/style.scss */
+/* line 3616, ../sass/style.scss */
 .iTrops:before {
   content: '\f091';
   font-family: FontAwesome;
@@ -11221,33 +11386,33 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   color: #fea700;
   font-size: 15px;
 }
-/* line 3538, ../sass/style.scss */
+/* line 3627, ../sass/style.scss */
 .iTrops.it2:before {
   content: '\f091\00a0\f091\00a0';
 }
-/* line 3539, ../sass/style.scss */
+/* line 3628, ../sass/style.scss */
 .iTrops.it3:before {
   content: '\f091\00a0\f091\00a0\f091\00a0';
 }
-/* line 3540, ../sass/style.scss */
+/* line 3629, ../sass/style.scss */
 .iTrops.it4:before {
   content: '\f091\00a0\f091\00a0\f091\00a0\f091\00a0';
 }
-/* line 3541, ../sass/style.scss */
+/* line 3630, ../sass/style.scss */
 .iTrops.it5:before {
   content: '\f091\00a0\f091\00a0\f091\00a0\f091\00a0\f091\00a0';
 }
-/* line 3542, ../sass/style.scss */
+/* line 3631, ../sass/style.scss */
 .iTrops.it6:before {
   content: '\f091\00a0\f091\00a0\f091\00a0\f091\00a0\f091\00a0\f091\00a0';
 }
 
-/* line 3544, ../sass/style.scss */
+/* line 3633, ../sass/style.scss */
 .raty3 {
   white-space: nowrap;
 }
 
-/* line 3547, ../sass/style.scss */
+/* line 3636, ../sass/style.scss */
 .seeAll {
   background: transparent;
   border: 2px solid #bcc3d1;
@@ -11263,31 +11428,31 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 27px auto 0;
   display: block;
 }
-/* line 3561, ../sass/style.scss */
+/* line 3650, ../sass/style.scss */
 .seeAll:hover {
   background: #fea700;
   border-color: #fea700;
   color: #fff;
 }
-/* line 3566, ../sass/style.scss */
+/* line 3655, ../sass/style.scss */
 .seeAll:active {
   -webkit-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0px 0px 7px 0px rgba(0, 0, 0, 0.25);
 }
 
-/* line 3574, ../sass/style.scss */
+/* line 3663, ../sass/style.scss */
 .bColors {
   margin: 0 0 34px;
 }
-/* line 3576, ../sass/style.scss */
+/* line 3665, ../sass/style.scss */
 .bColors:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 3582, ../sass/style.scss */
+/* line 3671, ../sass/style.scss */
 .bColor {
   display: block;
   position: relative;
@@ -11301,13 +11466,13 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   width: 109px;
   float: left;
 }
-/* line 3594, ../sass/style.scss */
+/* line 3683, ../sass/style.scss */
 .bColor:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 3600, ../sass/style.scss */
+/* line 3689, ../sass/style.scss */
 .bColor .cLeft {
   display: block;
   float: left;
@@ -11315,7 +11480,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-radius: 2px 0 0 0;
   height: 63px;
 }
-/* line 3607, ../sass/style.scss */
+/* line 3696, ../sass/style.scss */
 .bColor .cRight {
   display: block;
   float: left;
@@ -11324,7 +11489,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 63px;
 }
 
-/* line 3616, ../sass/style.scss */
+/* line 3705, ../sass/style.scss */
 .briefJaw {
   border: 1px solid #d9d9d9;
   border-top: none;
@@ -11332,7 +11497,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   position: relative;
 }
 
-/* line 3623, ../sass/style.scss */
+/* line 3712, ../sass/style.scss */
 .briefLogo, .briefCont, .briefPrice {
   webkit-box-sizing: border-box;
   moz-box-sizing: border-box;
@@ -11340,64 +11505,64 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   float: left;
 }
 
-/* line 3629, ../sass/style.scss */
+/* line 3718, ../sass/style.scss */
 .briefJaw:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 3634, ../sass/style.scss */
+/* line 3723, ../sass/style.scss */
 .briefLogo {
   width: 18%;
   margin: 0 2% 0 0;
 }
-/* line 3637, ../sass/style.scss */
+/* line 3726, ../sass/style.scss */
 .briefLogo img {
   display: block;
   border: 1px solid #b9b9b9;
 }
 
-/* line 3642, ../sass/style.scss */
+/* line 3731, ../sass/style.scss */
 .briefCont {
   width: 59%;
   padding-top: 10px;
 }
-/* line 3645, ../sass/style.scss */
+/* line 3734, ../sass/style.scss */
 .briefCont .pSum {
   color: #b3acac;
   font: 14px/17px "proxima_nova_rgregular";
   margin: 0 0 27px;
 }
-/* line 3650, ../sass/style.scss */
+/* line 3739, ../sass/style.scss */
 .briefCont h2 {
   color: #000;
   font: 24px/28px "proxima_nova_rgbold";
   margin: 0 0 12px;
 }
-/* line 3656, ../sass/style.scss */
+/* line 3745, ../sass/style.scss */
 .briefCont .inf {
   color: #858585;
   font: 14px/21px "proxima_nova_rgregular";
   margin: 0 0 31px;
 }
-/* line 3657, ../sass/style.scss */
+/* line 3746, ../sass/style.scss */
 .briefCont .inf p {
   margin: 0 0 21px;
 }
 
-/* line 3666, ../sass/style.scss */
+/* line 3755, ../sass/style.scss */
 .h3 {
   color: #000;
   font: 16px/19px "proxima_nova_rgbold";
   margin: 0 0 8px;
 }
 
-/* line 3671, ../sass/style.scss */
+/* line 3760, ../sass/style.scss */
 .pTags {
   margin: 0 0 17px;
 }
-/* line 3673, ../sass/style.scss */
+/* line 3762, ../sass/style.scss */
 .pTags i {
   display: inline-block;
   margin: 0 4px 4px 0;
@@ -11411,11 +11576,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 18px;
 }
 
-/* line 3686, ../sass/style.scss */
+/* line 3775, ../sass/style.scss */
 .bGal {
   margin: 13px 0 35px;
 }
-/* line 3688, ../sass/style.scss */
+/* line 3777, ../sass/style.scss */
 .bGal li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -11423,12 +11588,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   *display: inline;
   vertical-align: top;
 }
-/* line 3694, ../sass/style.scss */
+/* line 3783, ../sass/style.scss */
 .bGal li a {
   position: relative;
   display: block;
 }
-/* line 3697, ../sass/style.scss */
+/* line 3786, ../sass/style.scss */
 .bGal li a:before {
   content: '\f002';
   font-family: FontAwesome;
@@ -11449,21 +11614,21 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 27px;
   display: none;
 }
-/* line 3717, ../sass/style.scss */
+/* line 3806, ../sass/style.scss */
 .bGal li a:hover:before {
   display: block;
 }
-/* line 3721, ../sass/style.scss */
+/* line 3810, ../sass/style.scss */
 .bGal li img {
   border: 1px solid #b9b9b9;
 }
 
-/* line 3726, ../sass/style.scss */
+/* line 3815, ../sass/style.scss */
 .bLinks {
   margin: 15px 0 30px;
 }
 
-/* line 3729, ../sass/style.scss */
+/* line 3818, ../sass/style.scss */
 .superLink {
   background: #ebebeb;
   display: block;
@@ -11477,7 +11642,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 0 17px;
   position: relative;
 }
-/* line 3741, ../sass/style.scss */
+/* line 3830, ../sass/style.scss */
 .superLink:before {
   content: '\f08e';
   font-family: FontAwesome;
@@ -11497,30 +11662,30 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   top: 0;
   font-size: 15.4px;
 }
-/* line 3760, ../sass/style.scss */
+/* line 3849, ../sass/style.scss */
 .superLink:hover {
   background: #e1e1e1;
 }
 
-/* line 3764, ../sass/style.scss */
+/* line 3853, ../sass/style.scss */
 .briefPrice {
   width: 13%;
   float: right;
   padding-top: 8px;
 }
-/* line 3768, ../sass/style.scss */
+/* line 3857, ../sass/style.scss */
 .briefPrice .bConf {
   text-align: right;
   color: #000;
   font: 14px/17px "proxima_nova_rgbold";
   margin: 0 0 10px;
 }
-/* line 3773, ../sass/style.scss */
+/* line 3862, ../sass/style.scss */
 .briefPrice .bConf span {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 3777, ../sass/style.scss */
+/* line 3866, ../sass/style.scss */
 .briefPrice .bConf .fa {
   display: inline-block;
   vertical-align: middle;
@@ -11528,7 +11693,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font-size: 19px;
   margin: 0 5px 0 0;
 }
-/* line 3785, ../sass/style.scss */
+/* line 3874, ../sass/style.scss */
 .briefPrice .bPrice {
   display: inline-block;
   color: #fff;
@@ -11541,7 +11706,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   float: right;
 }
 
-/* line 3798, ../sass/style.scss */
+/* line 3887, ../sass/style.scss */
 .commsJaw {
   border: 1px solid #d9d9d9;
   border-top: none;
@@ -11549,13 +11714,13 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   position: relative;
   margin: 0 0 20px;
 }
-/* line 3804, ../sass/style.scss */
+/* line 3893, ../sass/style.scss */
 .commsJaw .comm {
   position: relative;
   margin: 0 0 19px 84px;
   padding: 0 0 0 3.72%;
 }
-/* line 3808, ../sass/style.scss */
+/* line 3897, ../sass/style.scss */
 .commsJaw .comm .cAva {
   width: 83px;
   height: 83px;
@@ -11565,19 +11730,19 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   top: 4px;
   border-radius: 100%;
 }
-/* line 3817, ../sass/style.scss */
+/* line 3906, ../sass/style.scss */
 .commsJaw .comm h5 {
   color: #3f3f3f;
   font: 14px/17px "proxima_nova_ltsemibold";
   margin: 0 0 3px;
 }
-/* line 3822, ../sass/style.scss */
+/* line 3911, ../sass/style.scss */
 .commsJaw .comm .time {
   color: #727272;
   font: 12px/14px "proxima_nova_rgregular";
   margin: 0;
 }
-/* line 3827, ../sass/style.scss */
+/* line 3916, ../sass/style.scss */
 .commsJaw .comm .text {
   font: 14px/22px "proxima_nova_rgregular";
   color: #242424;
@@ -11585,13 +11750,13 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 0 110px 0 0;
   position: relative;
 }
-/* line 3833, ../sass/style.scss */
+/* line 3922, ../sass/style.scss */
 .commsJaw .comm .text .like {
   position: absolute;
   right: 12px;
   bottom: 4px;
 }
-/* line 3837, ../sass/style.scss */
+/* line 3926, ../sass/style.scss */
 .commsJaw .comm .text .like .fa {
   width: 39px;
   height: 39px;
@@ -11603,33 +11768,33 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   color: #fff;
   font-size: 14px;
 }
-/* line 3848, ../sass/style.scss */
+/* line 3937, ../sass/style.scss */
 .commsJaw .comm .text .like.act .fa, .commsJaw .comm .text .like .fa:hover {
   background: #1bcd80;
 }
-/* line 3851, ../sass/style.scss */
+/* line 3940, ../sass/style.scss */
 .commsJaw .comm .text .like.act .fa:hover {
   background: #149b61;
 }
-/* line 3857, ../sass/style.scss */
+/* line 3946, ../sass/style.scss */
 .commsJaw .comm .comm {
   margin: 23px 0 0 75px;
   padding: 0;
 }
-/* line 3860, ../sass/style.scss */
+/* line 3949, ../sass/style.scss */
 .commsJaw .comm .comm .cAva {
   width: 58px;
   height: 58px;
   left: -75px;
   top: 4px;
 }
-/* line 3868, ../sass/style.scss */
+/* line 3957, ../sass/style.scss */
 .commsJaw .commForm:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 3873, ../sass/style.scss */
+/* line 3962, ../sass/style.scss */
 .commsJaw .commForm .forTAr {
   width: calc(100% - 110px);
   float: left;
@@ -11638,7 +11803,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border: 1px solid #d9d9d9;
   border-radius: 3px;
 }
-/* line 3880, ../sass/style.scss */
+/* line 3969, ../sass/style.scss */
 .commsJaw .commForm .forTAr textarea {
   width: 100%;
   border: none;
@@ -11647,7 +11812,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 6px 10px;
   color: #242424;
 }
-/* line 3891, ../sass/style.scss */
+/* line 3980, ../sass/style.scss */
 .commsJaw .commForm button {
   text-transform: uppercase;
   background: #1bcd80;
@@ -11663,15 +11828,15 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   transition: background 0.3s;
   cursor: pointer;
 }
-/* line 3905, ../sass/style.scss */
+/* line 3994, ../sass/style.scss */
 .commsJaw .commForm button:hover {
   background: #17ad6c;
 }
-/* line 3911, ../sass/style.scss */
+/* line 4000, ../sass/style.scss */
 .commsJaw .dox {
   margin: 17px 0 30px 2px;
 }
-/* line 3913, ../sass/style.scss */
+/* line 4002, ../sass/style.scss */
 .commsJaw .dox a {
   position: relative;
   color: #131313;
@@ -11681,7 +11846,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 11px 0 0;
   text-decoration: none;
 }
-/* line 3921, ../sass/style.scss */
+/* line 4010, ../sass/style.scss */
 .commsJaw .dox a:before {
   content: '\f0c6';
   font-family: FontAwesome;
@@ -11695,12 +11860,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   top: 0;
   font-size: 20px;
 }
-/* line 3934, ../sass/style.scss */
+/* line 4023, ../sass/style.scss */
 .commsJaw .dox a:hover {
   text-decoration: underline;
 }
 
-/* line 3940, ../sass/style.scss */
+/* line 4029, ../sass/style.scss */
 .fileBtn {
   position: absolute;
   width: 16px;
@@ -11713,31 +11878,31 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   cursor: pointer;
 }
 
-/* line 3951, ../sass/style.scss */
+/* line 4040, ../sass/style.scss */
 .commsJaw .comm .comm .commForm {
   margin: 19px 0 -3px -75px;
 }
 
-/* line 3955, ../sass/style.scss */
+/* line 4044, ../sass/style.scss */
 .userBox {
   webkit-box-sizing: border-box;
   moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 3960, ../sass/style.scss */
+/* line 4049, ../sass/style.scss */
 .intBoa {
   padding-top: 35px;
 }
 
-/* line 3963, ../sass/style.scss */
+/* line 4052, ../sass/style.scss */
 .intBoa:after, .userBox:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 3968, ../sass/style.scss */
+/* line 4057, ../sass/style.scss */
 .userBox {
   float: left;
   width: 33.3%;
@@ -11747,11 +11912,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 0 35px;
 }
 
-/* line 3976, ../sass/style.scss */
+/* line 4065, ../sass/style.scss */
 .uUbox {
   margin: 0 0 29px;
 }
-/* line 3978, ../sass/style.scss */
+/* line 4067, ../sass/style.scss */
 .uUbox li {
   display: block;
   margin: 0 0 15px;
@@ -11762,11 +11927,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border: 1px solid #d9d9d9;
   transition: background 0.3s;
 }
-/* line 3987, ../sass/style.scss */
+/* line 4076, ../sass/style.scss */
 .uUbox li:hover {
   background: #f3f3f3;
 }
-/* line 3990, ../sass/style.scss */
+/* line 4079, ../sass/style.scss */
 .uUbox li:after {
   content: '';
   display: block;
@@ -11778,23 +11943,23 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   bottom: 0;
   background: #dbdee2;
 }
-/* line 4001, ../sass/style.scss */
+/* line 4090, ../sass/style.scss */
 .uUbox li.act {
   border-color: #1bcd80;
 }
-/* line 4002, ../sass/style.scss */
+/* line 4091, ../sass/style.scss */
 .uUbox li.act:after {
   background: #1bcd80;
 }
-/* line 4003, ../sass/style.scss */
+/* line 4092, ../sass/style.scss */
 .uUbox li.inAct {
   border-left-color: #fea700;
 }
-/* line 4004, ../sass/style.scss */
+/* line 4093, ../sass/style.scss */
 .uUbox li.inAct:after {
   background: #fea700;
 }
-/* line 4005, ../sass/style.scss */
+/* line 4094, ../sass/style.scss */
 .uUbox li .avaUser {
   position: absolute;
   top: 0;
@@ -11806,19 +11971,19 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-radius: 100%;
   margin: auto;
 }
-/* line 4016, ../sass/style.scss */
+/* line 4105, ../sass/style.scss */
 .uUbox li h3 {
   color: #474747;
   font: 15px/17px "proxima_nova_rgbold";
   margin: 0 14px 7px 0;
 }
-/* line 4021, ../sass/style.scss */
+/* line 4110, ../sass/style.scss */
 .uUbox li p {
   color: #909090;
   font: 12px/15px "proxima_nova_rgregular";
   margin: 0;
 }
-/* line 4026, ../sass/style.scss */
+/* line 4115, ../sass/style.scss */
 .uUbox li .aOver {
   position: absolute;
   top: 0;
@@ -11830,7 +11995,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   z-index: 60;
   display: block;
 }
-/* line 4034, ../sass/style.scss */
+/* line 4123, ../sass/style.scss */
 .uUbox li .aOver .fa {
   color: #000;
   font-size: 15px;
@@ -11841,16 +12006,16 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 14px;
   width: 13px;
 }
-/* line 4045, ../sass/style.scss */
+/* line 4134, ../sass/style.scss */
 .uUbox li.inAct .aOver .fa {
   display: none;
 }
 
-/* line 4050, ../sass/style.scss */
+/* line 4139, ../sass/style.scss */
 .pagin {
   margin: 0 0 0 17px;
 }
-/* line 4052, ../sass/style.scss */
+/* line 4141, ../sass/style.scss */
 .pagin a, .pagin span {
   display: inline-block;
   margin: 0 -4px 0 0;
@@ -11862,35 +12027,37 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 18px/31px "proxima_nova_ltsemibold";
   text-decoration: none;
 }
-/* line 4063, ../sass/style.scss */
+/* line 4152, ../sass/style.scss */
 .pagin span {
   background: #d7d7d7;
 }
-/* line 4066, ../sass/style.scss */
+/* line 4155, ../sass/style.scss */
 .pagin a:hover {
   background: #fea700;
   color: #fff;
 }
 
-/* line 4074, ../sass/style.scss */
+/* line 4163, ../sass/style.scss */
 .intCont {
   float: right;
   webkit-box-sizing: border-box;
   moz-box-sizing: border-box;
   box-sizing: border-box;
   border-radius: 3px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
   border: 1px solid #d9d9d9;
-  width: 65.7%;
+  width: 51.5%;
   padding: 0 0 26px;
   margin: 0 0 40px;
 }
 
-/* line 4085, ../sass/style.scss */
+/* line 4176, ../sass/style.scss */
 .uITab {
   padding: 0 0 0 4%;
   border-bottom: 1px solid #d9d9d9;
 }
-/* line 4088, ../sass/style.scss */
+/* line 4179, ../sass/style.scss */
 .uITab li {
   display: inline-block;
   color: #474747;
@@ -11900,12 +12067,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 18px -1px 0;
   cursor: pointer;
 }
-/* line 4096, ../sass/style.scss */
+/* line 4187, ../sass/style.scss */
 .uITab li span {
   vertical-align: middle;
   display: inline-block;
 }
-/* line 4100, ../sass/style.scss */
+/* line 4191, ../sass/style.scss */
 .uITab li i {
   display: inline-block;
   text-align: center;
@@ -11918,30 +12085,30 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   background: #d9d9d9;
   vertical-align: middle;
 }
-/* line 4112, ../sass/style.scss */
+/* line 4203, ../sass/style.scss */
 .uITab li.act, .uITab li:hover {
   border-color: #fea700;
 }
-/* line 4114, ../sass/style.scss */
+/* line 4205, ../sass/style.scss */
 .uITab li.act i, .uITab li:hover i {
   background: #fea700;
 }
-/* line 4118, ../sass/style.scss */
+/* line 4209, ../sass/style.scss */
 .uITab li.act {
   cursor: default;
 }
 
-/* line 4123, ../sass/style.scss */
+/* line 4214, ../sass/style.scss */
 .uRes {
   margin: 0 0 29px;
 }
-/* line 4125, ../sass/style.scss */
+/* line 4216, ../sass/style.scss */
 .uRes li {
   margin: 0 0 -1px;
   border-bottom: 1px solid #e1e1e1;
   position: relative;
 }
-/* line 4129, ../sass/style.scss */
+/* line 4220, ../sass/style.scss */
 .uRes li .forAva {
   display: -moz-inline-stack;
   display: inline-block;
@@ -11954,12 +12121,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   width: 8.8%;
   padding: 12px 0 9px;
 }
-/* line 4141, ../sass/style.scss */
+/* line 4232, ../sass/style.scss */
 .uRes li .forAva img {
   position: relative;
   border-radius: 100%;
 }
-/* line 4145, ../sass/style.scss */
+/* line 4236, ../sass/style.scss */
 .uRes li .forAva:after {
   content: '';
   display: block;
@@ -11971,7 +12138,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   background: #c2c2c2;
   left: 8.8%;
 }
-/* line 4157, ../sass/style.scss */
+/* line 4248, ../sass/style.scss */
 .uRes li .rFile {
   display: -moz-inline-stack;
   display: inline-block;
@@ -11982,14 +12149,14 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   width: calc(91% - 232px);
   padding: 20px 0 20px;
 }
-/* line 4166, ../sass/style.scss */
+/* line 4257, ../sass/style.scss */
 .uRes li .rFile span {
   color: #242424;
   font: 16px/20px "proxima_nova_rgregular";
   position: relative;
   padding: 0 0 0 25px;
 }
-/* line 4171, ../sass/style.scss */
+/* line 4262, ../sass/style.scss */
 .uRes li .rFile span:after {
   content: '\f1c1';
   font-family: FontAwesome;
@@ -12004,32 +12171,32 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   top: 0;
   font-size: 19px;
 }
-/* line 4185, ../sass/style.scss */
+/* line 4276, ../sass/style.scss */
 .uRes li .rFile span.pdf:after {
   content: '\f1c1';
   color: #c70e21;
 }
-/* line 4186, ../sass/style.scss */
+/* line 4277, ../sass/style.scss */
 .uRes li .rFile span.img:after {
   content: '\f1c5';
   color: #1bcd80;
 }
-/* line 4187, ../sass/style.scss */
+/* line 4278, ../sass/style.scss */
 .uRes li .rFile span.zip:after {
   content: '\f1c6';
   color: #ddb823;
 }
-/* line 4188, ../sass/style.scss */
+/* line 4279, ../sass/style.scss */
 .uRes li .rFile span.psd:after {
   content: '\f016';
   color: #235fc2;
 }
-/* line 4189, ../sass/style.scss */
+/* line 4280, ../sass/style.scss */
 .uRes li .rFile span.docx:after {
   content: '\f1c2';
   color: #368cbd;
 }
-/* line 4192, ../sass/style.scss */
+/* line 4283, ../sass/style.scss */
 .uRes li .rBtns {
   display: -moz-inline-stack;
   display: inline-block;
@@ -12046,7 +12213,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-align: right;
   white-space: nowrap;
 }
-/* line 4207, ../sass/style.scss */
+/* line 4298, ../sass/style.scss */
 .uRes li .rBtns .btnSear {
   display: inline-block;
   margin: 0 2px;
@@ -12060,11 +12227,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 32px;
   background: #c2c2c2;
 }
-/* line 4219, ../sass/style.scss */
+/* line 4310, ../sass/style.scss */
 .uRes li .rBtns .btnSear:hover {
   background: darkgray;
 }
-/* line 4223, ../sass/style.scss */
+/* line 4314, ../sass/style.scss */
 .uRes li .rBtns .btnDown {
   display: inline-block;
   margin: 0 2px;
@@ -12079,11 +12246,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-transform: uppercase;
   width: 93px;
 }
-/* line 4236, ../sass/style.scss */
+/* line 4327, ../sass/style.scss */
 .uRes li .rBtns .btnDown:hover {
   background: #15a064;
 }
-/* line 4240, ../sass/style.scss */
+/* line 4331, ../sass/style.scss */
 .uRes li .rBtns .btnBask {
   display: inline-block;
   margin: 0 2px;
@@ -12097,31 +12264,31 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 32px;
   background: #c70e21;
 }
-/* line 4252, ../sass/style.scss */
+/* line 4343, ../sass/style.scss */
 .uRes li .rBtns .btnBask:hover {
   background: #970b19;
 }
 
-/* line 4259, ../sass/style.scss */
+/* line 4350, ../sass/style.scss */
 .box3 {
   display: none;
 }
-/* line 4261, ../sass/style.scss */
+/* line 4352, ../sass/style.scss */
 .box3.vis {
   display: block;
 }
 
-/* line 4266, ../sass/style.scss */
+/* line 4357, ../sass/style.scss */
 .invite {
   padding: 23px 5% 45px 5%;
 }
 
-/* line 4270, ../sass/style.scss */
+/* line 4361, ../sass/style.scss */
 .invForm {
   max-width: 633px;
   margin: 0 0 28px;
 }
-/* line 4273, ../sass/style.scss */
+/* line 4364, ../sass/style.scss */
 .invForm .forIText {
   display: -moz-inline-stack;
   display: inline-block;
@@ -12133,7 +12300,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 10px 20px 0;
   position: relative;
 }
-/* line 4283, ../sass/style.scss */
+/* line 4374, ../sass/style.scss */
 .invForm .forIText input {
   width: 100%;
   font: 12px/33pxpx "proxima_nova_rgregular";
@@ -12143,31 +12310,31 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 33px;
   padding: 0 10px 0 29px;
 }
-/* line 4292, ../sass/style.scss */
+/* line 4383, ../sass/style.scss */
 .invForm .forIText input::-webkit-input-placeholder {
   color: #686868;
 }
-/* line 4293, ../sass/style.scss */
+/* line 4384, ../sass/style.scss */
 .invForm .forIText input:-moz-placeholder {
   color: #686868;
 }
-/* line 4294, ../sass/style.scss */
+/* line 4385, ../sass/style.scss */
 .invForm .forIText input.placeholder {
   color: #686868;
 }
-/* line 4295, ../sass/style.scss */
+/* line 4386, ../sass/style.scss */
 .invForm .forIText input:focus::-webkit-input-placeholder {
   color: #fff;
 }
-/* line 4296, ../sass/style.scss */
+/* line 4387, ../sass/style.scss */
 .invForm .forIText input:focus:-moz-placeholder {
   color: #fff;
 }
-/* line 4297, ../sass/style.scss */
+/* line 4388, ../sass/style.scss */
 .invForm .forIText input:focus.placeholder {
   color: #fff;
 }
-/* line 4300, ../sass/style.scss */
+/* line 4391, ../sass/style.scss */
 .invForm .forIText:before {
   content: '\f003';
   font-family: FontAwesome;
@@ -12185,12 +12352,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-align: center;
   line-height: 31px;
 }
-/* line 4317, ../sass/style.scss */
+/* line 4408, ../sass/style.scss */
 .invForm .forIText.iAdd:before {
   content: '\f234';
   left: 2px;
 }
-/* line 4322, ../sass/style.scss */
+/* line 4413, ../sass/style.scss */
 .invForm button {
   text-transform: uppercase;
   background: #1bcd80;
@@ -12206,18 +12373,18 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   cursor: pointer;
   margin: 0 0 20px;
 }
-/* line 4336, ../sass/style.scss */
+/* line 4427, ../sass/style.scss */
 .invForm button:hover {
   background: #17ad6c;
 }
 
-/* line 4343, ../sass/style.scss */
+/* line 4434, ../sass/style.scss */
 .members h2 {
   color: #474747;
   font: 12px/14px "proxima_nova_rgbold";
   margin: 0 0 15px;
 }
-/* line 4348, ../sass/style.scss */
+/* line 4439, ../sass/style.scss */
 .members li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -12227,7 +12394,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 17px 17px 0;
   width: 117px;
 }
-/* line 4356, ../sass/style.scss */
+/* line 4447, ../sass/style.scss */
 .members li img {
   position: relative;
   border-radius: 100%;
@@ -12235,14 +12402,14 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   display: table;
   margin: 0 8px 0 0;
 }
-/* line 4363, ../sass/style.scss */
+/* line 4454, ../sass/style.scss */
 .members li h5 {
   color: #3f3f3f;
   font: 12px/14px "proxima_nova_rgregular";
   padding: 8px 0 0;
   position: relative;
 }
-/* line 4368, ../sass/style.scss */
+/* line 4459, ../sass/style.scss */
 .members li h5 .iDel {
   margin: 0 0 0 1px;
   display: inline-block;
@@ -12253,28 +12420,28 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   position: absolute;
   margin: 1px 0 0 6px;
 }
-/* line 4379, ../sass/style.scss */
+/* line 4470, ../sass/style.scss */
 .members li p {
   margin: 0;
   color: #3f3f3f;
   font: 7px/9px "proxima_nova_rgregular";
   text-transform: uppercase;
 }
-/* line 4386, ../sass/style.scss */
+/* line 4477, ../sass/style.scss */
 .members li:hover h5 .iDel {
   opacity: 1;
 }
 
-/* line 4396, ../sass/style.scss */
+/* line 4487, ../sass/style.scss */
 .uStrem {
   border-bottom: 1px solid #d9d9d9;
 }
-/* line 4398, ../sass/style.scss */
+/* line 4489, ../sass/style.scss */
 .uStrem li {
   padding: 24px 2% 18px 8.8%;
   position: relative;
 }
-/* line 4401, ../sass/style.scss */
+/* line 4492, ../sass/style.scss */
 .uStrem li:after {
   content: '';
   display: block;
@@ -12286,7 +12453,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   background: #e6e6e6;
   position: absolute;
 }
-/* line 4412, ../sass/style.scss */
+/* line 4503, ../sass/style.scss */
 .uStrem li .cAva {
   position: absolute;
   left: 0;
@@ -12299,34 +12466,34 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   top: 20px;
   z-index: 10;
 }
-/* line 4424, ../sass/style.scss */
+/* line 4515, ../sass/style.scss */
 .uStrem li h5 {
   color: #3f3f3f;
   font: 14px/17px "proxima_nova_ltsemibold";
   margin: 0 0 4px;
 }
-/* line 4429, ../sass/style.scss */
+/* line 4520, ../sass/style.scss */
 .uStrem li .time {
   color: #727272;
   font: 12px/14px "proxima_nova_rgregular";
   margin: 0 0 1px;
 }
-/* line 4434, ../sass/style.scss */
+/* line 4525, ../sass/style.scss */
 .uStrem li .text {
   color: #242424;
   font: 14px/22px "proxima_nova_rgregular";
   margin: 0 0 7px;
 }
-/* line 4438, ../sass/style.scss */
+/* line 4529, ../sass/style.scss */
 .uStrem li .text img {
   display: inline-block;
   margin: 0 6px 4px 0;
 }
-/* line 4443, ../sass/style.scss */
+/* line 4534, ../sass/style.scss */
 .uStrem li .likes {
   margin: -2px 0 5px;
 }
-/* line 4445, ../sass/style.scss */
+/* line 4536, ../sass/style.scss */
 .uStrem li .likes img {
   display: inline-block;
   margin: 0 3px 0 0;
@@ -12334,7 +12501,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 33px;
   border-radius: 100%;
 }
-/* line 4453, ../sass/style.scss */
+/* line 4544, ../sass/style.scss */
 .uStrem li .btnlike2 {
   text-align: center;
   /*width: 96px;*/
@@ -12350,11 +12517,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   display: inline-block;
   margin: 0 5px 4px 0;
 }
-/* line 4467, ../sass/style.scss */
+/* line 4558, ../sass/style.scss */
 .uStrem li .btnlike2:hover {
   background: #252a33;
 }
-/* line 4471, ../sass/style.scss */
+/* line 4562, ../sass/style.scss */
 .uStrem li .btnComm {
   text-align: center;
   width: 93px;
@@ -12370,11 +12537,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   display: inline-block;
   margin: 0 5px 0 0;
 }
-/* line 4485, ../sass/style.scss */
+/* line 4576, ../sass/style.scss */
 .uStrem li .btnComm:hover {
   background: #149b61;
 }
-/* line 4489, ../sass/style.scss */
+/* line 4580, ../sass/style.scss */
 .uStrem li .openBox {
   display: -moz-inline-stack;
   display: inline-block;
@@ -12384,7 +12551,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   width: 79%;
   position: relative;
 }
-/* line 4497, ../sass/style.scss */
+/* line 4588, ../sass/style.scss */
 .uStrem li .openBox .commBox {
   position: absolute;
   left: 0;
@@ -12396,29 +12563,29 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   z-index: 1000;
   display: none;
 }
-/* line 4508, ../sass/style.scss */
+/* line 4599, ../sass/style.scss */
 .uStrem li .openBox .cText {
   padding: 5px 10px 8px 6px;
   border-bottom: 1px solid #d9d9d9;
   color: #242424;
   font: 14px/22px "proxima_nova_rgregular";
 }
-/* line 4513, ../sass/style.scss */
+/* line 4604, ../sass/style.scss */
 .uStrem li .openBox .cText p {
   margin: 0;
 }
-/* line 4517, ../sass/style.scss */
+/* line 4608, ../sass/style.scss */
 .uStrem li .openBox .fComm:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 4522, ../sass/style.scss */
+/* line 4613, ../sass/style.scss */
 .uStrem li .openBox .fComm {
   display: block;
   padding: 7px 7px 7px 7px;
 }
-/* line 4525, ../sass/style.scss */
+/* line 4616, ../sass/style.scss */
 .uStrem li .openBox .fComm .forTAr2 {
   width: calc(100% - 102px);
   float: left;
@@ -12426,7 +12593,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border: 1px solid #d9d9d9;
   background: #fff;
 }
-/* line 4532, ../sass/style.scss */
+/* line 4623, ../sass/style.scss */
 .uStrem li .openBox .fComm textarea {
   position: relative;
   background: none;
@@ -12439,7 +12606,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   min-height: 31px;
   padding: 6px 38px 7px 10px;
 }
-/* line 4544, ../sass/style.scss */
+/* line 4635, ../sass/style.scss */
 .uStrem li .openBox .fComm button {
   height: 31px;
   border: none;
@@ -12453,11 +12620,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   transition: background 0.3s;
   cursor: pointer;
 }
-/* line 4556, ../sass/style.scss */
+/* line 4647, ../sass/style.scss */
 .uStrem li .openBox .fComm button:hover {
   background: #149b61;
 }
-/* line 4561, ../sass/style.scss */
+/* line 4652, ../sass/style.scss */
 .uStrem li .openBox .faClose {
   position: absolute;
   color: #242424;
@@ -12470,11 +12637,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 9px;
   transition: color 0.3s;
 }
-/* line 4572, ../sass/style.scss */
+/* line 4663, ../sass/style.scss */
 .uStrem li .openBox .faClose:hover {
   color: #149b61;
 }
-/* line 4577, ../sass/style.scss */
+/* line 4668, ../sass/style.scss */
 .uStrem li .downJar {
   background: #eaebec;
   max-width: 275px;
@@ -12482,12 +12649,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 9px 106px 9px 14px;
   position: relative;
 }
-/* line 4585, ../sass/style.scss */
+/* line 4676, ../sass/style.scss */
 .uStrem li .downJar p {
   height: 44px;
   overflow: hidden;
 }
-/* line 4589, ../sass/style.scss */
+/* line 4680, ../sass/style.scss */
 .uStrem li .downJar .btnList, .uStrem li .downJar .btnDown {
   display: block;
   text-decoration: none;
@@ -12501,7 +12668,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   background: #dbdee2;
   color: #acadb1;
 }
-/* line 4601, ../sass/style.scss */
+/* line 4692, ../sass/style.scss */
 .uStrem li .downJar .btnList .fa, .uStrem li .downJar .btnDown .fa {
   font-size: 14.7px;
   position: absolute;
@@ -12514,32 +12681,32 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 17px;
   transition: color 0.3s;
 }
-/* line 4612, ../sass/style.scss */
+/* line 4703, ../sass/style.scss */
 .uStrem li .downJar .btnList:hover, .uStrem li .downJar .btnDown:hover {
   background: #1bcd80;
 }
-/* line 4614, ../sass/style.scss */
+/* line 4705, ../sass/style.scss */
 .uStrem li .downJar .btnList:hover .fa, .uStrem li .downJar .btnDown:hover .fa {
   color: #fff;
 }
-/* line 4619, ../sass/style.scss */
+/* line 4710, ../sass/style.scss */
 .uStrem li .downJar .btnList {
   right: 45px;
 }
 
-/* line 4625, ../sass/style.scss */
+/* line 4716, ../sass/style.scss */
 .fCommBase:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 4630, ../sass/style.scss */
+/* line 4721, ../sass/style.scss */
 .fCommBase {
   display: block;
   padding: 26px 3.7% 0 9%;
 }
-/* line 4633, ../sass/style.scss */
+/* line 4724, ../sass/style.scss */
 .fCommBase .forTAr2 {
   width: calc(100% - 105px);
   float: left;
@@ -12547,7 +12714,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   background: #fff;
   border: 1px solid #d9d9d9;
 }
-/* line 4640, ../sass/style.scss */
+/* line 4731, ../sass/style.scss */
 .fCommBase textarea {
   position: relative;
   background: none;
@@ -12560,7 +12727,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 37px;
   padding: 10px 38px 8px 10px;
 }
-/* line 4652, ../sass/style.scss */
+/* line 4743, ../sass/style.scss */
 .fCommBase button {
   height: 37px;
   border: none;
@@ -12574,29 +12741,29 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   transition: background 0.3s;
   cursor: pointer;
 }
-/* line 4664, ../sass/style.scss */
+/* line 4755, ../sass/style.scss */
 .fCommBase button:hover {
   background: #149b61;
 }
 
-/* line 4669, ../sass/style.scss */
+/* line 4760, ../sass/style.scss */
 .jobJaw {
   padding-top: 25px;
   padding-bottom: 45px;
   position: relative;
 }
-/* line 4673, ../sass/style.scss */
+/* line 4764, ../sass/style.scss */
 .jobJaw:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 4681, ../sass/style.scss */
+/* line 4772, ../sass/style.scss */
 .priceSlider {
   margin: 10px 0 48px;
 }
-/* line 4683, ../sass/style.scss */
+/* line 4774, ../sass/style.scss */
 .priceSlider .douSlide {
   width: 100;
   border: 1px solid #64dba7;
@@ -12606,7 +12773,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   background: #f6f6f6;
 }
 
-/* line 4692, ../sass/style.scss */
+/* line 4783, ../sass/style.scss */
 .iVal {
   display: block;
   position: absolute;
@@ -12620,7 +12787,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   left: -19px;
 }
 
-/* line 4705, ../sass/style.scss */
+/* line 4796, ../sass/style.scss */
 .jobLeft {
   float: left;
   width: 23.2%;
@@ -12631,7 +12798,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   box-sizing: border-box;
 }
 
-/* line 4714, ../sass/style.scss */
+/* line 4805, ../sass/style.scss */
 .jobRight {
   float: left;
   width: 74.6%;
@@ -12641,34 +12808,34 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   box-sizing: border-box;
 }
 
-/* line 4722, ../sass/style.scss */
+/* line 4813, ../sass/style.scss */
 .jSearch {
   background: #f6f6f6;
   border: 1px solid #e0e0e0;
   border-radius: 3px;
   margin: 0 0 27px;
 }
-/* line 4728, ../sass/style.scss */
+/* line 4819, ../sass/style.scss */
 .jSearch .seaFormJaw {
   padding: 25px 0 30px;
 }
-/* line 4731, ../sass/style.scss */
+/* line 4822, ../sass/style.scss */
 .jSearch .pConf {
   margin: 0 0 17px 18px;
 }
-/* line 4733, ../sass/style.scss */
+/* line 4824, ../sass/style.scss */
 .jSearch .pConf .forCh {
   display: inline-block;
   height: 15px;
   margin: 0 15px -2px 0;
 }
-/* line 4738, ../sass/style.scss */
+/* line 4829, ../sass/style.scss */
 .jSearch .pConf label {
   display: inline-block;
   color: #000;
   font: 15px/15px "proxima_nova_rgbold";
 }
-/* line 4742, ../sass/style.scss */
+/* line 4833, ../sass/style.scss */
 .jSearch .pConf label .fa {
   margin: 0 0 0 8px;
   font-size: 19px;
@@ -12677,7 +12844,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   vertical-align: -2px;
 }
 
-/* line 4752, ../sass/style.scss */
+/* line 4843, ../sass/style.scss */
 .seaHead {
   background: #262729;
   display: block;
@@ -12687,25 +12854,25 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 18px/20px "proxima_nova_rgbold";
   border-radius: 3px 3px 0 0;
 }
-/* line 4760, ../sass/style.scss */
+/* line 4851, ../sass/style.scss */
 .seaHead .fa {
   font-size: 16px;
   color: #fea700;
   margin: 0 11px 0 0;
 }
 
-/* line 4766, ../sass/style.scss */
+/* line 4857, ../sass/style.scss */
 .seaForm {
   padding: 0 14px;
 }
-/* line 4768, ../sass/style.scss */
+/* line 4859, ../sass/style.scss */
 .seaForm label {
   color: #999898;
   font: 12px/15px "proxima_nova_rgbold";
   margin: 0 0 5px;
   display: block;
 }
-/* line 4774, ../sass/style.scss */
+/* line 4865, ../sass/style.scss */
 .seaForm .sfInp {
   display: block;
   background: #fff;
@@ -12718,31 +12885,31 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-radius: 3px;
   border: 1px solid #d7d7d7;
 }
-/* line 4785, ../sass/style.scss */
+/* line 4876, ../sass/style.scss */
 .seaForm .sfInp::-webkit-input-placeholder {
   color: #000;
 }
-/* line 4786, ../sass/style.scss */
+/* line 4877, ../sass/style.scss */
 .seaForm .sfInp:-moz-placeholder {
   color: #000;
 }
-/* line 4787, ../sass/style.scss */
+/* line 4878, ../sass/style.scss */
 .seaForm .sfInp.placeholder {
   color: #000;
 }
-/* line 4788, ../sass/style.scss */
+/* line 4879, ../sass/style.scss */
 .seaForm .sfInp:focus::-webkit-input-placeholder {
   color: #fff;
 }
-/* line 4789, ../sass/style.scss */
+/* line 4880, ../sass/style.scss */
 .seaForm .sfInp:focus:-moz-placeholder {
   color: #fff;
 }
-/* line 4790, ../sass/style.scss */
+/* line 4881, ../sass/style.scss */
 .seaForm .sfInp:focus.placeholder {
   color: #fff;
 }
-/* line 4792, ../sass/style.scss */
+/* line 4883, ../sass/style.scss */
 .seaForm button {
   display: block;
   margin: 0 auto;
@@ -12756,27 +12923,27 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   transition: background 0.3s;
   cursor: pointer;
 }
-/* line 4804, ../sass/style.scss */
+/* line 4895, ../sass/style.scss */
 .seaForm button:hover {
   background: #149b61;
 }
 
-/* line 4809, ../sass/style.scss */
+/* line 4900, ../sass/style.scss */
 .userJar {
   border-radius: 3px;
   border: 1px solid #e3e3e3;
   position: relative;
   margin: 0 0 28px;
 }
-/* line 4810, ../sass/style.scss */
+/* line 4901, ../sass/style.scss */
 .userJar .seaHead {
   display: none;
 }
-/* line 4817, ../sass/style.scss */
+/* line 4908, ../sass/style.scss */
 .userJar .usInf {
   padding: 33px 0 29px;
 }
-/* line 4820, ../sass/style.scss */
+/* line 4911, ../sass/style.scss */
 .userJar .usLogo {
   display: block;
   position: relative;
@@ -12784,14 +12951,14 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 auto 17px;
   border: 7px solid #e8e8e8;
 }
-/* line 4827, ../sass/style.scss */
+/* line 4918, ../sass/style.scss */
 .userJar h2 {
   color: #000;
   font: 24px/27px "proxima_nova_rgbold";
   margin: 0 0 4px;
   text-align: center;
 }
-/* line 4833, ../sass/style.scss */
+/* line 4924, ../sass/style.scss */
 .userJar .pAvaib {
   text-align: center;
   color: #848484;
@@ -12799,7 +12966,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font: 12px/14px "proxima_nova_rgregular";
   margin: 0 16px 0 0;
 }
-/* line 4839, ../sass/style.scss */
+/* line 4930, ../sass/style.scss */
 .userJar .pAvaib i {
   display: inline-block;
   width: 9px;
@@ -12811,26 +12978,26 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   position: relative;
   top: 2px;
 }
-/* line 4850, ../sass/style.scss */
+/* line 4941, ../sass/style.scss */
 .userJar .pAvaib.act {
   color: #1bcd80;
 }
-/* line 4852, ../sass/style.scss */
+/* line 4943, ../sass/style.scss */
 .userJar .pAvaib.act i {
   background: #1bcd80;
 }
 
-/* line 4856, ../sass/style.scss */
+/* line 4947, ../sass/style.scss */
 .searAny {
   margin: 0 0 25px;
 }
-/* line 4858, ../sass/style.scss */
+/* line 4949, ../sass/style.scss */
 .searAny:after {
   content: '';
   display: table;
   clear: both;
 }
-/* line 4863, ../sass/style.scss */
+/* line 4954, ../sass/style.scss */
 .searAny input[type='text'] {
   display: block;
   background: #fff;
@@ -12844,31 +13011,31 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-radius: 3px;
   border: 1px solid #d9d9d9;
 }
-/* line 4875, ../sass/style.scss */
+/* line 4966, ../sass/style.scss */
 .searAny input[type='text']::-webkit-input-placeholder {
   color: #000;
 }
-/* line 4876, ../sass/style.scss */
+/* line 4967, ../sass/style.scss */
 .searAny input[type='text']:-moz-placeholder {
   color: #000;
 }
-/* line 4877, ../sass/style.scss */
+/* line 4968, ../sass/style.scss */
 .searAny input[type='text'].placeholder {
   color: #000;
 }
-/* line 4878, ../sass/style.scss */
+/* line 4969, ../sass/style.scss */
 .searAny input[type='text']:focus::-webkit-input-placeholder {
   color: #fff;
 }
-/* line 4879, ../sass/style.scss */
+/* line 4970, ../sass/style.scss */
 .searAny input[type='text']:focus:-moz-placeholder {
   color: #fff;
 }
-/* line 4880, ../sass/style.scss */
+/* line 4971, ../sass/style.scss */
 .searAny input[type='text']:focus.placeholder {
   color: #fff;
 }
-/* line 4882, ../sass/style.scss */
+/* line 4973, ../sass/style.scss */
 .searAny button {
   display: block;
   border: none;
@@ -12883,22 +13050,22 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   transition: background 0.3s;
   cursor: pointer;
 }
-/* line 4895, ../sass/style.scss */
+/* line 4986, ../sass/style.scss */
 .searAny button:hover {
   background: #149b61;
 }
 
-/* line 4901, ../sass/style.scss */
+/* line 4992, ../sass/style.scss */
 .gridList h2 {
   margin: 0 0 31px;
   color: #0a0a0a;
   font: 30px/34px "proxima_nova_ltsemibold";
 }
-/* line 4905, ../sass/style.scss */
+/* line 4996, ../sass/style.scss */
 .gridList h2 b {
   font-family: "proxima_nova_rgbold";
 }
-/* line 4908, ../sass/style.scss */
+/* line 4999, ../sass/style.scss */
 .gridList h2 span {
   font: 18px/34px "proxima_nova_ltsemibold";
   display: inline-block;
@@ -12906,29 +13073,29 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   color: #1bcd80;
   text-transform: uppercase;
 }
-/* line 4914, ../sass/style.scss */
+/* line 5005, ../sass/style.scss */
 .gridList h2 span:hover .fa {
   animation: spin 2000ms;
 }
-/* line 4915, ../sass/style.scss */
+/* line 5006, ../sass/style.scss */
 .gridList h2 span .fa {
   cursor: pointer;
 }
 
-/* line 4921, ../sass/style.scss */
+/* line 5012, ../sass/style.scss */
 .sortJar {
   position: relative;
   margin: 0 0 3px;
 }
 
-/* line 4925, ../sass/style.scss */
+/* line 5016, ../sass/style.scss */
 .sortJar:after {
   content: '';
   display: table;
   clear: both;
 }
 
-/* line 4930, ../sass/style.scss */
+/* line 5021, ../sass/style.scss */
 .sortBy {
   display: inline-block;
   white-space: nowrap;
@@ -12936,7 +13103,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 24px;
   margin: 0 34px 0 0;
 }
-/* line 4936, ../sass/style.scss */
+/* line 5027, ../sass/style.scss */
 .sortBy .by {
   display: inline-block;
   position: relative;
@@ -12945,7 +13112,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 0 15px 0 0;
   cursor: pointer;
 }
-/* line 4943, ../sass/style.scss */
+/* line 5034, ../sass/style.scss */
 .sortBy .by:before {
   content: '\f107';
   font-family: FontAwesome;
@@ -12961,22 +13128,22 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   width: 9px;
   height: 10px;
 }
-/* line 4958, ../sass/style.scss */
+/* line 5049, ../sass/style.scss */
 .sortBy .by:hover {
   color: #37bed6;
 }
-/* line 4962, ../sass/style.scss */
+/* line 5053, ../sass/style.scss */
 .sortBy .to {
   display: inline-block;
   position: relative;
   color: #000;
   font: 14px/17px "proxima_nova_rgregular";
 }
-/* line 4969, ../sass/style.scss */
+/* line 5060, ../sass/style.scss */
 .sortBy.act .by:before {
   content: '\f105';
 }
-/* line 4973, ../sass/style.scss */
+/* line 5064, ../sass/style.scss */
 .sortBy .sbDD {
   position: absolute;
   top: 100%;
@@ -12987,7 +13154,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border: 1px solid #ddd;
   display: none;
 }
-/* line 4982, ../sass/style.scss */
+/* line 5073, ../sass/style.scss */
 .sortBy .sbDD li {
   padding: 8px 49px 8px 14px;
   background: #fff;
@@ -12996,17 +13163,17 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   transition: background 0.3s, color 0.3s;
   cursor: pointer;
 }
-/* line 4989, ../sass/style.scss */
+/* line 5080, ../sass/style.scss */
 .sortBy .sbDD li:hover {
   background: #999898;
   color: #fff;
 }
-/* line 4993, ../sass/style.scss */
+/* line 5084, ../sass/style.scss */
 .sortBy .sbDD li.act {
   color: #fea700;
 }
 
-/* line 4999, ../sass/style.scss */
+/* line 5090, ../sass/style.scss */
 .sortIt {
   display: inline-block;
   white-space: nowrap;
@@ -13014,7 +13181,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 24px;
   margin: 0;
 }
-/* line 5005, ../sass/style.scss */
+/* line 5096, ../sass/style.scss */
 .sortIt .by {
   display: inline-block;
   position: relative;
@@ -13023,11 +13190,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 0;
   cursor: pointer;
 }
-/* line 5013, ../sass/style.scss */
+/* line 5104, ../sass/style.scss */
 .sortIt:hover .by, .sortIt:hover .to {
   color: #37bed6;
 }
-/* line 5016, ../sass/style.scss */
+/* line 5107, ../sass/style.scss */
 .sortIt .to {
   display: inline-block;
   position: relative;
@@ -13036,7 +13203,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 0 13px 0 0;
   cursor: pointer;
 }
-/* line 5023, ../sass/style.scss */
+/* line 5114, ../sass/style.scss */
 .sortIt .to:before {
   content: '\f107';
   font-family: FontAwesome;
@@ -13051,7 +13218,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   width: 9px;
   height: 10px;
 }
-/* line 5038, ../sass/style.scss */
+/* line 5129, ../sass/style.scss */
 .sortIt .sbDD {
   position: absolute;
   top: 100%;
@@ -13062,7 +13229,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border: 1px solid #ddd;
   display: none;
 }
-/* line 5047, ../sass/style.scss */
+/* line 5138, ../sass/style.scss */
 .sortIt .sbDD li {
   padding: 8px 49px 8px 14px;
   background: #fff;
@@ -13071,23 +13238,23 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   transition: background 0.3s, color 0.3s;
   cursor: pointer;
 }
-/* line 5054, ../sass/style.scss */
+/* line 5145, ../sass/style.scss */
 .sortIt .sbDD li:hover {
   background: #999898;
   color: #fff;
 }
-/* line 5058, ../sass/style.scss */
+/* line 5149, ../sass/style.scss */
 .sortIt .sbDD li.act {
   color: #fea700;
 }
 
-/* line 5064, ../sass/style.scss */
+/* line 5155, ../sass/style.scss */
 .uCols {
   position: absolute;
   top: -5px;
   right: 0;
 }
-/* line 5068, ../sass/style.scss */
+/* line 5159, ../sass/style.scss */
 .uCols li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -13100,38 +13267,38 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   cursor: pointer;
   font-size: 19px;
 }
-/* line 5079, ../sass/style.scss */
+/* line 5170, ../sass/style.scss */
 .uCols li i {
   display: inline-block;
   width: 24px;
   height: 23px;
   background: url(../img/sprite.png) no-repeat -200px 0;
 }
-/* line 5085, ../sass/style.scss */
+/* line 5176, ../sass/style.scss */
 .uCols li.act i, .uCols li:hover i {
   background-position: -200px -25px;
 }
-/* line 5088, ../sass/style.scss */
+/* line 5179, ../sass/style.scss */
 .uCols li.act {
   cursor: default;
 }
-/* line 5091, ../sass/style.scss */
+/* line 5182, ../sass/style.scss */
 .uCols li i.uc2 {
   display: inline-block;
   width: 24px;
   height: 23px;
   background: url(../img/sprite.png) no-repeat -250px 0;
 }
-/* line 5097, ../sass/style.scss */
+/* line 5188, ../sass/style.scss */
 .uCols li.act i.uc2, .uCols li:hover i.uc2 {
   background-position: -250px -25px;
 }
 
-/* line 5105, ../sass/style.scss */
+/* line 5196, ../sass/style.scss */
 .uWorks {
   width: 101.5%;
 }
-/* line 5107, ../sass/style.scss */
+/* line 5198, ../sass/style.scss */
 .uWorks > li {
   display: -moz-inline-stack;
   display: inline-block;
@@ -13147,7 +13314,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 0 0 19px;
   position: relative;
 }
-/* line 5122, ../sass/style.scss */
+/* line 5213, ../sass/style.scss */
 .uWorks .wImg {
   position: relative;
   display: block;
@@ -13155,7 +13322,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-bottom: 1px solid #d8d8d8;
   width: 100%;
 }
-/* line 5129, ../sass/style.scss */
+/* line 5220, ../sass/style.scss */
 .uWorks .index {
   position: relative;
   color: #b3acac;
@@ -13163,36 +13330,36 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 4.2% 9px;
   padding: 0 20px 0 0;
 }
-/* line 5135, ../sass/style.scss */
+/* line 5226, ../sass/style.scss */
 .uWorks .index .aSub {
   position: absolute;
   right: -4px;
   color: #000;
   font-size: 19px;
 }
-/* line 5140, ../sass/style.scss */
+/* line 5231, ../sass/style.scss */
 .uWorks .index .aSub span {
   display: none;
 }
-/* line 5146, ../sass/style.scss */
+/* line 5237, ../sass/style.scss */
 .uWorks .inf {
   height: 70px;
   overflow: hidden;
   margin: 0 4.2% 20px;
 }
-/* line 5150, ../sass/style.scss */
+/* line 5241, ../sass/style.scss */
 .uWorks .inf p {
   color: #858585;
   font: 14px/21px "proxima_nova_rgregular";
   margin: 0;
 }
-/* line 5156, ../sass/style.scss */
+/* line 5247, ../sass/style.scss */
 .uWorks h4 {
   color: #000;
   font: 24px/27px "proxima_nova_rgbold";
   margin: 0 0 2px;
 }
-/* line 5161, ../sass/style.scss */
+/* line 5252, ../sass/style.scss */
 .uWorks .btnSelect {
   display: block;
   margin: auto;
@@ -13206,13 +13373,13 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-decoration: none;
   font: 16px/34px "proxima_nova_ltsemibold";
 }
-/* line 5173, ../sass/style.scss */
+/* line 5264, ../sass/style.scss */
 .uWorks .btnSelect:hover {
   background: #fea700;
   border-right-color: #fea700;
   color: #fff;
 }
-/* line 5179, ../sass/style.scss */
+/* line 5270, ../sass/style.scss */
 .uWorks .iPrice {
   position: absolute;
   right: 0;
@@ -13224,18 +13391,18 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 50px;
   font: 40px/50px "proxima_nova_ltsemibold";
 }
-/* line 5191, ../sass/style.scss */
+/* line 5282, ../sass/style.scss */
 .uWorks li.act .btnSelect {
   background: #fea700;
   border-right-color: #fea700;
   color: #fff;
 }
-/* line 5196, ../sass/style.scss */
+/* line 5287, ../sass/style.scss */
 .uWorks li.act .iPrice {
   display: none;
 }
 
-/* line 5203, ../sass/style.scss */
+/* line 5294, ../sass/style.scss */
 .uWorks2 {
   /*	&>li.act{
   		background:$act;
@@ -13243,7 +13410,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   		color: #fff;
   	}*/
 }
-/* line 5204, ../sass/style.scss */
+/* line 5295, ../sass/style.scss */
 .uWorks2 > li {
   display: block;
   margin: 0 0 8px 0;
@@ -13253,7 +13420,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 0 0 0 26%;
   overflow: hidden;
 }
-/* line 5213, ../sass/style.scss */
+/* line 5304, ../sass/style.scss */
 .uWorks2 .wImg {
   position: relative;
   display: block;
@@ -13264,7 +13431,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   position: absolute;
   left: -1px;
 }
-/* line 5223, ../sass/style.scss */
+/* line 5314, ../sass/style.scss */
 .uWorks2 .index {
   position: relative;
   color: #b3acac;
@@ -13272,14 +13439,14 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 8px 0 7px;
   padding: 0 148px 0 0;
 }
-/* line 5230, ../sass/style.scss */
+/* line 5321, ../sass/style.scss */
 .uWorks2 .inBtns {
   width: 148px;
   position: absolute;
   right: 0;
   top: -2px;
 }
-/* line 5236, ../sass/style.scss */
+/* line 5327, ../sass/style.scss */
 .uWorks2 .aSub {
   position: relative;
   color: #000;
@@ -13288,22 +13455,22 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   display: inline-block;
   vertical-align: middle;
 }
-/* line 5243, ../sass/style.scss */
+/* line 5334, ../sass/style.scss */
 .uWorks2 .aSub .fa {
   font-size: 19px;
   margin: 0 2px 0 0;
   position: relative;
   bottom: -2px;
 }
-/* line 5249, ../sass/style.scss */
+/* line 5340, ../sass/style.scss */
 .uWorks2 .aSub span {
   font: 14px/19px "proxima_nova_rgbold";
 }
-/* line 5252, ../sass/style.scss */
+/* line 5343, ../sass/style.scss */
 .uWorks2 .aSub:hover {
   color: #fea700;
 }
-/* line 5256, ../sass/style.scss */
+/* line 5347, ../sass/style.scss */
 .uWorks2 .aSeven {
   display: inline-block;
   position: relative;
@@ -13319,12 +13486,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 10px 0 0;
   display: none;
 }
-/* line 5270, ../sass/style.scss */
+/* line 5361, ../sass/style.scss */
 .uWorks2 .aSeven:hover {
   color: #fea700;
   border-color: #fea700;
 }
-/* line 5275, ../sass/style.scss */
+/* line 5366, ../sass/style.scss */
 .uWorks2 .aLoud {
   display: inline-block;
   color: #999;
@@ -13334,11 +13501,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 12px 0 0;
   display: none;
 }
-/* line 5283, ../sass/style.scss */
+/* line 5374, ../sass/style.scss */
 .uWorks2 .aLoud:hover {
   color: #fea700;
 }
-/* line 5287, ../sass/style.scss */
+/* line 5378, ../sass/style.scss */
 .uWorks2 .aLock {
   display: inline-block;
   color: #999;
@@ -13347,24 +13514,24 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   vertical-align: middle;
   display: none;
 }
-/* line 5294, ../sass/style.scss */
+/* line 5385, ../sass/style.scss */
 .uWorks2 .aLock:hover {
   color: #fea700;
 }
-/* line 5298, ../sass/style.scss */
+/* line 5389, ../sass/style.scss */
 .uWorks2 > li.open {
   border-color: #20b373;
   padding-bottom: 35px;
 }
-/* line 5301, ../sass/style.scss */
+/* line 5392, ../sass/style.scss */
 .uWorks2 > li.open .aLock, .uWorks2 > li.open .aLoud, .uWorks2 > li.open .aSeven {
   display: inline-block;
 }
-/* line 5305, ../sass/style.scss */
+/* line 5396, ../sass/style.scss */
 .uWorks2 > li.open .aSub span {
   display: none;
 }
-/* line 5311, ../sass/style.scss */
+/* line 5402, ../sass/style.scss */
 .uWorks2 .inf {
   margin: 0 0 15px 0;
   display: block;
@@ -13373,24 +13540,24 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   height: 97px;
   overflow: hidden;
 }
-/* line 5318, ../sass/style.scss */
+/* line 5409, ../sass/style.scss */
 .uWorks2 .inf p {
   color: #858585;
   font: 14px/21px "proxima_nova_rgregular";
   margin: 0;
 }
-/* line 5324, ../sass/style.scss */
+/* line 5415, ../sass/style.scss */
 .uWorks2 > li.open .inf {
   height: auto;
   max-height: 9999px;
 }
-/* line 5328, ../sass/style.scss */
+/* line 5419, ../sass/style.scss */
 .uWorks2 h4 {
   color: #000;
   font: 24px/27px "proxima_nova_rgbold";
   margin: 0 0 5px;
 }
-/* line 5333, ../sass/style.scss */
+/* line 5424, ../sass/style.scss */
 .uWorks2 .btnSelect, .uWorks2 .btnSelect2 {
   display: block;
   border: 1px solid #ffd688;
@@ -13408,13 +13575,13 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   left: calc(100% - 138px);
   top: 93px;
 }
-/* line 5349, ../sass/style.scss */
+/* line 5440, ../sass/style.scss */
 .uWorks2 .btnSelect:hover, .uWorks2 .btnSelect2:hover {
   background: #fea700;
   border-right-color: #fea700;
   color: #fff;
 }
-/* line 5360, ../sass/style.scss */
+/* line 5451, ../sass/style.scss */
 .uWorks2 .btnSelect2 {
   top: auto;
   bottom: 19px;
@@ -13422,7 +13589,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   display: none;
   left: calc(100% - 150px);
 }
-/* line 5368, ../sass/style.scss */
+/* line 5459, ../sass/style.scss */
 .uWorks2 .iPrice {
   position: absolute;
   background: #fea700;
@@ -13436,20 +13603,20 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   top: 28px;
   text-align: center;
 }
-/* line 5381, ../sass/style.scss */
+/* line 5472, ../sass/style.scss */
 .uWorks2 .hideJar {
   display: none;
 }
-/* line 5384, ../sass/style.scss */
+/* line 5475, ../sass/style.scss */
 .uWorks2 > li.open .hideJar {
   display: block;
 }
-/* line 5387, ../sass/style.scss */
+/* line 5478, ../sass/style.scss */
 .uWorks2 .uwCont {
   position: relative;
   padding-right: 170px;
 }
-/* line 5391, ../sass/style.scss */
+/* line 5482, ../sass/style.scss */
 .uWorks2 .btnMin {
   border: 1px solid #c2c2c2;
   border-radius: 3px;
@@ -13465,54 +13632,54 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   background: #fff;
   display: none;
 }
-/* line 5405, ../sass/style.scss */
+/* line 5496, ../sass/style.scss */
 .uWorks2 .btnMin .fa {
   margin: 0 8px 0 0;
   font-size: 18px;
   position: relative;
   bottom: -2px;
 }
-/* line 5411, ../sass/style.scss */
+/* line 5502, ../sass/style.scss */
 .uWorks2 .btnMin:hover {
   color: #fff;
   border-color: #fea700;
   background: #fea700;
 }
-/* line 5416, ../sass/style.scss */
+/* line 5507, ../sass/style.scss */
 .uWorks2 .btnMin.bm2 {
   position: absolute;
   right: -4px;
   top: 102px;
   display: none;
 }
-/* line 5423, ../sass/style.scss */
+/* line 5514, ../sass/style.scss */
 .uWorks2 > li.open .btnMin {
   display: inline-block;
 }
-/* line 5427, ../sass/style.scss */
+/* line 5518, ../sass/style.scss */
 .uWorks2 .bGal {
   margin-bottom: 20px;
 }
-/* line 5432, ../sass/style.scss */
+/* line 5523, ../sass/style.scss */
 .uWorks2 > li.open .btnSelect {
   display: none;
 }
-/* line 5435, ../sass/style.scss */
+/* line 5526, ../sass/style.scss */
 .uWorks2 > li.open .btnSelect2 {
   display: block;
 }
-/* line 5441, ../sass/style.scss */
+/* line 5532, ../sass/style.scss */
 .uWorks2 li.act .btnSelect2 {
   background: #fea700;
   border-right-color: #fea700;
   color: #fff;
 }
-/* line 5446, ../sass/style.scss */
+/* line 5537, ../sass/style.scss */
 .uWorks2 li.act .iPrice {
   display: none;
 }
 
-/* line 5455, ../sass/style.scss */
+/* line 5546, ../sass/style.scss */
 .loadMore {
   display: block;
   width: 331px;
@@ -13530,15 +13697,15 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-transform: uppercase;
   text-decoration: none;
 }
-/* line 5471, ../sass/style.scss */
+/* line 5562, ../sass/style.scss */
 .loadMore:hover {
   background: #149b61;
 }
-/* line 5473, ../sass/style.scss */
+/* line 5564, ../sass/style.scss */
 .loadMore:hover .fa {
   animation: spin 2000ms;
 }
-/* line 5477, ../sass/style.scss */
+/* line 5568, ../sass/style.scss */
 .loadMore .fa {
   font-size: 18px;
   margin: 0 8px 0 0;
@@ -13551,17 +13718,17 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
     transform: rotateZ(720deg);
   }
 }
-/* line 5492, ../sass/style.scss */
+/* line 5583, ../sass/style.scss */
 .uRes2 {
   margin: 0 0 25px;
 }
-/* line 5494, ../sass/style.scss */
+/* line 5585, ../sass/style.scss */
 .uRes2 li {
   margin: 0 0 11px;
   position: relative;
   background: #f7f7f7;
 }
-/* line 5498, ../sass/style.scss */
+/* line 5589, ../sass/style.scss */
 .uRes2 li .rFile {
   display: -moz-inline-stack;
   display: inline-block;
@@ -13570,14 +13737,14 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   vertical-align: top;
   padding: 20px 112px 20px 12px;
 }
-/* line 5505, ../sass/style.scss */
+/* line 5596, ../sass/style.scss */
 .uRes2 li .rFile span {
   color: #242424;
   font: 16px/20px "proxima_nova_rgregular";
   position: relative;
   padding: 0 0 0 25px;
 }
-/* line 5510, ../sass/style.scss */
+/* line 5601, ../sass/style.scss */
 .uRes2 li .rFile span:after {
   content: '\f1c1';
   font-family: FontAwesome;
@@ -13592,32 +13759,32 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   top: 0;
   font-size: 19px;
 }
-/* line 5524, ../sass/style.scss */
+/* line 5615, ../sass/style.scss */
 .uRes2 li .rFile span.pdf:after {
   content: '\f1c1';
   color: #c70e21;
 }
-/* line 5525, ../sass/style.scss */
+/* line 5616, ../sass/style.scss */
 .uRes2 li .rFile span.img:after {
   content: '\f1c5';
   color: #1bcd80;
 }
-/* line 5526, ../sass/style.scss */
+/* line 5617, ../sass/style.scss */
 .uRes2 li .rFile span.zip:after {
   content: '\f1c6';
   color: #ddb823;
 }
-/* line 5527, ../sass/style.scss */
+/* line 5618, ../sass/style.scss */
 .uRes2 li .rFile span.psd:after {
   content: '\f016';
   color: #235fc2;
 }
-/* line 5528, ../sass/style.scss */
+/* line 5619, ../sass/style.scss */
 .uRes2 li .rFile span.docx:after {
   content: '\f1c2';
   color: #368cbd;
 }
-/* line 5531, ../sass/style.scss */
+/* line 5622, ../sass/style.scss */
 .uRes2 li .rBtns {
   display: -moz-inline-stack;
   display: inline-block;
@@ -13634,7 +13801,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-align: right;
   white-space: nowrap;
 }
-/* line 5546, ../sass/style.scss */
+/* line 5637, ../sass/style.scss */
 .uRes2 li .rBtns .btnDown {
   display: inline-block;
   margin: 0 2px;
@@ -13649,18 +13816,18 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-transform: uppercase;
   width: 93px;
 }
-/* line 5559, ../sass/style.scss */
+/* line 5650, ../sass/style.scss */
 .uRes2 li .rBtns .btnDown:hover {
   background: #15a064;
 }
 
-/* line 5567, ../sass/style.scss */
+/* line 5658, ../sass/style.scss */
 .ui-autocomplete {
   width: 150px;
   background: #FFFFFF;
   border: 1px solid #D7D7D7;
 }
-/* line 5571, ../sass/style.scss */
+/* line 5662, ../sass/style.scss */
 .ui-autocomplete li {
   font: 14px/32px "proxima_nova_rgregular";
   background: #fff;
@@ -13675,19 +13842,19 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   white-space: nowrap;
   transition: background 0.3s;
 }
-/* line 5584, ../sass/style.scss */
+/* line 5675, ../sass/style.scss */
 .ui-autocomplete li:hover {
   background: #fea700;
 }
-/* line 5587, ../sass/style.scss */
+/* line 5678, ../sass/style.scss */
 .ui-autocomplete li:hover span {
   color: #fff !important;
 }
-/* line 5591, ../sass/style.scss */
+/* line 5682, ../sass/style.scss */
 .ui-autocomplete li a {
   text-decoration: none;
 }
-/* line 5594, ../sass/style.scss */
+/* line 5685, ../sass/style.scss */
 .ui-autocomplete li img {
   width: 22px;
   height: 22px;
@@ -13698,7 +13865,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   position: relative;
   top: -2px;
 }
-/* line 5604, ../sass/style.scss */
+/* line 5695, ../sass/style.scss */
 .ui-autocomplete li span {
   display: inline-block;
   vertical-align: middle;

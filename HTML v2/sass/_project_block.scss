@@ -1,0 +1,21 @@
+.project-block{
+    @media screen and (max-width:768px){
+	float: none;
+	width: 100%;
+    margin-bottom: 30px;
+    border-right: 1px solid #e3e3e3;
+	}
+    width: 22.9%;
+    border: 1px solid #e3e3e3;
+    border-right: 0px;
+    position: relative;
+    float: left;
+    /* border-radius: 3px; */
+    webkit-box-sizing: border-box;
+    moz-box-sizing: border-box;
+    box-sizing: border-box;
+    h2{
+        padding:16px;
+        font: 15px/18px "proxima_nova_rgbold";
+    }
+}

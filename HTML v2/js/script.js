@@ -132,19 +132,19 @@ $(document).ready(function(){
 });
 $(document).ready(function() {
 $('.question1').click(function(){
-	$('.new_member_box_display').html($('#answer1').html());
+	$('.new_member_box_display').html($('#answer1').fadeIn(300));
 })
 
 $('.question2').click(function(){
-	$('.new_member_box_display').html($('#answer2').html());
+	$('.new_member_box_display').html($('#answer2').fadeIn(300));
 })
 
 $('.question3').click(function(){
-	$('.new_member_box_display').html($('#answer3').html());
+	$('.new_member_box_display').html($('#answer3').fadeIn(300));
 })
 
 $('.question4').click(function(){
-	$('.new_member_box_display').html($('#answer4').html());
+	$('.new_member_box_display').html($('#answer4').fadeIn(300));
 })
 
 });//end of ready

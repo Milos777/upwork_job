@@ -6,6 +6,7 @@
 @import "jquery-ui.scss";
 @import "tooltipster.scss";
 @import "tabs.scss";
+@import "project_block.scss";
 
 .row{
 	margin-left:auto;
@@ -2775,6 +2776,94 @@ $act : #fea700;
 	}
 
 }
+.gdMenu{
+	.gd1{border-right: 3px solid #20b373;}
+	.gd2{border-right: 3px solid #c70e21;}
+	.gd3{border-right: 3px solid #fea700;}
+	.gd4{border-right: 3px solid #959595;}
+	.attach{
+		right: 5px;
+		top: 10px;
+		position: absolute;
+		@media screen and (min-width: 768px) and (max-width:1090px){width: auto;}
+	}
+	li{
+		webkit-box-sizing: border-box;
+		moz-box-sizing: border-box;
+		box-sizing: border-box;
+		div{
+			float: right;
+			width: 64%;
+			padding-right: 12px;
+			@media screen and (min-width: 768px) and (max-width:1090px){width: 47%;}
+			@media screen and (max-width: 768px) {width: 86%;}
+			@media screen and (max-width: 768px) {width: 80%;}
+			@media screen and (max-width: 470px) {width: 75%;}
+			@media screen and (max-width: 400px) {width: 65%;}
+			h2{
+				padding: 0px;
+				font: 15px/18px "proxima_nova_rgbold";
+				padding-top: 10px;
+				padding-bottom: 5px;
+				@media screen and (min-width: 769px) and (max-width:1090px){
+				font: 12px/18px "proxima_nova_rgbold";
+				}
+			}
+			p{
+				color: #909090;
+				font: 12px/12px "proxima_nova_rgregular";
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+		}
+		span{
+			img{
+				@media screen and (min-width: 769px) and  (max-width:1090px){
+				width: 36%;
+				}
+			}
+			display: block;
+			text-decoration: none;
+			color: #000;
+			font: 14px/14px $bold;
+
+			position: relative;
+			border: 1px solid #ebebeb;
+			border-width: 1px 0 0;
+			transition: all 0.3s;
+			cursor: pointer;
+
+			i{
+				position: absolute;
+				color: #000;
+				font-size: 14px;
+				height: 14px;
+				display: inline-block;
+				top: 0;
+				bottom: 0;
+				margin: auto;
+				width: 20%;
+				left: 0;
+				text-align: center;
+				transition: color 0.3s;
+			}
+			&:hover{
+				i{
+					color: #fff;
+				}
+			}
+		}
+		&.act span{
+			color: #fff;
+			background: #fea700;
+			i{
+				color: #fff;
+			}
+		}
+	}
+
+}
 .usMenu{
 	li{
 		span{
@@ -4077,8 +4166,10 @@ $act : #fea700;
 	moz-box-sizing: border-box;
 	box-sizing: border-box;
 	border-radius: 3px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
 	border: 1px solid #d9d9d9;
-	width: 65.7%;
+	width: 51.5%;
 	padding: 0 0 26px;
 	margin: 0 0 40px;
 }
