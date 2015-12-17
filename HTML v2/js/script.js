@@ -94,6 +94,7 @@ $(document).ready(function(){
         $(this).closest('div').addClass('act').find('.to').text($(this).text());
         $(this).closest('ul').slideToggle(150);
     });
+	
 
     // select job grid
 
