@@ -10781,7 +10781,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
 .inline {
   display: inline !important;
   background: #e1e1e1;
-  padding: 10px 15px 11px 15px;
+  padding: 10px 15px 1px 15px;
   border: 1px solid #e1e1e1;
   color: #cccccc !important;
   /* margin-left: 0px !important; */
