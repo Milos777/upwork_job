@@ -138,6 +138,13 @@ $act : #fea700;
 		color:#fea700;
 	}
 }
+.sCall{
+	span{
+		&:hover{
+			color: #29b4f4;
+		}
+	}
+}
 @media only screen and (min-width: 616px) and (max-width: 992px){
 .head .hj4 {
     width: inherit !important;
@@ -261,6 +268,11 @@ $act : #fea700;
 }
 .sCall{
 	padding: 0 !important;
+}
+.sCall:hover:before{
+		background-color: #fff;
+		color: #29b4f4;
+		border: 1px solid #29b4f4;
 }
 .head .hj2 {
     width: calc(100% - 400px) !important;
