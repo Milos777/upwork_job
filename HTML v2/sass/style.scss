@@ -2548,7 +2548,74 @@ $act : #fea700;
 	*display:inline;
 	vertical-align:top;
 }
+.relative-dropdown{
+	position: relative;
+}
+.managesub li{
+	width: 30% !important;
 
+}
+.managesub-sub li{
+	border-bottom: 1px solid #ebebeb !important;
+	position: relative !important;
+
+	.status{
+		position: absolute;
+		right: 20px;
+		top: 10px;
+		padding: 2px 15px 15px 15px !important;
+		width: auto;
+		height: 20px;
+		font-size: 12px;
+		background: #ebebeb;
+		text-transform: uppercase;
+		border-radius: 5px;
+		color: #fff !important;
+	}
+	.active{
+		background: green !important;
+	}
+	.rejected{
+		background: red !important;
+	}
+}
+.absolute-button{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: auto !important;
+	padding: 5px 10px 5px 10px;
+	height: 50px !important;
+	margin-top: 0px !important;
+	font-size: 12px !important;
+}
+.managesub-dropdown{
+	width: 75% !important;
+	margin: 0 !important;
+	border: 1px solid #ebebeb !important;
+	padding-top: 15px !important;
+	margin-bottom: 20px !important;
+	&:after{
+		background: none !important;
+		font-family: FontAwesome;
+		content: "\f078" !important;
+		margin-top: 16px;
+		font-size: 16px;
+	}
+	span{
+		color: #000 !important;
+		font-size: 20px!important;
+		padding: 20px!important;
+
+
+	}
+}
+.managesub-data li{
+	border: none !important;
+}
+.managesub-padding{
+	padding: 0px !important;
+}
 .uParty{
 	display: -ms-flexbox;
     display: -webkit-flex;
@@ -6446,6 +6513,7 @@ margin: 0 !important;
     opacity: 1;
     pointer-events: auto;
 	border: 1px solid #ebebeb;
+	z-index: 9999;
 }
 
 .wrapper-dropdown-1.active:after {
@@ -6972,5 +7040,25 @@ margin: 0 !important;
     border-bottom: 1px solid rgba(0,0,0,0.2);
     max-height: 400px;
 }
-
-/* No CSS3 support: none */
+.video-close{
+	position: absolute;
+	top: -11px !important;
+	right: -6px !important;
+	text-align: center;
+	display: block;
+	width: 21px;
+	height: 21px;
+}
+#btnWelc{
+	position: relative;
+}
+.close-button{
+	position: absolute;
+    left: 43%;
+    background-color: red;
+	top: inherit !important;
+	right: inherit !important;
+	width: inherit !important;
+	height: inherit !important;
+	padding: 0px 15px 0px 15px;
+}
