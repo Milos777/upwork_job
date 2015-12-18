@@ -247,6 +247,28 @@ $act : #fea700;
 	padding: 0 15px 0;
 	position: relative;
 }
+.welc-contact{
+	min-height: 200px !important;
+	background-position: 0px -187px !Important;
+}
+.contact{
+	max-width: 1160px;
+	margin: 0 auto;
+	border: 1px solid #ebebeb;
+	margin-top: 40px;
+	padding: 60px;
+	margin-bottom: 60px;
+}
+.contact-width-input{
+	width: 66% !important;
+}
+.small-button{
+	margin-left: 13px !important;
+	width: 100px !important;
+}
+.area{
+	height: 130px !important;
+}
 .welc{
 	position: relative;
 	background: url(../img/bigImg.jpg) no-repeat center;
@@ -3161,10 +3183,51 @@ margin: 0 !important;
 			font-size: 17px !important;
 	}
 }
+.small-table{
+	.last{
+		border-bottom: 0px solid black;
+	}
+	td{
+		text-align: right;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #d9d9d9;
+		color: #5b5b5b;
+	}
+	th{
+		padding: 20px;
+		padding-bottom: 7px;
+		border-bottom: 1px solid #d9d9d9;
+		padding-right: 0px;
+		text-align: right;
+	}
+}
+.width{
+	width:100% !important;
+}
+.bold-weight{
+	font-family: $semibold;
+	color: #717171;
+}
 .right-reports{
-	text-align: right;
+	text-align: left;
+
+	div{
+		float: right;
+
+	}
+	.bold{
+		font-family: $semibold;
+		font-size: 15px;
+		color: #5b5b5b;
+	}
+	.small{
+		font-family: $regular;
+		font-size: 12px;
+	}
 	span{
 		display: block;
+
 	}
 }
 .bold{
@@ -3563,7 +3626,14 @@ margin: 0 !important;
 .iPopup{
 	color: inherit;
 }
+.border-right{
+	border-right: none !important;
+	border-left: none !important;
+}
 .reports-table{
+	&-little{
+		width: 20%;
+	}
 	th{
 		border: 0px !important;
 	}
