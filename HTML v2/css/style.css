@@ -6797,7 +6797,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 0;
   position: absolute;
   bottom: -1px;
-  width: 87%;
+  width: 98%;
   margin-bottom: 20px;
   left: 46px;
   top: 15px;
@@ -10781,7 +10781,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
 .inline {
   display: inline !important;
   background: #e1e1e1;
-  padding: 10px 15px 1px 15px;
+  padding: 10px 15px 10px 15px;
   border: 1px solid #e1e1e1;
   color: #cccccc !important;
   /* margin-left: 0px !important; */
