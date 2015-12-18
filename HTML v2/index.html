@@ -114,6 +114,77 @@
 				<p class="twoBtns"><a href="#">view all Projects <span>&#187;</span></a><a href="#">start a Project <span>&#187;</span></a></p>
 			</div>
 			<div id="lightbox"></div>
+			<input id="myButton" type="button" name="answer" />
+			<div class="chat">
+			<div class="chat-header clearfix">
+			  <i class="fa fa-close"></i><h1>Live chat Cyndia</h1>
+			</div>
+
+			<div class="chat-history">
+			  <ul>
+
+				<li>
+				  <div class="message-data">
+					<span class="message-data-img"><img src="img/user_1.png"/></span>
+					<div>
+					<span class="message-data-name">James</span>
+					<span class="message-data-time">10:20 AM, Today</span>
+					</div>
+				  </div>
+				  <div class="message my-message">
+					Actually everything was fine. I'm very excited to show this to our team.
+				  </div>
+				</li>
+				<li>
+				  <div class="message-data">
+					<span class="message-data-img"><img src="img/user_2.png"/></span>
+					<div>
+					<span class="message-data-name">Janet</span>
+					<span class="message-data-time">10:20 AM, Today</span>
+					</div>
+				  </div>
+				  <div class="message my-message">
+					Actually everything was fine. I'm very excited to show this to our team.
+				  </div>
+				</li>
+				<li>
+				  <div class="message-data">
+					<span class="message-data-img"><img src="img/user_2.png"/></span>
+					<div>
+					<span class="message-data-name">Janet</span>
+					<span class="message-data-time">10:20 AM, Today</span>
+					</div>
+				  </div>
+				  <div class="message my-message">
+					Actually everything was fine. I'm very excited to show this to our team.
+				  </div>
+				</li>
+				<li>
+				  <div class="message-data">
+					<span class="message-data-img"><img src="img/user_2.png"/></span>
+					<div>
+					<span class="message-data-name">Janet</span>
+					<span class="message-data-time">10:20 AM, Today</span>
+					</div>
+				  </div>
+				  <div class="message my-message">
+					Actually everything was fine. I'm very excited to show this to our team.
+				  </div>
+				</li>
+
+
+			  </ul>
+
+			</div> <!-- end chat-history -->
+
+			<div class="chat-message clearfix">
+			  <textarea name="message-to-send" id="message-to-send" placeholder ="Type your message here..." rows="3"></textarea>
+
+			  <button>Send</button>
+
+			</div> <!-- end chat-message -->
+<div class="chat-border"></div>
+			</div> <!-- end chat -->
 		</section>
 		<section class="forSlider">
 			<div class="jaw">
@@ -295,7 +366,53 @@
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/tabs.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script id="message-template" type="text/x-handlebars-template">
+	<li>
+	  <div class="message-data">
+		<span class="message-data-img"><img src="img/user_2.png"/></span>
+		<div>
+		<span class="message-data-name">Janet</span>
+		<span class="message-data-time">10:20 AM, Today</span>
+		</div>
+	  </div>
+	  <div class="message my-message">
+		{{messageOutput}}
+	  </div>
+	</li>
+</script>
 
+<script id="message-response-template" type="text/x-handlebars-template">
+  <li>
+	  <div class="message-data">
+		<span class="message-data-img"><img src="img/user_1.png"/></span>
+		<div>
+		<span class="message-data-name">James</span>
+		<span class="message-data-time">10:20 AM, Today</span>
+		</div>
+	  </div>
+    <div class="message my-message">
+      This is my response
+    </div>
+  </li>
+</script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js'></script>
+
+        <script src="js/index.js"></script>
+		<script type="text/javascript">
+
+		$('#myButton').click(function() {
+		  $('.chat').toggle('slow', function() {
+		    // Animation complete.
+		  });
+		});
+		$('.fa-close').click(function() {
+		  $('.chat').fadeOut('slow', function() {
+		    // Animation complete.
+		  });
+		});
+		</script>
 <!--[if !IE]> JS INCLUDES END <![endif]-->
 </body>
 </html>

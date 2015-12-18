@@ -7,6 +7,7 @@
 @import "tooltipster.scss";
 @import "tabs.scss";
 @import "project_block.scss";
+@import "chat.scss";
 
 .row{
 	margin-left:auto;
@@ -524,6 +525,7 @@ $act : #fea700;
 	}
 }
 .jobs{
+	position: relative;
 	.jaw{
 		margin: 0 auto;
 		max-width:1170px;
