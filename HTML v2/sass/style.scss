@@ -130,13 +130,175 @@ $act : #fea700;
 .hCall{
 	position: relative;
 	display: inline-block;
-	padding: 0 31px 0 35px;
+	padding: 0 10px 0 30px;
 	color: #3d4553;
 	font: 12px/15px $bold;
 	text-decoration: none;
 	&:hover{
 		color:#fea700;
 	}
+}
+@media only screen and (min-width: 616px) and (max-width: 992px){
+.head .hj4 {
+    width: inherit !important;
+    float: right;
+    min-width: 160px;
+    padding: 10px 0 0;
+    position: absolute;
+    right: 0;
+    top: 16px;
+}
+}
+.tablet-call{
+	display: none;
+}
+@media only screen and (min-width: 616px) and (max-width: 992px){
+.head .hj2 {
+    width: 61% !important;
+    padding: 9px 0 0;
+}
+.hCall-block{
+	width: 100%;
+	display: inline-block;
+	border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+	margin-top: 15px;
+}
+.sCall-block{
+	width: 100%;
+	display: inline-block;
+}
+.tablet-call{
+	display: inline-block !important;
+}
+.hCall{
+	padding-top: 14px !important;
+	color: #fff !important;
+	background: #fea700;
+	text-align: center;
+	height: 40px !important;
+	width: 40%;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.sCall{
+	padding-top: 14px !important;
+	color: #fff !important;
+	background:  #29b4f4;
+	text-align: center;
+	height: 40px !important;
+	width: 40%;
+	margin-right: 9%;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.sCall:before{
+	background: url(../img/skype.png) !important;
+	width: 50px;
+	height: 50px;
+	background-repeat: none !important;
+	background-repeat: no-repeat !important;
+	content: "" !important;
+	background-repeat: no-repeat !important;
+	background-size: 20px !important;
+	top: 10px !important;
+	left: 34% !important
+}
+.hCall:before{
+	background: url(../img/phone.png) !important;
+	width: 50px;
+	height: 50px;
+	background-repeat: none !important;
+	background-repeat: no-repeat !important;
+	content: "" !important;
+	background-repeat: no-repeat !important;
+	background-size: 20px !important;
+	top: 10px !important;
+	left: 34% !important
+}
+}
+@media only screen and (max-width: 615px){
+.head .hj4 {
+    margin-top: -125px !important;
+    clear: right;
+    text-align: right;
+    width: 25%;
+    float: right;
+    min-width: 250px;
+    padding: 0;
+}
+.head .hCall:before{
+	border-top-right-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+}
+.head .hCall {
+    white-space: nowrap;
+    padding: 0 !important;
+    margin-right: -14px !important;
+}
+.head .sCall:before {
+	content: '\f17e \00a0 \00a0 SKYPE';
+    font-family: FontAwesome, 'proxima_nova_rgregular';
+    color: #fea700;
+    left: auto;
+    top: auto;
+    font-size: 13px;
+    height: 43px;
+    margin: 0 12px 0 0;
+    padding: 0 14px;
+    line-height: 43px;
+    display: inline-block;
+    border: 1px solid #29b4f4;
+    position: relative;
+    white-space: nowrap;
+    background: #29b4f4;
+    border-radius: 4px;
+    color: #fff;
+    transition: all 0.3s;
+    vertical-align: middle;
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+}
+.sCall{
+	padding: 0 !important;
+}
+.head .hj2 {
+    width: calc(100% - 400px) !important;
+    padding: 9px 0 0;
+    clear: left;
+    min-height: 50px;
+}
+.head .hj3 {
+    min-height: 50px;
+    width: 70% !important;
+    padding: 0;
+    float: right;
+	margin-right: -10px !important;
+}
+}
+
+@media only screen and (min-width: 616px) and (max-width: 992px){
+.head .hj3 {
+	background: #f3f3f3;
+	width: 100vw !important;
+	left: calc(-50vw + 50%);
+	margin-top: 20px;
+	padding: 10px 0 24px !important;
+  &:before{
+	position: absolute;
+	top: 0;
+	left: -29%;
+	bottom: 0;
+	width:30%;
+  }
+  &:after{
+	position: absolute;
+	top: 0;
+	right: -40%;
+	bottom: 0;
+	width:40%;
+  }
+}
 }
 .hCall:before{
 	content:'\f098';
@@ -151,21 +313,47 @@ $act : #fea700;
     top: 0;
     font-size: 30px;
 }
-.hCall:after{
-	content:'\f17e';
-	font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-    position: absolute;
-    text-decoration: none;
-    color: #29b4f4;
-    right: 0;
-    top: 1px;
-    bottom: 0;
-    margin: auto;
-    font-size: 20px;
-}
+ .sCall{
+	 position: relative;
+	 display: inline-block;
+	 padding: 0 10px 0 30px;
+	 color: #3d4553;
+	 font: 12px/15px $bold;
+	 text-decoration: none;
+	 span{
+		 @media only screen and (max-width: 992px){
+    	display: none;
+	}
+	 }
+ }
+ .sCall:before{
+ 	content:"\f17e";
+ 	font-family: FontAwesome;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: inherit;
+     position: absolute;
+     text-decoration: none;
+     color: #29b4f4;
+     left: 0;
+     top: 0;
+     font-size: 30px;
+ }
+// .hCall:after{
+// 	content:'\f17e';
+// 	font-family: FontAwesome;
+//     font-style: normal;
+//     font-weight: normal;
+//     text-decoration: inherit;
+//     position: absolute;
+//     text-decoration: none;
+//     color: #29b4f4;
+//     right: 0;
+//     top: 1px;
+//     bottom: 0;
+//     margin: auto;
+//     font-size: 20px;
+// }
 .hBtn{
 	display: inline-block;
 	padding: 0 9px;
