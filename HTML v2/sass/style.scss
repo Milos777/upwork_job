@@ -393,9 +393,21 @@ $act : #fea700;
 	left: 90px;
 	top: 12px;
 	color: #b1b1b1;
+	@media screen and (max-width: 1080px){
+		left: 40px;
+	}
 }
 .right-calendar{
-	right: 0;
+	left:200px;
+	@media screen and (max-width: 1080px){
+		left: 100px;
+	}
+}
+.calendar-button{
+	padding: 13px;
+    border: none;
+    background: #20b373;
+    color: white;
 }
 .fa-file-pdf-o{
 	padding-left: 5px;
@@ -405,6 +417,10 @@ $act : #fea700;
 	margin-top: 0 !important;
 	padding: 0px 15px 5px 15px;
 	text-transform: none !important;
+	width: 250px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 .juBtn{
 	white-space: nowrap;
@@ -3487,7 +3503,7 @@ $act : #fea700;
 .inline{
 	display: inline !important;
 	background: #e1e1e1;
-	padding: 10px 15px 10px 15px;
+	padding: 10px 15px 11px 15px;
 	border: 1px solid #e1e1e1;
 	color: #cccccc !important;
 	/* margin-left: 0px !important; */
@@ -3835,6 +3851,9 @@ margin: 0 !important;
 			padding: 20px;
 			border-radius: 5px;
 			padding-bottom: 60px;
+			@media screen and (max-width: 768px){
+				padding-bottom: 150px;
+			}
 		}
 	}
 	h1{
@@ -7407,6 +7426,9 @@ color: #b1b1b1;
 border: none;
 /* position: relative; */
 width: 110px;
+@media screen and (max-width:1080px){
+	width: 60px;
+}
 }
 .myCheckbox-2{
 	position: absolute;
@@ -7455,4 +7477,44 @@ width: 110px;
     background-position: -2px 34px;
 	width: 15px;
 	height: 15px;
+}
+a.tooltip {outline:none;color:#000;text-decoration: none}
+a.tooltip strong {line-height:30px;}
+a.tooltip:hover {text-decoration:none;}
+a.tooltip span {
+    z-index:999;display:none; padding:14px 20px;
+    margin-top:-30px; margin-left:28px;
+    width:300px; line-height:16px;
+}
+a.tooltip:hover span{
+    display:inline; position:absolute; color:#fff;
+    border:1px solid #DCA; background:#fea700;}
+.callout {z-index:20;position:absolute;top:30px;border:0;left:-12px;}
+
+/*CSS3 extras*/
+a.tooltip span
+{
+    border-radius:4px;
+    box-shadow: 5px 5px 8px #CCC;
+}
+.text-align{
+	text-align:right;
+}
+.breadcrumbs{
+	width: 100%;
+    background: #636363;
+    height: 50px;
+	&-block{
+		padding-top:17px;
+		a{
+			color: #fff;
+			text-decoration: none;
+			font-family: $regular;
+			font-size: 13px;
+			margin-right: 10px;
+		}
+		.active{
+			border-bottom: 2px solid #fff;
+		}
+	}
 }
