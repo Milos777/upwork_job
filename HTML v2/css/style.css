@@ -16386,3 +16386,33 @@ a.tooltip span {
 .breadcrumbs-block .active {
   border-bottom: 2px solid #fff;
 }
+
+/* line 7521, ../sass/style.scss */
+.green-check {
+  background-color: #20b373;
+  color: #fff;
+}
+/* line 7524, ../sass/style.scss */
+.green-check:after {
+  content: "\f00c";
+  font-family: FontAwesome;
+  padding-left: 10px;
+}
+
+/* line 7530, ../sass/style.scss */
+.dollar-check {
+  background-color: #fff;
+  color: #f7f7f7f;
+}
+
+/* line 7534, ../sass/style.scss */
+.submit-earn {
+  background-color: #20b373;
+  color: #fff;
+}
+/* line 7537, ../sass/style.scss */
+.submit-earn:after {
+  content: "\f00c";
+  font-family: FontAwesome;
+  padding-left: 10px;
+}

@@ -402,42 +402,84 @@
 
 	</main><!-- .middle -->
 	<div style="display: none;">
-	    <div class="box-modal" id="sIn">
-	    	<h3>Sign In</h3>
-	    	<form action="#" class="signForm">
-	    		<label for="iSign1">Email Address</label>
-	    		<input type="email" value="" name="" id="iSign1">
-	    		<label for="iSign2">Password</label>
-	    		<input type="password" value="" name="" id="iSign2">
-	    		<div class="fBnt">
-	    			<p class="noAcc">Don't Have an Account? <a href="#">Sign Up</a></p>
-	    			<button>Sign in</button>
-	    		</div>
-	    	</form>
-	    </div>
-	    <div class="box-modal" id="sUp">
-	    	<h3>Sign Up</h3>
-	    	<form action="#" class="signForm">
-	    		<div class="left">
-	    			<label for="iSign3">First Name</label>
-		    		<input type="text" value="" name="" id="iSign3">
-		    	</div>
-		    	<div class="right">
-		    		<label for="iSign4">Last Name</label>
-		    		<input type="text" value="" name="" id="iSign4">
-		    	</div>
-		    	<label for="iSign5">Email Address</label>
-	    		<input type="email" value="" name="" id="iSign5">
-	    		<label for="iSign6">Password</label>
-	    		<input type="password" value="" name="" id="iSign6">
-	    		<label for="iSign7">Confirm Password</label>
-	    		<input type="password" value="" name="" id="iSign7">
-	    		<div class="fBnt">
-	    			<p class="noAcc">Have an Account? <a href="#">Sing In</a></p>
-	    			<button>SignUp</button>
-	    		</div>
-	    	</form>
-	    </div>
+		<div class="box-modal" id="sIn">
+			<h3>Sign Up</h3>
+			<a class="box-modal_close arcticmodal-close" href="#"><img src="img/close.png"></a>
+			<form action="#" class="signForm">
+				<label for="iSign1">Email Address</label>
+				<input type="email" value="" name="" id="iSign1">
+				<label for="iSign2">Password</label>
+				<input type="password" value="" name="" id="iSign2">
+				<button class="forgot-pass">Forgot Password</button>
+				<div class="fBnt">
+					<p class="noAcc">Don't Have an Account? <a href="#">Sign Up</a></p>
+					<button class="signup-logo">Sign in</button>
+				</div>
+			</form>
+		</div>
+		<div class="box-modal" id="sUp">
+			<h3>Sign Up</h3>
+			<a class="box-modal_close arcticmodal-close" href="#"><img src="img/close.png"></a>
+			<div id='tab-container'>
+				<div class="tab-content">
+						<h1 class="tab designer-button" title="title for page 1">I am a designer</h1>
+
+							<form action="#" class="signForm">
+
+								<div class="left">
+									<label for="iSign3">First Name</label>
+									<input type="text" value="" name="" id="iSign3">
+								</div>
+								<div class="right">
+									<label for="iSign4">Last Name</label>
+									<input type="text" value="" name="" id="iSign4">
+								</div>
+								<label for="iSign5">Email Address</label>
+								<input type="email" value="" name="" id="iSign5">
+
+								<label for="iSign6">Password</label>
+								<input type="password" value="" name="" id="iSign6">
+								<label for="iSign7">Confirm Password</label>
+								<input type="password" value="" name="" id="iSign7">
+								<div class="fBnt">
+									<p class="noAcc">Have an Account? <a href="#">Sing In</a></p>
+									<button class="signup-designer">SignUp</button>
+								</div>
+							</form>
+
+				</div>
+				<div class="tab-content">
+						<h1 class="tab" title="title for page 2">I need a logo</h1>
+
+							<form action="#" class="signForm">
+								<label for="iSign5">Username</label>
+								<input type="text" value="" name="" id="iSign5">
+								<div class="left">
+									<label for="iSign3">First Name</label>
+									<input type="text" value="" name="" id="iSign3">
+								</div>
+								<div class="right">
+									<label for="iSign4">Last Name</label>
+									<input type="text" value="" name="" id="iSign4">
+								</div>
+								<label for="iSign5">Email Address</label>
+								<input type="email" value="" name="" id="iSign5">
+								<label for="iSign5">Company name</label>
+								<input type="text" value="" name="" id="iSign5">
+								<label for="iSign6">Password</label>
+								<input type="password" value="" name="" id="iSign6">
+								<label for="iSign7">Confirm Password</label>
+								<input type="password" value="" name="" id="iSign7">
+								<div class="fBnt">
+									<p class="noAcc">Have an Account? <a href="#">Sing In</a></p>
+									<button class="signup-logo">SignUp</button>
+								</div>
+							</form>
+
+				</div>
+			</div>
+
+		</div>
 	</div>
 </div><!-- .wrapper -->
 
@@ -481,6 +523,7 @@
 <script type="text/javascript" src="js/checkbox.js"></script>
 <script type="text/javascript" src="js/jquery.tooltipster.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/tabs.js"></script>
 <!--[if !IE]> JS INCLUDES END <![endif]-->
 </body>
 </html>

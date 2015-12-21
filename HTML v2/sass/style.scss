@@ -7518,3 +7518,25 @@ a.tooltip span
 		}
 	}
 }
+.green-check{
+	background-color: #20b373;
+	color: #fff;
+	&:after{
+		content: "\f00c";
+		font-family: FontAwesome;
+		padding-left: 10px;
+	}
+}
+.dollar-check{
+	background-color: #fff;
+	color: #f7f7f7f;
+}
+.submit-earn{
+	background-color: #20b373;
+	color: #fff;
+	&:after{
+		content: "\f00c";
+		font-family: FontAwesome;
+		padding-left: 10px;
+	}
+}
