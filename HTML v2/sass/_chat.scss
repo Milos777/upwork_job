@@ -91,6 +91,33 @@ $gray: #92959E;
 
 
 }
+#offline_box{
+    display: none;
+}
+.offline-box{
+    top: 0px;
+    background: #fff;
+    opacity: 0.5;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    display: block;
+}
+.red{
+    background: red;
+    z-index: 25;
+    position: absolute;
+    width: 100%;
+    height: 42px;
+    padding: 10px;
+    font-family: 'proxima_nova_rgregular', Helvetica;
+}
+.reconnect_button{
+    top: 40%;
+    position: absolute;
+    z-index: 10;
+    left: 35%;
+}
 .chat {
   display: none;
   width: 435px;
@@ -119,7 +146,6 @@ $gray: #92959E;
   .chat-header {
       padding: 10px;
       background: #24a36c;
-
     img {
       float: left;
     }
@@ -262,4 +288,33 @@ $gray: #92959E;
 	content: " ";
 	clear: both;
 	height: 0;
+}
+.login{
+display: none;
+width: 315px;
+height: 315px;
+border: 1px solid #ebebeb;
+position: absolute;
+right: 0;
+bottom: 0;
+background: #f9f9f9;
+    &-header{
+        position: relative;
+        background: #f1f1f1;
+        img{
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        h1{
+            padding: 10px;
+            padding-left: 44px;
+            color: #adadad;
+            font-family: "proxima_nova_rgregular";
+            font-size: 14px;
+        }
+    }
+    &-box{
+        padding:30px;
+    }
 }
