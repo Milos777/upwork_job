@@ -5298,7 +5298,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
 
 /* line 201, ../sass/_jquery-ui.scss */
 .ui-widget-header {
-  background: #fea700;
+  background: #fea700 !important;
   color: #ffffff;
   font-weight: bold;
 }
