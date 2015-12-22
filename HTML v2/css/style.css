@@ -7288,26 +7288,38 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font-family: 'proxima_nova_rgregular', Helvetica;
   background: #faf9f9;
 }
+/* line 11, ../sass/_mail.scss */
+.mail-inbox-bottom {
+  border: 1px solid #ebebeb;
+  text-align: right;
+  padding: 10px;
+  padding-right: 30px;
+}
+/* line 16, ../sass/_mail.scss */
+.mail-inbox-bottom i {
+  font-size: 16px;
+  color: #959595;
+}
 
-/* line 13, ../sass/_mail.scss */
+/* line 23, ../sass/_mail.scss */
 .mail-message-content {
   padding: 20px;
   font-family: "proxima_nova_rgregular", Helvetica;
   color: #959595;
 }
-/* line 17, ../sass/_mail.scss */
+/* line 27, ../sass/_mail.scss */
 .mail-message-content h1 {
   font-size: 34px;
   font-family: 'proxima_nova_ltlight', Helvetica;
   margin-top: 10px;
 }
-/* line 22, ../sass/_mail.scss */
+/* line 32, ../sass/_mail.scss */
 .mail-message-content-eabout {
   margin-top: 30px;
   border-bottom: 2px solid #ebebeb;
   padding-bottom: 20px;
 }
-/* line 26, ../sass/_mail.scss */
+/* line 36, ../sass/_mail.scss */
 .mail-message-content-eabout #select-1 {
   background: #959595;
   width: 100px;
@@ -7322,7 +7334,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-radius: 5px;
   margin-right: 10px;
 }
-/* line 40, ../sass/_mail.scss */
+/* line 50, ../sass/_mail.scss */
 .mail-message-content-eabout #select-1 + label:after {
   content: '\f0d7';
   font-family: FontAwesome;
@@ -7334,21 +7346,45 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   pointer-events: none;
   font-size: 16px;
 }
-/* line 51, ../sass/_mail.scss */
+/* line 61, ../sass/_mail.scss */
 .mail-message-content-eabout .date {
   float: right;
   margin-top: 8px;
 }
-/* line 57, ../sass/_mail.scss */
+/* line 66, ../sass/_mail.scss */
+.mail-message-content p {
+  font-family: "proxima_nova_rgregular", Helvetica;
+  font-size: 14px;
+  color: #959595;
+  line-height: 23px;
+  margin-top: 25px;
+}
+/* line 73, ../sass/_mail.scss */
+.mail-message-content img {
+  margin-top: 30px;
+}
+/* line 76, ../sass/_mail.scss */
+.mail-message-content textarea {
+  margin-top: 40px;
+  width: 100%;
+  height: 130px !important;
+  resize: none;
+  padding: 10px;
+  font-family: "proxima_nova_rgregular", Helvetica;
+  border: 1px solid #ebebeb !important;
+  border-radius: 4px;
+}
+/* line 88, ../sass/_mail.scss */
 .mail-message-box {
   width: 65% !important;
+  margin-bottom: 0 !important;
 }
-/* line 60, ../sass/_mail.scss */
+/* line 92, ../sass/_mail.scss */
 .mail-message-list {
   background: #faf9f9 !important;
   padding: 0 !important;
 }
-/* line 63, ../sass/_mail.scss */
+/* line 95, ../sass/_mail.scss */
 .mail-message-list li {
   font-size: 14px !important;
   color: #959595 !important;
@@ -7357,12 +7393,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-right: 1px solid #ebebeb;
   margin: 0 0px -3px 0 !important;
 }
-/* line 70, ../sass/_mail.scss */
+/* line 102, ../sass/_mail.scss */
 .mail-message-list li:hover {
   border: none !important;
   border-right: 1px solid #ebebeb !important;
 }
-/* line 74, ../sass/_mail.scss */
+/* line 106, ../sass/_mail.scss */
 .mail-message-list li i {
   font-family: 'FontAwesome' !important;
   margin-right: 5px !important;
@@ -7376,7 +7412,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   background: inherit !important;
 }
 
-/* line 89, ../sass/_mail.scss */
+/* line 121, ../sass/_mail.scss */
 .mail {
   width: 22%;
   margin: 0 0 55px 0;
@@ -7388,11 +7424,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 99, ../sass/_mail.scss */
+/* line 131, ../sass/_mail.scss */
 .mail_compose {
   text-align: center;
 }
-/* line 101, ../sass/_mail.scss */
+/* line 133, ../sass/_mail.scss */
 .mail_compose button {
   background: #1bcd80;
   border: none;
@@ -7407,44 +7443,44 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   -webkit-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
 }
-/* line 114, ../sass/_mail.scss */
+/* line 146, ../sass/_mail.scss */
 .mail_compose button:hover {
   background: #19ad6d;
 }
-/* line 117, ../sass/_mail.scss */
+/* line 149, ../sass/_mail.scss */
 .mail_compose button i {
   padding-left: 15px;
   font-size: 18px;
   vertical-align: middle;
 }
-/* line 124, ../sass/_mail.scss */
+/* line 156, ../sass/_mail.scss */
 .mail_block {
   margin-top: 40px;
 }
-/* line 127, ../sass/_mail.scss */
+/* line 159, ../sass/_mail.scss */
 .mail_block li span {
   color: #959595 !important;
   border: none !important;
   font-family: 'proxima_nova_rgregular', Helvetica !important;
 }
-/* line 131, ../sass/_mail.scss */
+/* line 163, ../sass/_mail.scss */
 .mail_block li span i {
   color: #959595 !important;
 }
-/* line 133, ../sass/_mail.scss */
+/* line 165, ../sass/_mail.scss */
 .mail_block li span i:hover {
   color: #959595 !important;
 }
-/* line 137, ../sass/_mail.scss */
+/* line 169, ../sass/_mail.scss */
 .mail_block li span:hover {
   background: none !important;
   color: #959595 !important;
 }
-/* line 143, ../sass/_mail.scss */
+/* line 175, ../sass/_mail.scss */
 .mail_block .act2 {
   background: #ebebeb;
 }
-/* line 146, ../sass/_mail.scss */
+/* line 178, ../sass/_mail.scss */
 .mail_block-notification {
   float: right;
   width: 35px;
@@ -7457,42 +7493,42 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-decoration: none;
   font-family: 'proxima_nova_ltsemibold', Helvetica;
 }
-/* line 158, ../sass/_mail.scss */
+/* line 190, ../sass/_mail.scss */
 .mail_block .orange {
   background-color: #fea700;
 }
-/* line 161, ../sass/_mail.scss */
+/* line 193, ../sass/_mail.scss */
 .mail_block .dark {
   background-color: #959595;
 }
-/* line 164, ../sass/_mail.scss */
+/* line 196, ../sass/_mail.scss */
 .mail_block .dark-red {
   background-color: red;
 }
-/* line 168, ../sass/_mail.scss */
+/* line 200, ../sass/_mail.scss */
 .mail-info {
   border-top: 1px solid #ebebeb;
   margin-top: 20px;
   padding: 20px;
   color: #959595;
 }
-/* line 173, ../sass/_mail.scss */
+/* line 205, ../sass/_mail.scss */
 .mail-info span {
   font-size: 16px;
   font-family: 'proxima_nova_rgregular';
 }
-/* line 177, ../sass/_mail.scss */
+/* line 209, ../sass/_mail.scss */
 .mail-info-more {
   padding: 20px;
   color: #d7e3f0;
   font-family: 'proxima_nova_rgregular', Helvetica;
   font-size: 16px;
 }
-/* line 182, ../sass/_mail.scss */
+/* line 214, ../sass/_mail.scss */
 .mail-info-more li {
   margin-bottom: 20px;
 }
-/* line 184, ../sass/_mail.scss */
+/* line 216, ../sass/_mail.scss */
 .mail-info-more li span {
   float: left;
   width: 15px;
@@ -7505,65 +7541,97 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-decoration: none;
   font-family: 'proxima_nova_ltsemibold', Helvetica;
 }
-/* line 200, ../sass/_mail.scss */
+/* line 232, ../sass/_mail.scss */
 .mail-message-header {
   border-top: 1px solid #ebebeb;
   padding: 10px;
   color: #959595;
   font-family: 'proxima_nova_rgregular', Helvetica;
 }
-/* line 205, ../sass/_mail.scss */
+/* line 237, ../sass/_mail.scss */
 .mail-message-header input {
   margin-right: 5px;
 }
-/* line 208, ../sass/_mail.scss */
+/* line 240, ../sass/_mail.scss */
 .mail-message-header i {
   margin-right: 5px;
   vertical-align: middle;
 }
-/* line 212, ../sass/_mail.scss */
+/* line 244, ../sass/_mail.scss */
 .mail-message-header .date {
   float: right;
 }
-/* line 216, ../sass/_mail.scss */
+/* line 248, ../sass/_mail.scss */
 .mail-message-body {
   color: #959595;
   font-family: 'proxima_nova_rgregular', Helvetica;
   padding: 10px 20px 10px 50px;
 }
-/* line 221, ../sass/_mail.scss */
+/* line 253, ../sass/_mail.scss */
 .mail-message-body span {
   display: block;
 }
-/* line 224, ../sass/_mail.scss */
+/* line 256, ../sass/_mail.scss */
 .mail-message-body p {
   color: #b5b5b5;
   margin-top: 10px;
 }
 
-/* line 231, ../sass/_mail.scss */
+/* line 263, ../sass/_mail.scss */
 .green {
   background-color: #1bcd80;
 }
 
-/* line 234, ../sass/_mail.scss */
+/* line 266, ../sass/_mail.scss */
 .orange {
   background-color: #fea700;
 }
 
-/* line 237, ../sass/_mail.scss */
+/* line 269, ../sass/_mail.scss */
 .dark-red {
   background-color: red;
 }
 
-/* line 240, ../sass/_mail.scss */
+/* line 272, ../sass/_mail.scss */
 .purple {
   background-color: #7874cf;
 }
 
-/* line 243, ../sass/_mail.scss */
+/* line 275, ../sass/_mail.scss */
 .blue {
   background-color: #00aeef;
+}
+
+/* line 278, ../sass/_mail.scss */
+.breadcrumbs-info {
+  max-width: 1060px;
+  margin: 0 auto;
+  margin-top: 40px;
+  position: relative;
+}
+/* line 284, ../sass/_mail.scss */
+.breadcrumbs-info span {
+  font-family: "proxima_nova_rgregular", Helvetica;
+  font-size: 14px;
+}
+/* line 288, ../sass/_mail.scss */
+.breadcrumbs-info i {
+  position: absolute;
+  right: 7px;
+  top: 7px;
+  color: #959595;
+}
+
+/* line 296, ../sass/_mail.scss */
+.search {
+  float: right;
+  /* display: block; */
+  padding: 5px;
+  text-align: right;
+  width: 200px;
+  font-family: "proxima_nova_rgregular", Helvetica;
+  font-size: 14px;
+  padding-right: 25px;
 }
 
 /* line 12, ../sass/style.scss */
