@@ -7604,7 +7604,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
 
 /* line 278, ../sass/_mail.scss */
 .breadcrumbs-info {
-  max-width: 1060px;
+  max-width: 1130px;
   margin: 0 auto;
   margin-top: 40px;
   position: relative;
@@ -7619,7 +7619,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
 /* line 290, ../sass/_mail.scss */
 .breadcrumbs-info i {
   position: absolute;
-  right: 26px;
+  right: 43px;
   top: 19px;
   color: #959595;
 }
@@ -7635,9 +7635,10 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font-size: 14px;
   padding-right: 25px;
   margin-top: -6px;
+  margin-right: 18px;
 }
 
-/* line 310, ../sass/_mail.scss */
+/* line 311, ../sass/_mail.scss */
 .signout_button {
   background: #1bcd80;
   border: none;
@@ -7648,10 +7649,15 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-radius: 4px;
 }
 
-/* line 319, ../sass/_mail.scss */
+/* line 320, ../sass/_mail.scss */
 .profile-name {
   border: none !important;
   color: #3d4553 !important;
+}
+
+/* line 324, ../sass/_mail.scss */
+.nja {
+  padding-top: 0 !important;
 }
 
 /* line 12, ../sass/style.scss */

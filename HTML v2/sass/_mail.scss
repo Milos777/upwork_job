@@ -276,7 +276,7 @@
     background-color: #00aeef;
 }
 .breadcrumbs-info{
-    max-width: 1060px;
+    max-width: 1130px;
     margin: 0 auto;
     margin-top: 40px;
     position: relative;
@@ -289,7 +289,7 @@
 }
 i{
     position: absolute;
-    right: 26px;
+    right: 43px;
     top: 19px;
     color: #959595;
 }
@@ -305,6 +305,7 @@ i{
     font-size: 14px;
     padding-right: 25px;
     margin-top: -6px;
+    margin-right: 18px;
 
 }
 .signout_button{
@@ -319,4 +320,7 @@ i{
 .profile-name{
     border: none !important;
     color: #3d4553 !important;
+}
+.nja{
+    padding-top:0 !important;
 }
