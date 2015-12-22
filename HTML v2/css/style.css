@@ -7362,8 +7362,9 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
 /* line 73, ../sass/_mail.scss */
 .mail-message-content img {
   margin-top: 30px;
+  max-width: 100%;
 }
-/* line 76, ../sass/_mail.scss */
+/* line 77, ../sass/_mail.scss */
 .mail-message-content textarea {
   margin-top: 40px;
   width: 100%;
@@ -7374,17 +7375,17 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border: 1px solid #ebebeb !important;
   border-radius: 4px;
 }
-/* line 88, ../sass/_mail.scss */
+/* line 89, ../sass/_mail.scss */
 .mail-message-box {
   width: 65% !important;
   margin-bottom: 0 !important;
 }
-/* line 92, ../sass/_mail.scss */
+/* line 93, ../sass/_mail.scss */
 .mail-message-list {
   background: #faf9f9 !important;
   padding: 0 !important;
 }
-/* line 95, ../sass/_mail.scss */
+/* line 96, ../sass/_mail.scss */
 .mail-message-list li {
   font-size: 14px !important;
   color: #959595 !important;
@@ -7393,12 +7394,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-right: 1px solid #ebebeb;
   margin: 0 0px -3px 0 !important;
 }
-/* line 102, ../sass/_mail.scss */
+/* line 103, ../sass/_mail.scss */
 .mail-message-list li:hover {
   border: none !important;
   border-right: 1px solid #ebebeb !important;
 }
-/* line 106, ../sass/_mail.scss */
+/* line 107, ../sass/_mail.scss */
 .mail-message-list li i {
   font-family: 'FontAwesome' !important;
   margin-right: 5px !important;
@@ -7412,7 +7413,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   background: inherit !important;
 }
 
-/* line 121, ../sass/_mail.scss */
+/* line 122, ../sass/_mail.scss */
 .mail {
   width: 22%;
   margin: 0 0 55px 0;
@@ -7424,11 +7425,11 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 131, ../sass/_mail.scss */
+/* line 132, ../sass/_mail.scss */
 .mail_compose {
   text-align: center;
 }
-/* line 133, ../sass/_mail.scss */
+/* line 134, ../sass/_mail.scss */
 .mail_compose button {
   background: #1bcd80;
   border: none;
@@ -7443,44 +7444,44 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   -webkit-transition: all 0.25s ease-out;
   transition: all 0.25s ease-out;
 }
-/* line 146, ../sass/_mail.scss */
+/* line 147, ../sass/_mail.scss */
 .mail_compose button:hover {
   background: #19ad6d;
 }
-/* line 149, ../sass/_mail.scss */
+/* line 150, ../sass/_mail.scss */
 .mail_compose button i {
   padding-left: 15px;
   font-size: 18px;
   vertical-align: middle;
 }
-/* line 156, ../sass/_mail.scss */
+/* line 157, ../sass/_mail.scss */
 .mail_block {
   margin-top: 40px;
 }
-/* line 159, ../sass/_mail.scss */
+/* line 160, ../sass/_mail.scss */
 .mail_block li span {
   color: #959595 !important;
   border: none !important;
   font-family: 'proxima_nova_rgregular', Helvetica !important;
 }
-/* line 163, ../sass/_mail.scss */
+/* line 164, ../sass/_mail.scss */
 .mail_block li span i {
   color: #959595 !important;
 }
-/* line 165, ../sass/_mail.scss */
+/* line 166, ../sass/_mail.scss */
 .mail_block li span i:hover {
   color: #959595 !important;
 }
-/* line 169, ../sass/_mail.scss */
+/* line 170, ../sass/_mail.scss */
 .mail_block li span:hover {
   background: none !important;
   color: #959595 !important;
 }
-/* line 175, ../sass/_mail.scss */
+/* line 176, ../sass/_mail.scss */
 .mail_block .act2 {
   background: #ebebeb;
 }
-/* line 178, ../sass/_mail.scss */
+/* line 179, ../sass/_mail.scss */
 .mail_block-notification {
   float: right;
   width: 35px;
@@ -7493,42 +7494,42 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-decoration: none;
   font-family: 'proxima_nova_ltsemibold', Helvetica;
 }
-/* line 190, ../sass/_mail.scss */
+/* line 191, ../sass/_mail.scss */
 .mail_block .orange {
   background-color: #fea700;
 }
-/* line 193, ../sass/_mail.scss */
+/* line 194, ../sass/_mail.scss */
 .mail_block .dark {
   background-color: #959595;
 }
-/* line 196, ../sass/_mail.scss */
+/* line 197, ../sass/_mail.scss */
 .mail_block .dark-red {
   background-color: red;
 }
-/* line 200, ../sass/_mail.scss */
+/* line 201, ../sass/_mail.scss */
 .mail-info {
   border-top: 1px solid #ebebeb;
   margin-top: 20px;
   padding: 20px;
   color: #959595;
 }
-/* line 205, ../sass/_mail.scss */
+/* line 206, ../sass/_mail.scss */
 .mail-info span {
   font-size: 16px;
   font-family: 'proxima_nova_rgregular';
 }
-/* line 209, ../sass/_mail.scss */
+/* line 210, ../sass/_mail.scss */
 .mail-info-more {
   padding: 20px;
   color: #d7e3f0;
   font-family: 'proxima_nova_rgregular', Helvetica;
   font-size: 16px;
 }
-/* line 214, ../sass/_mail.scss */
+/* line 215, ../sass/_mail.scss */
 .mail-info-more li {
   margin-bottom: 20px;
 }
-/* line 216, ../sass/_mail.scss */
+/* line 217, ../sass/_mail.scss */
 .mail-info-more li span {
   float: left;
   width: 15px;
@@ -7541,68 +7542,68 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   text-decoration: none;
   font-family: 'proxima_nova_ltsemibold', Helvetica;
 }
-/* line 232, ../sass/_mail.scss */
+/* line 233, ../sass/_mail.scss */
 .mail-message-header {
   border-top: 1px solid #ebebeb;
   padding: 10px;
   color: #959595;
   font-family: 'proxima_nova_rgregular', Helvetica;
 }
-/* line 237, ../sass/_mail.scss */
+/* line 238, ../sass/_mail.scss */
 .mail-message-header input {
   margin-right: 5px;
 }
-/* line 240, ../sass/_mail.scss */
+/* line 241, ../sass/_mail.scss */
 .mail-message-header i {
   margin-right: 5px;
   vertical-align: middle;
 }
-/* line 244, ../sass/_mail.scss */
+/* line 245, ../sass/_mail.scss */
 .mail-message-header .date {
   float: right;
 }
-/* line 248, ../sass/_mail.scss */
+/* line 249, ../sass/_mail.scss */
 .mail-message-body {
   color: #959595;
   font-family: 'proxima_nova_rgregular', Helvetica;
   padding: 10px 20px 10px 50px;
 }
-/* line 253, ../sass/_mail.scss */
+/* line 254, ../sass/_mail.scss */
 .mail-message-body span {
   display: block;
 }
-/* line 256, ../sass/_mail.scss */
+/* line 257, ../sass/_mail.scss */
 .mail-message-body p {
   color: #b5b5b5;
   margin-top: 10px;
 }
 
-/* line 263, ../sass/_mail.scss */
+/* line 264, ../sass/_mail.scss */
 .green {
   background-color: #1bcd80;
 }
 
-/* line 266, ../sass/_mail.scss */
+/* line 267, ../sass/_mail.scss */
 .orange {
   background-color: #fea700;
 }
 
-/* line 269, ../sass/_mail.scss */
+/* line 270, ../sass/_mail.scss */
 .dark-red {
   background-color: red;
 }
 
-/* line 272, ../sass/_mail.scss */
+/* line 273, ../sass/_mail.scss */
 .purple {
   background-color: #7874cf;
 }
 
-/* line 275, ../sass/_mail.scss */
+/* line 276, ../sass/_mail.scss */
 .blue {
   background-color: #00aeef;
 }
 
-/* line 278, ../sass/_mail.scss */
+/* line 279, ../sass/_mail.scss */
 .breadcrumbs-info {
   max-width: 1130px;
   margin: 0 auto;
@@ -7611,12 +7612,12 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   background: #ebebeb;
   padding: 18px;
 }
-/* line 286, ../sass/_mail.scss */
+/* line 287, ../sass/_mail.scss */
 .breadcrumbs-info span {
   font-family: "proxima_nova_rgregular", Helvetica;
   font-size: 14px;
 }
-/* line 290, ../sass/_mail.scss */
+/* line 291, ../sass/_mail.scss */
 .breadcrumbs-info i {
   position: absolute;
   right: 43px;
@@ -7624,7 +7625,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   color: #959595;
 }
 
-/* line 298, ../sass/_mail.scss */
+/* line 299, ../sass/_mail.scss */
 .search {
   float: right;
   /* display: block; */
@@ -7638,7 +7639,7 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin-right: 18px;
 }
 
-/* line 311, ../sass/_mail.scss */
+/* line 312, ../sass/_mail.scss */
 .signout_button {
   background: #1bcd80;
   border: none;
@@ -7649,13 +7650,13 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   border-radius: 4px;
 }
 
-/* line 320, ../sass/_mail.scss */
+/* line 321, ../sass/_mail.scss */
 .profile-name {
   border: none !important;
   color: #3d4553 !important;
 }
 
-/* line 324, ../sass/_mail.scss */
+/* line 325, ../sass/_mail.scss */
 .nja {
   padding-top: 0 !important;
 }
