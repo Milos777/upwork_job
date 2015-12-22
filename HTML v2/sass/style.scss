@@ -1003,7 +1003,7 @@ $act : #fea700;
 	background: url(../img/bigImg2.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	background-size: cover;
-	padding: 85px 0 60px;
+	padding: 85px 0 95px;
 }
 .uProg{
 	text-align: center;
@@ -7538,5 +7538,36 @@ a.tooltip span
 		content: "\f00c";
 		font-family: FontAwesome;
 		padding-left: 10px;
+	}
+}
+.border-none{
+	border: none !important;
+}
+.tab-item{
+	&:after{
+				/* background: url("../img/copy.png"); */
+		/* background-repeat: no-repeat; */
+		width: 20px;
+		height: 20px;
+		/* background-size: 20px; */
+		content: "";
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 20px;
+		background: #fff;
+		border-radius: 4px;
+	}
+}
+.tab-active{
+	&:after{
+		background: url("../img/copy.png");
+		background-repeat: no-repeat;
+		width: 20px;
+		height: 20px;
+		/* background-size: 20px; */
+		content: "";
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 20px;
 	}
 }
