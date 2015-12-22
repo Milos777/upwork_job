@@ -7608,21 +7608,23 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   margin: 0 auto;
   margin-top: 40px;
   position: relative;
+  background: #ebebeb;
+  padding: 18px;
 }
-/* line 284, ../sass/_mail.scss */
+/* line 286, ../sass/_mail.scss */
 .breadcrumbs-info span {
   font-family: "proxima_nova_rgregular", Helvetica;
   font-size: 14px;
 }
-/* line 288, ../sass/_mail.scss */
+/* line 290, ../sass/_mail.scss */
 .breadcrumbs-info i {
   position: absolute;
-  right: 7px;
-  top: 7px;
+  right: 26px;
+  top: 19px;
   color: #959595;
 }
 
-/* line 296, ../sass/_mail.scss */
+/* line 298, ../sass/_mail.scss */
 .search {
   float: right;
   /* display: block; */
@@ -7632,6 +7634,24 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   font-family: "proxima_nova_rgregular", Helvetica;
   font-size: 14px;
   padding-right: 25px;
+  margin-top: -6px;
+}
+
+/* line 310, ../sass/_mail.scss */
+.signout_button {
+  background: #1bcd80;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+/* line 319, ../sass/_mail.scss */
+.profile-name {
+  border: none !important;
+  color: #3d4553 !important;
 }
 
 /* line 12, ../sass/style.scss */

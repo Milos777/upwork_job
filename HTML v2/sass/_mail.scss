@@ -280,6 +280,8 @@
     margin: 0 auto;
     margin-top: 40px;
     position: relative;
+    background: #ebebeb;
+    padding: 18px;
 
     span{
     font-family: "proxima_nova_rgregular", Helvetica;
@@ -287,8 +289,8 @@
 }
 i{
     position: absolute;
-    right: 7px;
-    top: 7px;
+    right: 26px;
+    top: 19px;
     color: #959595;
 }
 
@@ -302,5 +304,19 @@ i{
     font-family: "proxima_nova_rgregular", Helvetica;
     font-size: 14px;
     padding-right: 25px;
+    margin-top: -6px;
 
+}
+.signout_button{
+    background: #1bcd80;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+.profile-name{
+    border: none !important;
+    color: #3d4553 !important;
 }
