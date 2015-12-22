@@ -7275,6 +7275,102 @@ input[type="text"].placeholder {color:#a2a2a2;}*/
   padding: 30px;
 }
 
+/* line 1, ../sass/_mail.scss */
+.mail {
+  width: 23%;
+  margin: 0 2.5% 55px 0;
+  position: relative;
+  float: left;
+  border-radius: 3px;
+  padding: 33px 0 0;
+  webkit-box-sizing: border-box;
+  moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 11, ../sass/_mail.scss */
+.mail_compose {
+  text-align: center;
+}
+/* line 13, ../sass/_mail.scss */
+.mail_compose button {
+  background: #1bcd80;
+  border: none;
+  width: 85%;
+  padding: 13px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: 'proxima_nova_ltsemibold', Helvetica;
+}
+/* line 23, ../sass/_mail.scss */
+.mail_compose button i {
+  padding-left: 15px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+/* line 30, ../sass/_mail.scss */
+.mail_block {
+  margin-top: 40px;
+}
+/* line 33, ../sass/_mail.scss */
+.mail_block li span {
+  color: #959595 !important;
+  border: none !important;
+}
+/* line 36, ../sass/_mail.scss */
+.mail_block li span i {
+  color: #959595 !important;
+}
+/* line 38, ../sass/_mail.scss */
+.mail_block li span i:hover {
+  color: #959595 !important;
+}
+/* line 42, ../sass/_mail.scss */
+.mail_block li span:hover {
+  background: none !important;
+  color: #959595 !important;
+}
+/* line 48, ../sass/_mail.scss */
+.mail_block .act2 {
+  background: #ebebeb;
+}
+/* line 51, ../sass/_mail.scss */
+.mail_block-notification {
+  float: right;
+  width: 35px;
+  height: 25px;
+  border-radius: 4px;
+  margin-top: -5px;
+  color: #fff;
+  text-align: center;
+  padding-top: 7px;
+  text-decoration: none;
+  font-family: 'proxima_nova_ltsemibold', Helvetica;
+}
+/* line 63, ../sass/_mail.scss */
+.mail_block .orange {
+  background-color: #fea700;
+}
+/* line 66, ../sass/_mail.scss */
+.mail_block .dark {
+  background-color: #959595;
+}
+/* line 69, ../sass/_mail.scss */
+.mail_block .dark-red {
+  background-color: red;
+}
+
+/* line 74, ../sass/_mail.scss */
+.green {
+  background-color: #1bcd80;
+}
+
+/* line 77, ../sass/_mail.scss */
+.orange {
+  background-color: #fea700;
+}
+
 /* line 12, ../sass/style.scss */
 .row {
   margin-left: auto;

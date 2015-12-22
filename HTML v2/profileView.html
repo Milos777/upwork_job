@@ -9,13 +9,15 @@
 	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><script src="js/respond.min.js"></script><![endif]-->
 
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/dropzone.css" />
 	<link rel="stylesheet" type="text/css" href="css/media.css" />
+	<link rel="stylesheet" type="text/css" href="css/default.css">
 </head>
 
 <body>
 
 <div class="wrapper">
-	<header class="header">
+	<header class="header gray">
 		<section class="head">
 			<div class="hj1 hCol"><a href="#"><img src="img/logo.png" height="22" width="79" alt="" class="logo"></a></div>
 			<div class="hj2 hCol">
@@ -37,296 +39,1438 @@
 				<a href="#" class="hBtn sIn">sign in</a>
 				<a href="#" class="hBtn sUp">sign up</a>
 			</div>
-
 		</section>
 	</header><!-- .header-->
 
 	<main class="middle">
-		<section class="profile">
-			<div class="jaw">
+		<div class="breadcrumbs">
+			<div class="jaw breadcrumbs-block">
+			<a class="active" href="#"><i class="fa fa-user "></i> My profile</a>
+			<a href="inbox.html"><i class="fa fa-inbox"></i> System mail</a>
+		</div>
+		</div>
+		<div class="jaw intBoa">
 				<div class="user">
 					<div class="userName">
 						<img src="img/user.png" height="112" width="112" alt="">
-						<h3>John  Brown</h3>
+						<h3>Icon Company</h3>
 						<p>Member Since May 2012</p>
 					</div>
+
 					<ul class="usMenu">
-						<li class="um1 act"><span><i class="fa fa-user"></i>Personal Info</span></li>
-						<li class="um2"><span><i class="fa fa-money"></i>Earnings</span></li>
-						<li class="um3"><span><i class="fa fa-credit-card"></i>Credit Cards</span></li>
-						<li class="um4"><span><i class="fa fa-heart-o"></i>Wishlist</span></li>
-						<li class="um5"><span><i class="fa fa-wrench"></i>Settings</span></li>
+						<li class="um1 act"><span><i class="fa fa-user"></i>Manage Submissions<a class="mail_block-notification green">523</a></span></li>
+						<li class="um2"><span><i class="fa fa-comment"></i>Interaction boards<a class="mail_block-notification orange">343</a></span></li>
+						<li class="um4"><span><i class="fa fa-money"></i>Earnings</span></li>
+						<li class="um7"><span><i class="fa fa-file-text-o"></i>Reports</span></li>
+						<li class="um6"><span><i class="fa fa-credit-card"></i>Credit Cards</span></li>
+						<li class="um8"><span><i class="fa fa-suitcase"></i>Completed Contents</span></li>
+						<li class="um5"><span><i class="fa fa-user"></i>Company Information</span></li>
+						<li class="um9"><span><i class="fa fa-wrench"></i>Settings</span></li>
 					</ul>
 				</div>
-				<div class="userInfo">
-					<div class="bam vis">
-						<ul class="uStat">
-							<li>
-								<div class="forIco">
-									<i class="fa fa-trophy"></i>
-								</div>
-								<p class="num">12467</p>
-								<p class="title">trophies</p>
-							</li>
-							<li>
-								<div class="forIco">
-									<i class="fa fa-tasks"></i>
-								</div>
-								<p class="num">12</p>
-								<p class="title">posted jobs</p>
-							</li>
-							<li>
-								<div class="forIco">
-									<i class="fa fa-globe"></i>
-								</div>
-								<p class="num">4%</p>
-								<p class="title">Skills</p>
-							</li>
-							<li>
-								<div class="forIco">
-									<i class="fa fa-map-marker"></i>
-								</div>
-								<p class="num">6</p>
-								<p class="title">location</p>
-							</li>
-						</ul>
-						<div class="skills">
-							<h2>Skills Level</h2>
-							<ul class="uSlid2">
-								<li><i class="iLeft">Sketiching</i><i class="iSlide">10</i></li>
-								<li><i class="iLeft">Photoshop</i><i class="iSlide">25</i></li>
-								<li><i class="iLeft">Illustrator</i><i class="iSlide">75</i></li>
-								<li><i class="iLeft">Sketiching</i><i class="iSlide">5</i></li>
-								<li><i class="iLeft">Photoshop</i><i class="iSlide">90</i></li>
-								<li><i class="iLeft">Illustrator</i><i class="iSlide">50</i></li>
+
+
+	<div class="userInfo">
+
+		<div class="bam vis">
+			<section class="relative-dropdown">
+				<div id="dd" class="wrapper-dropdown-1 managesub-dropdown" tabindex="1">
+					<span>Select a project from the list</span>
+					<ul class="dropdown managesub-sub" tabindex="1">
+						<li><a href="#">Some project #1231</a><a class="status" href="#">completed</a></li>
+						<li><a href="#">Some project #1231</a><a class="status active" href="#">active</a></li>
+						<li><a href="#">Some project #1231</a><a class="status active" href="#">active</a></li>
+						<li><a href="#">Some project #1231</a><a class="status rejected" href="#">rejected</a></li>
+					</ul>
+
+				</div>
+				<button class="btnSave bShad absolute-button">show submissions</button>
+			</section>
+			<section class="dataJaw managesub-padding">
+				<ul class="uData managesub-data">
+					<li class="ud1">
+						<h1>Logo Name</h1>
+						<p class="dP1"><span class="dIco dHost">Contest Host</span><span class="dIco dDate">12/02/2015</span></p>
+					</li>
+					<li class="ud2">
+						<p class="dP2">00:20:22</p>
+						<p><span class="dIco dTime">Time remaining</span></p>
+					</li>
+					<li class="ud3">
+						<p class="left"><i>281</i><span class="dIco dSub">Submissions</span></p>
+						<p class="right"><i>20</i><span class="dIco dRej">Rejected</span></p>
+					</li>
+					<li class="ud4">
+						<p class="dP3">$372</p>
+						<p class="dP4"><span class="dIco dBud">Budget</span></p>
+					</li>
+				</ul>
+			</section>
+			<section class="catalog">
+				<div class="jaw">
+					<ul class="uTabs">
+						<li class="act">SUBMISSIONS</li>
+						<li>designers</li>
+						<li>Brief</li>
+						<li>Comments</li>
+					</ul>
+					<div class="boxs">
+						<div class="box vis">
+							<div class="filtJaw">
+								<h3>Filter</h3>
+								<ul class="uFilt">
+									<li class="uf1 grayRad">
+										<span class="grayRadIn grey">
+											<span class="forRad3"><input type="radio" value="1" checked name="radFilt" class="radioQ" id="rq1"></span><label for="rq1">Rated (5)</label>
+										</span>
+										<span class="grayRadIn">
+											<span class="forRad3"><input type="radio" value="2" name="radFilt" class="radioQ" id="rq2"></span><label for="rq2">Unrated (12)</label>
+										</span>
+										<span class="grayRadIn">
+											<span class="forRad3"><input type="radio" value="3" name="radFilt" class="radioQ" id="rq3"></span><label for="rq3">Eliminated (5)</label>
+										</span>
+									</li>
+									<li class="uf2">
+										<div class="rate">
+											<i class="iRat">By Rate</i>
+											<div class="raty"></div>
+										</div>
+
+									</li>
+									<li class="uf3">
+										<form action="#" class="formDes"><input type="text" placeholder="by designer"></form>
+									</li>
+								</ul>
+							</div>
+							<ul class="uParty managesub">
+								<li>
+									<div class="dImg">
+										<img src="img/pic.png" width="100%" alt="">
+									</div>
+									<div class="info">
+										<p class="numb">#200</p>
+										<div class="raty2" data-score="5"></div>
+										<p class="by">By: Worrior Name</p>
+										<p class="pBtns"><a href="" class="btnLike"><i class="fa fa-thumbs-up"></i></a><a href="" class="btnDel"><i class="fa fa-trash"></i></a><a href="" class="btnComm"><i class="fa fa-comments"></i></a><a href="#" class="btnTrophy tooltip first" title="Winner $1300"><i class="fa fa-trophy"></i></a></p>
+										<div class="prize first">
+											<p class="who">winner</p>
+											<p class="money">$ 1300</p>
+										</div>
+										<div class="commJaw">
+											<textarea name="" id="" cols="30" rows="10"></textarea>
+											<div class="forBtn2"><button><i class="fa fa-comments"></i> Comment</button></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="dImg">
+										<img src="img/pic.png" width="100%" alt="">
+									</div>
+									<div class="info">
+										<p class="numb">#120</p>
+										<div class="raty2" data-score="5"></div>
+										<p class="by">By: Worrior Name</p>
+										<p class="pBtns"><a href="" class="btnLike"><i class="fa fa-thumbs-up"></i></a><a href="" class="btnDel"><i class="fa fa-trash"></i></a><a href="" class="btnComm"><i class="fa fa-comments"></i></a><a href="#" class="btnTrophy tooltip second" title="Winner $500"><i class="fa fa-trophy"></i></a></p>
+										<div class="prize second">
+											<p class="who">2nd place</p>
+											<p class="money">$ 500</p>
+										</div>
+										<div class="commJaw">
+											<textarea name="" id="" cols="30" rows="10"></textarea>
+											<div class="forBtn2"><button><i class="fa fa-comments"></i> Comment</button></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="dImg">
+										<img src="img/pic.png" width="100%" alt="">
+									</div>
+									<div class="info">
+										<p class="numb">#030</p>
+										<div class="raty2" data-score="5"></div>
+										<p class="by">By: Worrior Name</p>
+										<p class="pBtns"><a href="" class="btnLike"><i class="fa fa-thumbs-up"></i></a><a href="" class="btnDel"><i class="fa fa-trash"></i></a><a href="" class="btnComm"><i class="fa fa-comments"></i></a><a href="#" class="btnTrophy tooltip third" title="Winner $300"><i class="fa fa-trophy"></i></a></p>
+										<div class="prize third">
+											<p class="who">3rd place</p>
+											<p class="money">$ 300</p>
+										</div>
+										<div class="commJaw">
+											<textarea name="" id="" cols="30" rows="10"></textarea>
+											<div class="forBtn2"><button><i class="fa fa-comments"></i> Comment</button></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="dImg">
+										<img src="img/pic.png" width="100%" alt="">
+									</div>
+									<div class="info">
+										<p class="numb">#020</p>
+										<div class="raty2" data-score="5"></div>
+										<p class="by">By: Worrior Name</p>
+										<p class="pBtns"><a href="" class="btnLike"><i class="fa fa-thumbs-up"></i></a><a href="" class="btnDel"><i class="fa fa-trash"></i></a><a href="" class="btnComm"><i class="fa fa-comments"></i></a><a href="#" class="btnTrophy tooltip" title="PICK THIS DESIGN AS #4"><i class="fa fa-trophy"></i></a></p>
+										<div class="prize">
+											<p class="who">4rd place</p>
+										</div>
+										<div class="commJaw">
+											<textarea name="" id="" cols="30" rows="10"></textarea>
+											<div class="forBtn2"><button><i class="fa fa-comments"></i> Comment</button></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="dImg">
+										<img src="img/pic.png" width="100%" alt="">
+									</div>
+									<div class="info">
+										<p class="numb">#320</p>
+										<div class="raty2" data-score="5"></div>
+										<p class="by">By: Worrior Name</p>
+										<p class="pBtns"><a href="" class="btnLike"><i class="fa fa-thumbs-up"></i></a><a href="" class="btnDel"><i class="fa fa-trash"></i></a><a href="" class="btnComm"><i class="fa fa-comments"></i></a><a href="#" class="btnTrophy tooltip" title="PICK THIS DESIGN AS #5"><i class="fa fa-trophy"></i></a></p>
+										<div class="prize">
+											<p class="who">5rd place</p>
+										</div>
+										<div class="commJaw">
+											<textarea name="" id="" cols="30" rows="10"></textarea>
+											<div class="forBtn2"><button><i class="fa fa-comments"></i> Comment</button></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="dImg">
+										<img src="img/pic.png" width="100%" alt="">
+									</div>
+									<div class="info">
+										<p class="numb">#040</p>
+										<div class="raty2" data-score="5"></div>
+										<p class="by">By: Worrior Name</p>
+										<p class="pBtns"><a href="" class="btnLike"><i class="fa fa-thumbs-up"></i></a><a href="" class="btnDel"><i class="fa fa-trash"></i></a><a href="" class="btnComm"><i class="fa fa-comments"></i></a><a href="#" class="btnTrophy tooltip" title="PICK THIS DESIGN AS #6"><i class="fa fa-trophy"></i></a></p>
+										<div class="prize">
+											<p class="who">6rd place</p>
+										</div>
+										<div class="commJaw">
+											<textarea name="" id="" cols="30" rows="10"></textarea>
+											<div class="forBtn2"><button><i class="fa fa-comments"></i> Comment</button></div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="dImg">
+										<img src="img/pic.png" width="100%" alt="">
+									</div>
+									<div class="info">
+										<p class="numb">#220</p>
+										<div class="raty2" data-score="5"></div>
+										<p class="by">By: Worrior Name</p>
+										<p class="pBtns"><a href="" class="btnLike"><i class="fa fa-thumbs-up"></i></a><a href="" class="btnDel"><i class="fa fa-trash"></i></a><a href="" class="btnComm"><i class="fa fa-comments"></i></a><a href="#" class="btnTrophy tooltip" title="PICK THIS DESIGN AS #7"><i class="fa fa-trophy"></i></a></p>
+										<div class="prize">
+											<p class="who">7rd place</p>
+										</div>
+										<div class="commJaw">
+											<textarea name="" id="" cols="30" rows="10"></textarea>
+											<div class="forBtn2"><button><i class="fa fa-comments"></i> Comment</button></div>
+										</div>
+									</div>
+								</li>
+								<li class="emirat">
+									<div class="dImg">
+										<img src="img/pic.png" width="100%" alt="">
+									</div>
+									<div class="info">
+										<p class="numb">#720</p>
+										<div class="raty2" data-score="5"></div>
+										<p class="by">By: Worrior Name</p>
+										<p class="pBtns"><a href="" class="btnLike"><i class="fa fa-thumbs-up"></i></a><a href="" class="btnDel"><i class="fa fa-trash"></i></a><a href="" class="btnComm"><i class="fa fa-comments"></i></a><a href="#" class="btnTrophy tooltip" title="PICK THIS DESIGN AS #8"><i class="fa fa-trophy"></i></a></p>
+										<div class="prize">
+											<p class="who">8rd place</p>
+										</div>
+										<div class="commJaw">
+											<textarea name="" id="" cols="30" rows="10"></textarea>
+											<div class="forBtn2"><button><i class="fa fa-comments"></i> Comment</button></div>
+										</div>
+									</div>
+									<a href="#" class="btnRetr bShad"><i class="fa fa-recycle"></i> retrieve <span>&#187;</span></a>
+								</li>
 							</ul>
+							<a class="btnAll" href="#">see all submissions</a>
 						</div>
-						<ul class="uData2">
-							<li><b>name:</b>John  Brown</li>
-							<li><b>E-mail:</b>johnbrown@test.mail.com</li>
-							<li><b>Phone Number:</b>+0 000-000-000</li>
-							<li><b>Home Airport:</b>London Heathrow Airport (LHR)</li>
-							<li><b>Street ADDRESS:</b>46 Gray's Inn Rd, London, WC1X 8LP</li>
-							<li><b>CITY:</b>London</li>
-							<li><b>State/Province/Region:</b>London</li>
-							<li><b>Postal code:</b>69106</li>
-							<li><b>Country:</b>United Kingdom</li>
-						</ul>
-					</div>
-					<div class="bam">
-						<table class="tEarn">
-							<tr>
-								<th class="th1">Title</th>
-								<th class="th2">Posted By</th>
-								<th class="th3">Date Completed</th>
-								<th class="th4">Contest Price</th>
-								<th class="th5">Awarded</th>
-							</tr>
-							<tr>
-								<td>Logo name here</td>
-								<td>Name</td>
-								<td>1/01/2014</td>
-								<td>$1280</td>
-								<td>$280</td>
-							</tr>
-							<tr>
-								<td>Logo name here</td>
-								<td>Kiev</td>
-								<td>7/03/2014</td>
-								<td>$7480</td>
-								<td>$480</td>
-							</tr>
-							<tr>
-								<td>Logo name here</td>
-								<td>Name Persna</td>
-								<td>23/06/2014</td>
-								<td>$889</td>
-								<td>$90</td>
-							</tr>
-							<tr>
-								<td>Logo name here</td>
-								<td>Newd</td>
-								<td>14/09/2014</td>
-								<td>$153</td>
-								<td>$153</td>
-							</tr>
-							<tr>
-								<td>Logo name here</td>
-								<td>saFancisco</td>
-								<td>08/04/2014</td>
-								<td>$1280</td>
-								<td>$180</td>
-							</tr>
-							<tr>
-								<td>Logo name here</td>
-								<td>Company</td>
-								<td>02/09/2014</td>
-								<td>$3615</td>
-								<td>$3615</td>
-							</tr>
-							<tr>
-								<td>Logo name here</td>
-								<td>Name name</td>
-								<td>1/01/2014</td>
-								<td>$551</td>
-								<td>$551</td>
-							</tr>
-							<tr>
-								<td>Logo name here</td>
-								<td>Name</td>
-								<td>1/01/2014</td>
-								<td>$859</td>
-								<td>$859</td>
-							</tr>
-							<tr>
-								<td colspan="4">&nbsp;</td>
-								<td class="tTotal">$1347</td>
-							</tr>
-						</table>
-						<p class="nextPrev"><a href="#">&laquo; next</a> <a href="#">prev &raquo;</a></p>
-					</div>
-					<div class="bam">
-						<ul class="uCard">
-							<li class="masterCard">
-								<i class="iEdit"><i class="fa fa-pencil"></i></i>
-								<i class="iDel"><i class="fa fa-times"></i></i>
-								<p class="cNumb">XXXX XXX XXXX 5622</p>
-								<p class="cVal">valid thru <b>8/18</b></p>
-								<p class="cName">cardholder name</p>
-								<p class="cName2"><a href="#">John Brown</a></p>
-							</li>
-							<li class="masterCard">
-								<i class="iEdit"><i class="fa fa-pencil"></i></i>
-								<i class="iDel"><i class="fa fa-times"></i></i>
-								<p class="cNumb">XXXX XXX XXXX 5622</p>
-								<p class="cVal">valid thru <b>8/18</b></p>
-								<p class="cName">cardholder name</p>
-								<p class="cName2"><a href="#">John Brown</a></p>
-							</li>
-							<li class="visa">
-								<i class="iEdit"><i class="fa fa-pencil"></i></i>
-								<i class="iDel"><i class="fa fa-times"></i></i>
-								<p class="cNumb">XXXX XXX XXXX 5622</p>
-								<p class="cVal">valid thru <b>8/18</b></p>
-								<p class="cName">cardholder name</p>
-								<p class="cName2"><a href="#">John Brown</a></p>
-							</li>
-							<li class="visaElectron">
-								<i class="iEdit"><i class="fa fa-pencil"></i></i>
-								<i class="iDel"><i class="fa fa-times"></i></i>
-								<p class="cNumb">XXXX XXX XXXX 5622</p>
-								<p class="cVal">valid thru <b>8/18</b></p>
-								<p class="cName">cardholder name</p>
-								<p class="cName2"><a href="#">John Brown</a></p>
-							</li>
-							<li>
-								<a href="#" class="btnAdd">Add new card</a>
-							</li>
-						</ul>
-					</div>
-					<div class="bam">
-						<ul class="uJobs2">
-							<li><img src="img/gray.png" alt=""></li>
-							<li><img src="img/gray.png" alt=""></li>
-							<li><img src="img/gray.png" alt=""></li>
-							<li><img src="img/gray.png" alt=""></li>
-							<li><img src="img/gray.png" alt=""></li>
-							<li><img src="img/gray.png" alt=""></li>
-							<li><img src="img/gray.png" alt=""></li>
-							<li><img src="img/gray.png" alt=""></li>
-							<li><img src="img/gray.png" alt=""></li>
-							<li><img src="img/gray.png" alt=""></li>
-							<li><img src="img/gray.png" alt=""></li>
-							<li><img src="img/gray.png" alt=""></li>
-							<li><img src="img/gray.png" alt=""></li>
-							<li><img src="img/gray.png" alt=""></li>
-							<li><img src="img/gray.png" alt=""></li>
-						</ul>
-						<p class="pLoad"><a href="#">Load more +</a></p>
-					</div>
-					<div class="usSett bam">
-						<div class="usSett_1">
-							<h1>Change Personal Infomation</h1>
-							<form action="#">
-								<div class="row">
-									<div class="col-xs-12 col-sm-6">
-										<label for="sf1">Name</label>
-										<input type="text" id="sf1" placeholder="John Brown" class="sInp">
-									</div>
-									<div class="col-xs-12 col-sm-6">
-										<label for="sf2">Email </label>
-										<input type="email" id="sf2" placeholder="johnbrown@test.mail.com" class="sInp">
-									</div>
-									<div class="col-xs-12 col-sm-6">
-										<label for="sf3">Phone number</label>
-										<input type="tel" id="sf3" placeholder="+0 000-000-000" class="sInp">
-									</div>
-									<div class="col-xs-12 col-sm-6">
-										<label for="sf4">City:</label>
-										<input type="text" id="sf4" placeholder="London" class="sInp">
-									</div>
-									<div class="col-xs-12 col-sm-6">
-										<label for="sf5">Street Address:</label>
-										<input type="text" id="sf5" placeholder="46 Gray's Inn Rd, London, WC1X 8LP" class="sInp">
-									</div>
-									<div class="col-xs-12 col-sm-6">
-										<label for="sf6">Postal code:</label>
-										<input type="text" id="sf6" placeholder="69106" class="sInp">
-									</div>
-									<div class="col-xs-12 col-sm-6">
-										<label for="sf7">State/Province/Region:</label>
-										<input type="text" id="sf7" placeholder="London" class="sInp">
-									</div>
-									<div class="col-xs-12 col-sm-6 col-sm-offset-6 col-sm-pull-6">
-										<label for="sf8">Country:</label>
-										<input type="text" id="sf8" placeholder="United Kingdom" class="sInp">
-									</div>
-								</div>
-								<button class="btnSave bShad">save changes</button>
-							</form>
+						<div class="box">
+							<div class="deserJaw">
+								<ul class="uDeser">
+									<li>
+										<ul class="ud">
+											<li class="ud1">
+												<div class="des">
+													<div class="desImg">
+														<img src="img/interUser_7.jpg" height="70" width="70" alt="">
+													</div>
+													<h4>John Doe</h4>
+													<p class="inf">Kiev, Ukraine</p>
+												</div>
+											</li>
+											<li class="ud2">
+												<h3>quick statistics</h3>
+												<ul class="uStats">
+													<li><b>Trophies:</b><i class="iTrops it3"></i></li>
+													<li><b>Posted:</b><span class="nowr">(2022) Submissions</span></li>
+													<li><b>Skills:</b><i class="raty3" data-score="2" data-number="2"></i></li>
+												</ul>
+											</li>
+											<li class="ud3">
+												<ul class="uGal">
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<ul class="ud">
+											<li class="ud1">
+												<div class="des">
+													<div class="desImg online">
+														<img src="img/interUser_5.jpg" height="70" width="70" alt="">
+													</div>
+													<h4>John Doe</h4>
+													<p class="inf">Kiev, Ukraine</p>
+												</div>
+											</li>
+											<li class="ud2">
+												<h3>quick statistics</h3>
+												<ul class="uStats">
+													<li><b>Trophies:</b><i class="iTrops it6"></i></li>
+													<li><b>Posted:</b><span class="nowr">(2022) Submissions</span></li>
+													<li><b>Skills:</b><i class="raty3" data-score="5" data-number="5"></i></li>
+												</ul>
+											</li>
+											<li class="ud3">
+												<ul class="uGal">
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<ul class="ud">
+											<li class="ud1">
+												<div class="des">
+													<div class="desImg">
+														<img src="img/interUser_3.jpg" height="70" width="70" alt="">
+													</div>
+													<h4>John Doe #65</h4>
+													<p class="inf">Kiev, Ukraine</p>
+												</div>
+											</li>
+											<li class="ud2">
+												<h3>quick statistics</h3>
+												<ul class="uStats">
+													<li><b>Trophies:</b><i class="iTrops it4"></i></li>
+													<li><b>Posted:</b><span class="nowr">(2022) Submissions</span></li>
+													<li><b>Skills:</b><i class="raty3" data-score="3" data-number="3"></i></li>
+												</ul>
+											</li>
+											<li class="ud3">
+												<ul class="uGal">
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<ul class="ud">
+											<li class="ud1">
+												<div class="des">
+													<div class="desImg">
+														<img src="img/desAva.png" height="70" width="70" alt="">
+													</div>
+													<h4>John Doe #715</h4>
+													<p class="inf">Kiev, Ukraine</p>
+												</div>
+											</li>
+											<li class="ud2">
+												<h3>quick statistics</h3>
+												<ul class="uStats">
+													<li><b>Trophies:</b><i class="iTrops it3"></i></li>
+													<li><b>Posted:</b><span class="nowr">(2022) Submissions</span></li>
+													<li><b>Skills:</b><i class="raty3" data-score="2" data-number="2"></i></li>
+												</ul>
+											</li>
+											<li class="ud3">
+												<ul class="uGal">
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<ul class="ud">
+											<li class="ud1">
+												<div class="des">
+													<div class="desImg online">
+														<img src="img/desAva.png" height="70" width="70" alt="">
+													</div>
+													<h4>John Doe</h4>
+													<p class="inf">Kiev, Ukraine</p>
+												</div>
+											</li>
+											<li class="ud2">
+												<h3>quick statistics</h3>
+												<ul class="uStats">
+													<li><b>Trophies:</b><i class="iTrops it6"></i></li>
+													<li><b>Posted:</b><span class="nowr">(2022) Submissions</span></li>
+													<li><b>Skills:</b><i class="raty3" data-score="5" data-number="5"></i></li>
+												</ul>
+											</li>
+											<li class="ud3">
+												<ul class="uGal">
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<ul class="ud">
+											<li class="ud1">
+												<div class="des">
+													<div class="desImg">
+														<img src="img/desAva.png" height="70" width="70" alt="">
+													</div>
+													<h4>John Doe #5</h4>
+													<p class="inf">Kiev, Ukraine</p>
+												</div>
+											</li>
+											<li class="ud2">
+												<h3>quick statistics</h3>
+												<ul class="uStats">
+													<li><b>Trophies:</b><i class="iTrops it4"></i></li>
+													<li><b>Posted:</b><span class="nowr">(2022) Submissions</span></li>
+													<li><b>Skills:</b><i class="raty3" data-score="3" data-number="3"></i></li>
+												</ul>
+											</li>
+											<li class="ud3">
+												<ul class="uGal">
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+													<li><a href="#"><img src="img/thumbImg.png" width="100%" alt=""></a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+								</ul>
+								<a href="#" class="seeAll">see all DESIGNERS</a>
+							</div>
 						</div>
-						<h2>Change Password</h2>
-						<form action="#">
-							<div class="row">
-								<div class="col-xs-12 col-sm-6">
-									<label for="sf9">Current Password</label>
-									<input type="password" id="sf9" class="sInp">
+						<div class="box">
+							<div class="briefJaw">
+								<div class="briefLogo"><img src="img/pic2.png" width="100%" alt=""></div>
+								<div class="briefCont">
+									<p class="pSum">(84) Design Sumbissions</p>
+									<h2>My Logo Name Here</h2>
+									<div class="inf">
+										<p>dfsdfe are looking s sdfd clean logo that pops. We apparel company that specialssfsn all tspes of gamsg in gsdf sdfeneral. Specifisasino, Podsr, Bsard Games, Role. Theiw rhoiweihr  sDuis ac urna tincidunt, tristique urna eu, bibendum enim. Nunc mi mauris, lobortis id ultrices non, faucibus sit amet nulla. Etiam et ullamcorper eros. Sed finibus nisl at</p>
+									</div>
+									<p class="pTags"><i>Design</i><i>Artistic</i><i>Minimal</i><i>Organic</i><i>Abstact</i><i>Playful</i><i>Wordmark</i><i>badge</i><i>Pictorial</i></p>
+									<h3 class="h3">Colors</h3>
+									<ul class="bColors">
+										<li class="bColor">
+											<i class="cLeft" style="background:#5d9cec;"></i>
+											<i class="cRight" style="background:#4a89dc;"></i>
+										</li>
+										<li class="bColor">
+											<i class="cLeft" style="background:#ac92ec;"></i>
+											<i class="cRight" style="background:#967adc;"></i>
+										</li>
+										<li class="bColor">
+											<i class="cLeft" style="background:#ffce54;"></i>
+											<i class="cRight" style="background:#f6bb42;"></i>
+										</li>
+									</ul>
+									<h3 class="h3">Client file schetch/samples</h3>
+									<ul class="bGal">
+										<li><a href="#"><img src="img/pic2.png" width="109" height="72" alt=""></a></li>
+										<li><a href="#"><img src="img/pic2.png" width="109" height="72" alt=""></a></li>
+										<li><a href="#"><img src="img/pic2.png" width="109" height="72" alt=""></a></li>
+										<li><a href="#"><img src="img/pic2.png" width="109" height="72" alt=""></a></li>
+										<li><a href="#"><img src="img/pic2.png" width="109" height="72" alt=""></a></li>
+									</ul>
+									<h3 class="h3">Files we dont like</h3>
+									<ul class="bGal">
+										<li><a href="#"><img src="img/pic2.png" width="109" height="72" alt=""></a></li>
+										<li><a href="#"><img src="img/pic2.png" width="109" height="72" alt=""></a></li>
+										<li><a href="#"><img src="img/pic2.png" width="109" height="72" alt=""></a></li>
+										<li><a href="#"><img src="img/pic2.png" width="109" height="72" alt=""></a></li>
+									</ul>
+									<h3 class="h3">Website Links</h3>
+									<div class="bLinks">
+										<a href="www.websitename.com/sample" target="_blank" class="superLink">www.websitename.com/sample</a>
+										<a href="www.websitename.com/sample" target="_blank" class="superLink">www.websitename.com/sample</a>
+									</div>
 								</div>
-								<div class="col-xs-12 col-sm-6 col-sm-offset-6 col-sm-pull-6">
-									<label for="sf10">New Password</label>
-									<input type="password" id="sf10" class="sInp">
-								</div>
-								<div class="col-xs-12 col-sm-6 col-sm-offset-6 col-sm-pull-6">
-									<label for="sf10">New Password Again</label>
-									<input type="password" id="sf10" class="sInp">
+								<div class="briefPrice">
+									<p class="bConf"><i class="fa fa-money"></i><span>comfirmed</span></p>
+									<i class="bPrice">$ 370</i>
 								</div>
 							</div>
-							<button class="btnSave bShad">save password</button>
-						</form>
+						</div>
+						<div class="box">
+							<div class="commsJaw">
+								<div class="comm">
+									<img src="img/comm_1.jpg" alt="" class="cAva">
+									<h5>Chiko Just Said</h5>
+									<p class="time">Now</p>
+									<div class="text">
+										Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
+										mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+										<a href="#" class="like act"><i class="fa fa-thumbs-up"></i></a>
+									</div>
+									<div class="commForm">
+										<div class="forTAr"><textarea name="" id="" cols="30" rows="1"></textarea>
+											<i class="fa fa-paperclip fileBtn"></i>
+											<div class="uploadFiles">
+												<form action="/upload" class="dropzone3" id="dropzone3">
+												</form>
+											</div>
+										</div>
+										<button class="bShad">reply</button>
+									</div>
+								</div>
+								<div class="comm">
+									<img src="img/comm_2.jpg" alt="" class="cAva">
+									<h5>James Mofolo Said</h5>
+									<p class="time">38min ago</p>
+									<div class="text">
+										Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
+										mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+									</div>
+									<div class="dox"><a href="#">File-Name.docx</a><a href="#">File-Name.docx</a></div>
+								</div>
+								<div class="comm">
+									<img src="img/comm_1.jpg" alt="" class="cAva">
+									<h5>Chiko Just Said</h5>
+									<p class="time">Now</p>
+									<div class="text">
+										Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
+										mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+										<a href="#" class="like"><i class="fa fa-thumbs-up"></i></a>
+									</div>
+									<div class="comm">
+										<img src="img/comm_1.jpg" alt="" class="cAva">
+										<h5>Chiko Just Said</h5>
+										<p class="time">Now</p>
+										<div class="text">
+											Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
+											mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+											<a href="#" class="like"><i class="fa fa-thumbs-up"></i></a>
+										</div>
+										<div class="commForm">
+											<div class="forTAr"><textarea name="" id="" cols="30" rows="1"></textarea>
+												<i class="fa fa-paperclip fileBtn"></i>
+												<div class="uploadFiles">
+													<form action="/upload" class="dropzone3" id="dropzone3">
+													</form>
+												</div>
+											</div>
+											<button class="bShad">reply</button>
+										</div>
+									</div>
+
+								</div>
+								<div class="comm">
+									<img src="img/comm_2.jpg" alt="" class="cAva">
+									<h5>James Mofolo Said</h5>
+									<p class="time">38min ago</p>
+									<div class="text">
+										Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius
+										mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+									</div>
+									<div class="dox"><a href="#">File-Name.docx</a><a href="#">File-Name.docx</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+		</div>
+	</div>
+	<div class="bam">
+				<div class="project-block">
+					<h2>Projects</h2>
+					<ul class="gdMenu">
+						<li class="gd1"><span><img src="img/gdl_1.png"/><div><a href="#" class="tooltip"><h2>Graphic Design Logo <img class="attach" src="img/attach.png"/></h2><span>Log r adipiscing elit. Morb
+	i id neqhics Design and logo</span></a><p>Log r adipiscing elit. Morb
+		i id neqhics Design and logo</p></div></span></li>
+						<li class="gd2"><span><img src="img/gdl_2.png"/><div><a href="#" class="tooltip"><h2>Graphic Design Logo <img class="attach" src="img/attach.png"/></h2><span>Log r adipiscing elit. Morb
+	i id neqhics Design and logo</span></a><p>Log r adipiscing elit. Morb
+		i id neqhics Design and logo</p></div></span></li>
+						<li class="gd3"><span><img src="img/gdl_3.png"/><div><a href="#" class="tooltip"><h2>Graphic Design Logo <img class="attach" src="img/attach.png"/></h2><span>Log r adipiscing elit. Morb
+	i id neqhics Design and logo</span></a><p>Log r adipiscing elit. Morb
+		i id neqhics Design and logo</p></div></span></li>
+						<li class="gd1"><span><img src="img/gdl_1.png"/><div><a href="#" class="tooltip"><h2>Graphic Design Logo <img class="attach" src="img/attach.png"/></h2><span>Log r adipiscing elit. Morb
+	i id neqhics Design and logo</span></a><p>Log r adipiscing elit. Morb
+		i id neqhics Design and logo</p></div></span></li>
+						<li class="gd4"><span><img src="img/gdl_2.png"/><div><a href="#" class="tooltip"><h2>Graphic Design Logo <img class="attach" src="img/attach.png"/></h2><span>Log r adipiscing elit. Morb
+	i id neqhics Design and logo</span></a><p>Log r adipiscing elit. Morb
+		i id neqhics Design and logo</p></div></span></li>
+						<li class="gd1"><span><img src="img/gdl_3.png"/><div><a href="#" class="tooltip"><h2>Graphic Design Logo <img class="attach" src="img/attach.png"/></h2><span>Log r adipiscing elit. Morb
+	i id neqhics Design and logo</span></a><p>Log r adipiscing elit. Morb
+		i id neqhics Design and logo</p></div></span></li>
+						<li class="gd4"><span><img src="img/gdl_1.png"/><div><a href="#" class="tooltip"><h2>Graphic Design Logo <img class="attach" src="img/attach.png"/></h2><span>Log r adipiscing elit. Morb
+	i id neqhics Design and logo</span></a><p>Log r adipiscing elit. Morb
+		i id neqhics Design and logo</p></div></span></li>
+						<li class="gd3"><span><img src="img/gdl_4.png"/><div><a href="#" class="tooltip"><h2>Graphic Design Logo <img class="attach" src="img/attach.png"/></h2><span>Log r adipiscing elit. Morb
+	i id neqhics Design and logo</span></a><p>Log r adipiscing elit. Morb
+		i id neqhics Design and logo</p></div></span></li>
+					</ul>
+				</div>
+					<div class="intCont">
+						<ul class="uITab">
+							<li class="act"><span>Message Stream</span><i>4</i></li>
+							<li><span>Team Members</span><i>8</i></li>
+							<li><span>Files & Resources</span><i>8</i></li>
+						</ul>
+						<div class="boxs3">
+							<div class="box3 vis">
+								<div class="stream">
+									<ul class="uStrem">
+										<li>
+											<img src="img/interUser_2.jpg" width="34" height="34" alt="" class="cAva">
+											<h5>Chiko Just Said</h5>
+											<p class="time">Now</p>
+											<div class="text">
+												Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+											</div>
+											<a href="#" class="btnlike2 bShad"><span>like</span> &nbsp;<i class="fa fa-thumbs-up"></i></a>
+											<div class="openBox">
+												<a href="#" class="btnComm bShad">Comment</a>
+												<div class="commBox">
+													<div class="cText">
+														<p>The comment text comes here below as follows... rem ipsum dolor sit amet,  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a</p>
+													</div>
+													<div class="fComm">
+														<div class="forTAr2"><textarea name="" id="" cols="30" rows="1"></textarea>
+															<i class="fa fa-paperclip fileBtn"></i>
+															<div class="uploadFiles">
+																<form action="/img/upload" class="dropzone3" id="dropzone3">
+																</form>
+															</div>
+														</div>
+														<button class="bShad">comment</button>
+													</div>
+													<i class="fa fa-times faClose"></i>
+												</div>
+											</div>
+										</li>
+										<li>
+											<img src="img/interUser_4.jpg" width="34" height="34" alt="" class="cAva">
+											<h5>Jane Just Said</h5>
+											<p class="time">30 Minutes ago</p>
+											<div class="text">
+												Lorem ipsum dolor sit amet,  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+											</div>
+											<div class="likes">
+												<img src="img/interUser_7.jpg" width="34" height="34" alt="">
+												<img src="img/interUser_3.jpg" width="34" height="34" alt="">
+												<img src="img/interUser_1.jpg" width="34" height="34" alt="">
+											</div>
+											<a href="#" class="btnlike2 bShad"><span>like</span> &nbsp;<i class="fa fa-thumbs-up"></i></a>
+											<div class="openBox">
+												<a href="#" class="btnComm bShad">Comment</a>
+												<div class="commBox">
+													<div class="cText">
+														<p>The comment text comes here below as follows... rem ipsum dolor sit amet,  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a</p>
+													</div>
+													<div class="fComm">
+														<div class="forTAr2"><textarea name="" id="" cols="30" rows="1"></textarea>
+															<i class="fa fa-paperclip fileBtn"></i>
+															<div class="uploadFiles">
+																<form action="/img/upload" class="dropzone3" id="dropzone3">
+																</form>
+															</div>
+														</div>
+														<button class="bShad">comment</button>
+													</div>
+													<i class="fa fa-times faClose"></i>
+												</div>
+											</div>
+										</li>
+										<li>
+											<img src="img/interUser_4.jpg" width="34" height="34" alt="" class="cAva">
+											<h5>Jane Just Said</h5>
+											<p class="time">41 Minutes ago</p>
+											<div class="downJar">
+												<p>Lorem ippsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod t
+												empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veel.enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+												<a href="#" class="btnList"><i class="fa fa-file-text"></i></a>
+												<a href="#" class="btnDown"><i class="fa fa-download"></i></a>
+											</div>
+										</li>
+										<li>
+											<img src="img/interUser_4.jpg" width="34" height="34" alt="" class="cAva">
+											<h5>Jane Just Said</h5>
+											<p class="time">54 Minutes ago</p>
+											<div class="text">
+												<img src="img/imgPost.png" height="156" width="244" alt="">
+											</div>
+
+											<a href="#" class="btnlike2 bShad"><span>like</span> &nbsp;<i class="fa fa-thumbs-up"></i></a>
+											<div class="openBox">
+												<a href="#" class="btnComm bShad">Comment</a>
+												<div class="commBox">
+													<div class="cText">
+														<p>The comment text comes here below as follows... rem ipsum dolor sit amet,  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a</p>
+													</div>
+													<div class="fComm">
+														<div class="forTAr2"><textarea name="" id="" cols="30" rows="1"></textarea>
+															<i class="fa fa-paperclip fileBtn"></i>
+															<div class="uploadFiles">
+																<form action="/img/upload" class="dropzone3" id="dropzone3">
+																</form>
+															</div>
+														</div>
+														<button class="bShad">comment</button>
+													</div>
+													<i class="fa fa-times faClose"></i>
+												</div>
+											</div>
+										</li>
+										<li>
+											<img src="img/interUser_4.jpg" width="34" height="34" alt="" class="cAva">
+											<h5>Jane Just Said</h5>
+											<p class="time">54 Minutes ago</p>
+											<div class="text">
+												<img src="img/imgPost.png" height="109" width="170" alt="">
+												<img src="img/imgPost.png" height="109" width="170" alt="">
+												<img src="img/imgPost.png" height="109" width="170" alt="">
+											</div>
+
+											<a href="#" class="btnlike2 bShad"><span>like</span> &nbsp;<i class="fa fa-thumbs-up"></i></a>
+											<div class="openBox">
+												<a href="#" class="btnComm bShad">Comment</a>
+												<div class="commBox">
+													<div class="cText">
+														<p>The comment text comes here below as follows... rem ipsum dolor sit amet,  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim a</p>
+													</div>
+													<div class="fComm">
+														<div class="forTAr2"><textarea name="" id="" cols="30" rows="1"></textarea>
+															<i class="fa fa-paperclip fileBtn"></i>
+															<div class="uploadFiles">
+																<form action="/img/upload" class="dropzone3" id="dropzone3">
+																</form>
+															</div>
+														</div>
+														<button class="bShad">comment</button>
+													</div>
+													<i class="fa fa-times faClose"></i>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<div class="fCommBase">
+										<div class="forTAr2"><textarea name="" id="" cols="30" rows="1"></textarea>
+											<i class="fa fa-paperclip fileBtn"></i>
+											<div class="uploadFiles">
+												<form action="/img/upload" class="dropzone3" id="dropzone3">
+												</form>
+											</div>
+										</div>
+										<button class="bShad">SEND</button>
+									</div>
+								</div>
+							</div>
+							<div class="box3">
+								<div class="invite">
+									<form action="#" class="invForm">
+										<div class="forIText iEmail">
+											<input type="email" placeholder="Enter team member email address you would like to invite">
+										</div>
+										<button>invite member</button>
+										<div class="forIText iAdd">
+											<input type="text" placeholder="Brow..." class="aCompl">
+										</div>
+									</form>
+									<div class="members">
+										<h2>Current Members (7)</h2>
+										<ul class="uMemb">
+											<li>
+												<img src="img/interUser_8.jpg" width="33" height="33" alt="">
+												<h5>Ted Alikson <i class="fa fa-times iDel"></i></h5>
+												<p>admin</p>
+											</li>
+											<li>
+												<img src="img/interUser_6.jpg" width="33" height="33" alt="">
+												<h5>Jess Mendez <i class="fa fa-times iDel"></i></h5>
+											</li>
+											<li>
+												<img src="img/interUser_4.jpg" width="33" height="33" alt="">
+												<h5>Max Zemekis <i class="fa fa-times iDel"></i></h5>
+											</li>
+											<li>
+												<img src="img/interUser_2.jpg" width="33" height="33" alt="">
+												<h5>Janet Brid <i class="fa fa-times iDel"></i></h5>
+											</li>
+											<li>
+												<img src="img/interUser_7.jpg" width="33" height="33" alt="">
+												<h5>Golder Mali <i class="fa fa-times iDel"></i></h5>
+											</li>
+											<li>
+												<img src="img/interUser_5.jpg" width="33" height="33" alt="">
+												<h5>Paulo Bamusi <i class="fa fa-times iDel"></i></h5>
+											</li>
+											<li>
+												<img src="img/interUser_3.jpg" width="33" height="33" alt="">
+												<h5>Malik James <i class="fa fa-times iDel"></i></h5>
+												<p>creator</p>
+											</li>
+											<li>
+												<img src="img/interUser_1.jpg" width="33" height="33" alt="">
+												<h5>Janet Brid <i class="fa fa-times iDel"></i></h5>
+											</li>
+											<li>
+												<img src="img/interUser_5.jpg" width="33" height="33" alt="">
+												<h5>Bob Brid <i class="fa fa-times iDel"></i></h5>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="box3">
+								<ul class="uRes">
+									<li>
+										<div class="forAva"><img src="img/interUser_2.jpg" height="34" width="34" alt=""></div>
+										<div class="rFile">
+											<span class="pdf">Lorem-ipsum dolor sit amet-Lorem.pdf</span>
+										</div>
+										<div class="rBtns">
+											<a href="#" class="btnSear"><i class="fa fa-search"></i></a>
+											<a href="#" class="btnDown">DOWNLOAD</a>
+											<a href="#" class="btnBask"><i class="fa fa-trash"></i></a>
+										</div>
+									</li>
+									<li>
+										<div class="forAva"><img src="img/interUser_4.jpg" height="34" width="34" alt=""></div>
+										<div class="rFile">
+											<span class="img">Image.png</span>
+										</div>
+										<div class="rBtns">
+											<a href="#" class="btnSear"><i class="fa fa-search"></i></a>
+											<a href="#" class="btnDown">DOWNLOAD</a>
+											<a href="#" class="btnBask"><i class="fa fa-trash"></i></a>
+										</div>
+									</li>
+									<li>
+										<div class="forAva"><img src="img/interUser_6.jpg" height="34" width="34" alt=""></div>
+										<div class="rFile">
+											<span class="zip">File-Name-Same-Look.zip</span>
+										</div>
+										<div class="rBtns">
+											<a href="#" class="btnDown">DOWNLOAD</a>
+											<a href="#" class="btnBask"><i class="fa fa-trash"></i></a>
+										</div>
+									</li>
+									<li>
+										<div class="forAva"><img src="img/interUser_6.jpg" height="34" width="34" alt=""></div>
+										<div class="rFile">
+											<span class="psd">Logo-Design-01.psd</span>
+										</div>
+										<div class="rBtns">
+											<a href="#" class="btnSear"><i class="fa fa-search"></i></a>
+											<a href="#" class="btnDown">DOWNLOAD</a>
+											<a href="#" class="btnBask"><i class="fa fa-trash"></i></a>
+										</div>
+									</li>
+									<li>
+										<div class="forAva"><img src="img/interUser_1.jpg" height="34" width="34" alt=""></div>
+										<div class="rFile">
+											<span class="docx">File-Name-Same-Look.docx</span>
+										</div>
+										<div class="rBtns">
+											<a href="#" class="btnSear"><i class="fa fa-search"></i></a>
+											<a href="#" class="btnDown">DOWNLOAD</a>
+											<a href="#" class="btnBask"><i class="fa fa-trash"></i></a>
+										</div>
+									</li>
+																<li>
+										<div class="forAva"><img src="img/interUser_3.jpg" height="34" width="34" alt=""></div>
+										<div class="rFile">
+											<span class="pdf">Lorem-ipsum dolor sit amet-Lorem.pdf</span>
+										</div>
+										<div class="rBtns">
+											<a href="#" class="btnSear"><i class="fa fa-search"></i></a>
+											<a href="#" class="btnDown">DOWNLOAD</a>
+											<a href="#" class="btnBask"><i class="fa fa-trash"></i></a>
+										</div>
+									</li>
+									<li>
+										<div class="forAva"><img src="img/interUser_5.jpg" height="34" width="34" alt=""></div>
+										<div class="rFile">
+											<span class="img">Image.png</span>
+										</div>
+										<div class="rBtns">
+											<a href="#" class="btnSear"><i class="fa fa-search"></i></a>
+											<a href="#" class="btnDown">DOWNLOAD</a>
+											<a href="#" class="btnBask"><i class="fa fa-trash"></i></a>
+										</div>
+									</li>
+									<li>
+										<div class="forAva"><img src="img/interUser_7.jpg" height="34" width="34" alt=""></div>
+										<div class="rFile">
+											<span class="zip">File-Name-Same-Look.zip</span>
+										</div>
+										<div class="rBtns">
+											<a href="#" class="btnDown">DOWNLOAD</a>
+											<a href="#" class="btnBask"><i class="fa fa-trash"></i></a>
+										</div>
+									</li>
+									<li>
+										<div class="forAva"><img src="img/interUser_7.jpg" height="34" width="34" alt=""></div>
+										<div class="rFile">
+											<span class="psd">Logo-Design-01.psd</span>
+										</div>
+										<div class="rBtns">
+											<a href="#" class="btnSear"><i class="fa fa-search"></i></a>
+											<a href="#" class="btnDown">DOWNLOAD</a>
+											<a href="#" class="btnBask"><i class="fa fa-trash"></i></a>
+										</div>
+									</li>
+									<li>
+										<div class="forAva"><img src="img/interUser_3.jpg" height="34" width="34" alt=""></div>
+										<div class="rFile">
+											<span class="docx">File-Name-Same-Look.docx</span>
+										</div>
+										<div class="rBtns">
+											<a href="#" class="btnSear"><i class="fa fa-search"></i></a>
+											<a href="#" class="btnDown">DOWNLOAD</a>
+											<a href="#" class="btnBask"><i class="fa fa-trash"></i></a>
+										</div>
+									</li>
+									<li>
+										<div class="forAva"><img src="img/interUser_2.jpg" height="34" width="34" alt=""></div>
+										<div class="rFile">
+											<span class="pdf">Lorem-ipsum dolor sit amet-Lorem.pdf</span>
+										</div>
+										<div class="rBtns">
+											<a href="#" class="btnSear"><i class="fa fa-search"></i></a>
+											<a href="#" class="btnDown">DOWNLOAD</a>
+											<a href="#" class="btnBask"><i class="fa fa-trash"></i></a>
+										</div>
+									</li>
+									<li>
+										<div class="forAva"><img src="img/interUser_4.jpg" height="34" width="34" alt=""></div>
+										<div class="rFile">
+											<span class="img">Image.png</span>
+										</div>
+										<div class="rBtns">
+											<a href="#" class="btnSear"><i class="fa fa-search"></i></a>
+											<a href="#" class="btnDown">DOWNLOAD</a>
+											<a href="#" class="btnBask"><i class="fa fa-trash"></i></a>
+										</div>
+									</li>
+									<li>
+										<div class="forAva"><img src="img/interUser_6.jpg" height="34" width="34" alt=""></div>
+										<div class="rFile">
+											<span class="zip">File-Name-Same-Look.zip</span>
+										</div>
+										<div class="rBtns">
+											<a href="#" class="btnDown">DOWNLOAD</a>
+											<a href="#" class="btnBask"><i class="fa fa-trash"></i></a>
+										</div>
+									</li>
+									<li>
+										<div class="forAva"><img src="img/interUser_6.jpg" height="34" width="34" alt=""></div>
+										<div class="rFile">
+											<span class="psd">Logo-Design-01.psd</span>
+										</div>
+										<div class="rBtns">
+											<a href="#" class="btnSear"><i class="fa fa-search"></i></a>
+											<a href="#" class="btnDown">DOWNLOAD</a>
+											<a href="#" class="btnBask"><i class="fa fa-trash"></i></a>
+										</div>
+									</li>
+									<li>
+										<div class="forAva"><img src="img/interUser_1.jpg" height="34" width="34" alt=""></div>
+										<div class="rFile">
+											<span class="docx">File-Name-Same-Look.docx</span>
+										</div>
+										<div class="rBtns">
+											<a href="#" class="btnSear"><i class="fa fa-search"></i></a>
+											<a href="#" class="btnDown">DOWNLOAD</a>
+											<a href="#" class="btnBask"><i class="fa fa-trash"></i></a>
+										</div>
+									</li>
+																<li>
+										<div class="forAva"><img src="img/interUser_3.jpg" height="34" width="34" alt=""></div>
+										<div class="rFile">
+											<span class="pdf">Lorem-ipsum dolor sit amet-Lorem.pdf</span>
+										</div>
+										<div class="rBtns">
+											<a href="#" class="btnSear"><i class="fa fa-search"></i></a>
+											<a href="#" class="btnDown">DOWNLOAD</a>
+											<a href="#" class="btnBask"><i class="fa fa-trash"></i></a>
+										</div>
+									</li>
+									<li>
+										<div class="forAva"><img src="img/interUser_5.jpg" height="34" width="34" alt=""></div>
+										<div class="rFile">
+											<span class="img">Image.png</span>
+										</div>
+										<div class="rBtns">
+											<a href="#" class="btnSear"><i class="fa fa-search"></i></a>
+											<a href="#" class="btnDown">DOWNLOAD</a>
+											<a href="#" class="btnBask"><i class="fa fa-trash"></i></a>
+										</div>
+									</li>
+								</ul>
+								<p class="pagin">
+									<a href="#">1</a>
+									<a href="#">2</a>
+									<span>3</span>
+									<a href="#">4</a>
+									<a href="#"><i class="fa fa-angle-right"></i></a>
+								</p>
+							</div>
+
+						</div>
+					</div>
+	</div>
+		<div class="bam">
+			<table class="tEarn-profile">
+				<tr>
+					<th class="th1 smaller">ID</th>
+					<th class="th2 bigger">Title</th>
+					<th class="th3">Host</th>
+					<th class="th4">Date Completed</th>
+					<th class="th5">Contest Price</th>
+					<th class="th6 big">Awarded</th>
+				</tr>
+				<tr>
+					<td>12341</td>
+					<td>Logo name here</td>
+					<td>Name</td>
+					<td>1/01/2014</td>
+					<td>$1280</td>
+					<td class="td-last"><button class="third">3RD</button>$280</td>
+				</tr>
+				<tr>
+					<td>12341</td>
+					<td>Logo name here</td>
+					<td>Kiev</td>
+					<td>7/03/2014</td>
+					<td>$7480</td>
+					<td class="td-last"><button class="second">2ND</button>$480</td>
+				</tr>
+				<tr>
+					<td>12341</td>
+					<td>Logo name here</td>
+					<td>Name Persna</td>
+					<td>23/06/2014</td>
+					<td>$889</td>
+					<td class="td-last"><button class="third">3RD</button>$90</td>
+				</tr>
+				<tr>
+					<td>12341</td>
+					<td>Logo name here</td>
+					<td>Newd</td>
+					<td>14/09/2014</td>
+					<td>$153</td>
+					<td class="td-last"><button class="first">1ST</button>$153</td>
+				</tr>
+				<tr>
+					<td>12341</td>
+					<td>Logo name here</td>
+					<td>saFancisco</td>
+					<td>08/04/2014</td>
+					<td>$1280</td>
+					<td class="td-last"><button class="first">1ST</button>$180</td>
+				</tr>
+				<tr>
+					<td>12341</td>
+					<td>Logo name here</td>
+					<td>Company</td>
+					<td>02/09/2014</td>
+					<td>$3615</td>
+					<td class="td-last"><button class="third">3RD</button>$3615</td>
+				</tr>
+				<tr>
+					<td>12341</td>
+					<td>Logo name here</td>
+					<td>Name name</td>
+					<td>1/01/2014</td>
+					<td>$551</td>
+					<td class="td-last"><button class="first">1ST</button>$551</td>
+				</tr>
+				<tr>
+					<td>12341</td>
+					<td>Logo name here</td>
+					<td>Name</td>
+					<td>1/01/2014</td>
+					<td>$859</td>
+					<td class="td-last"><button class="first">1ST</button>$859</td>
+				</tr>
+				<tr>
+					<td colspan="5">&nbsp;</td>
+					<td class="tTotal">$1347</td>
+				</tr>
+			</table>
+			<p class="nextPrev"><a href="#">&laquo; next</a> <a href="#">prev &raquo;</a></p>
+			<button class="btnSave bShad">make a withdraw</button>
+		</div>
+		<!-- <div class="withdraw bam">
+			<div class="usSett_1 border-bottom">
+				<h1>Withdraw summary
+
+				</h1>
+				<input type="checkbox" class="read-more-state" id="post-1" />
+				<label for="post-1" class="read-more-trigger"></label>
+				<div class="read-more-wrap">
+
+					<div class="read-more-target row">
+						<div class="col-xs-12 col-sm-7">
+							<label class="withdraw__price">$1200/40</label>
+							<label class="withdraw__price-info">automatic monthly withdraw</label>
+						</div>
+						<div class="col-xs-12 col-sm-3">
+							<label class="withdraw__price--right">email.name@gmail.com</label>
+							<label class="withdraw__price-info--right">primary email adress</label>
+						</div>
+						<div class="col-xs-12 col-sm-2">
+						<button class="withdraw-button btnSave bShad">edit</button>
+						</div>
+					</div>
+				</div>
+				<div class="read-more-wrap">
+
+					<div class="read-more-target row">
+						<div class="col-xs-12 col-sm-12">
+						<input type="submit" value="cancel withdraw" class="withdraw-button--cancel btnSave bShad"></input>
+						<input type="submit" value="view withdraw history" class="withdraw-button--confirm btnSave bShad"></input>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="read-more-wrap second-block">
+
+					<div class="read-more-target row border">
+						<div class="col-xs-12 col-sm-7">
+							<span class="withdraw__price">Withdraw Plan</span>
+							<span class="withdraw__price-info">Select your withdraw plan</span>
+						</div>
+						<div class="right col-xs-12 col-sm-5">
+							<span class="span">Avaiable:</span><span class="bold"> $ 1500.00</span>
+						</div>
+					</div>
+				</div>
+				<div class="read-more-wrap">
+
+					<div class="read-more-target row">
+						<div class="col-xs-12 col-sm-12">
+						<button id="earnings" type="submit" value="" class="withdraw-button-plan earnings">All earning at the month end</i></button>
+						<img class="border-image" src="img/border.png"/>
+						<span class="inline">$</span><input id="money" type="text" placeholder="450" class="withdraw-button-plan short money"></input>
+						<button id="submit-earnings" type="submit" value="" class="withdraw-button-plan submit-earnings">select</button>
+						</div>
+
 					</div>
 
 				</div>
+				<div class="read-more-wrap second-block">
+
+					<div class="read-more-target row border">
+						<div class="col-xs-12 col-sm-7">
+							<span class="withdraw__price">Login Your Paypal</span>
+						</div>
 			</div>
-		</section>
+			<div class="read-more-wrap">
+				<div class="read-more-target row">
+					<div class="col-xs-12 col-sm-12">
+						<p class="paypal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ornare tortor nec purus mattis malesuada. Mauris semper volutpat sapien, a pulvinar risus scelerisque ac</p>
+				    	<form action="#" class="signForm withdraw-form">
+				    		<label for="iSign1">Email</label>
+				    		<input type="email" value="" name="" id="iSign1">
+							<label for="iSign1">Confirm Email</label>
+				    		<input type="email" value="" name="" id="iSign1">
+				    	</form>
+					</div>
+				</div>
+			</div>
+			<div class="read-more-wrap">
+				<div class="read-more-target row submit">
+					<button class="btnSave bShad submit-withdraw">Send a request</button>
+				</div>
+			</div>
+		</div>
+			</div>
+		</div> -->
+		<div class="bam">
+			<div class="reports row">
+			<div class="reports__block">
+			<h1>
+				Reports
+			</h1>
+			<h2>
+				Balance: <span>$300.00</span>
+			</h2>
+			</div>
+			</div>
+			<div class="reports row border-top">
+			<div class="reports__block border-top">
+			<div class="reports__block--purple">
+			<div class="col-xs-12 col-sm-6">
+				<div class="relative">
+			<input type="text" id="datepicker"><i class="fa fa-calendar"></i>
+			<input type="text" id="datepicker1"><i class="fa fa-calendar right-calendar"></i>
+			<button class="calendar-button">Go</button>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-3">
+							<div id="ddd" class="wrapper-dropdown-1" tabindex="1">
+								<span>View all trans</span>
+								<ul class="dropdown" tabindex="1">
+									<li><a href="#">Transaction name</a></li>
+									<li><a href="#">Transaction</a></li>
+									<li><a href="#">Transaction Bill</a></li>
+									<li><a href="#">Transaction Number</a></li>
+								</ul>
+							</div>
+			</div>
+			<div class="col-xs-12 col-sm-3 text-align">
+							<button class="btnSave bShad get-pdf">Get PDF <i class="fa fa-file-pdf-o"></i></button>
+			</div>
+				<div id="container"></div>
+			</div>
+
+			</div>
+			</div>
+			<div class="reports row border-top">
+			<div class="reports__block border-top border-bottom">
+				<table class="tEarn-profile reports-table">
+					<tr>
+						<th class="th1 smaller">ID</th>
+						<th class="th2">Date</th>
+						<th class="th3">Type</th>
+						<th class="th4">Description</th>
+						<th class="th5">Designer</th>
+						<th class="th6">Ammount</th>
+					</tr>
+					<tbody class="body-border">
+					<tr>
+						<td>12341</td>
+						<td>Logo name here</td>
+						<td>Name name</td>
+						<td>1/01/2014</td>
+						<td>$551</td>
+						<td>$859</td>
+					</tr>
+					<tr>
+						<td>12341</td>
+						<td>Logo name here</td>
+						<td>Name</td>
+						<td>1/01/2014</td>
+						<td>$859</td>
+						<td>$859</td>
+					</tr>
+				</tbody>
+				</table>
+		</div>
+	</div>
+	<div class="reports row border-top">
+	<div style="margin-top:-30px;" class="reports__block border-top">
+		<div class="reports row border-top width">
+		<div class="reports__block border-top border-bottom border-right">
+			<div class="col-xs-12 col-sm-12 right-reports">
+				<div>
+						<span class="bold">Statement Period</span>
+						<span class="small">December 30, 2015</span>
+						<table class="small-table">
+
+							<tr>
+								<th class="bold-weight">Starting balance</th>
+								<th class="bold-weight">$0.00</th>
+							</tr>
+							<tr>
+								<td>Total debits</td>
+								<td>$0.00</td>
+							</tr>
+							<tr>
+								<td>Total credits</td>
+								<td>$0.00</td>
+							</tr>
+							<tr>
+								<td>Total charge</td>
+								<td>$0.00</td>
+							</tr>
+							<tr>
+								<td class="bold-weight last">Ending balance</td>
+								<td class="bold-weight last">$0.00</td>
+							</tr>
+						</table>
+				</div>
+
+			</div>
+	</div>
+</div>
+</div>
+</div>
+		</div>
+
+		<div class="bam">
+			<ul class="uCard">
+				<li class="masterCard">
+				<i class="iEdit"><a class="iPopup"><i class="fa fa-pencil"></i></a></i>
+					<i class="iDel"><i class="fa fa-times"></i></i>
+					<p class="cNumb">XXXX XXX XXXX 5622</p>
+					<p class="cVal">valid thru <b>8/18</b></p>
+					<p class="cName">cardholder name</p>
+					<p class="cName2"><a href="#">John Brown</a></p>
+				</li>
+				<li class="masterCard">
+				<i class="iEdit"><a class="iPopup"><i class="fa fa-pencil"></i></a></i>
+					<i class="iDel"><i class="fa fa-times"></i></i>
+					<p class="cNumb">XXXX XXX XXXX 5622</p>
+					<p class="cVal">valid thru <b>8/18</b></p>
+					<p class="cName">cardholder name</p>
+					<p class="cName2"><a href="#">John Brown</a></p>
+				</li>
+				<li class="visa">
+					<i class="iEdit"><a class="iPopup"><i class="fa fa-pencil"></i></a></i>
+					<i class="iDel"><i class="fa fa-times"></i></i>
+					<p class="cNumb">XXXX XXX XXXX 5622</p>
+					<p class="cVal">valid thru <b>8/18</b></p>
+					<p class="cName">cardholder name</p>
+					<p class="cName2"><a href="#">John Brown</a></p>
+				</li>
+				<li class="visaElectron">
+					<i class="iEdit"><a class="iPopup"><i class="fa fa-pencil"></i></a></i>
+					<i class="iDel"><i class="fa fa-times"></i></i>
+					<p class="cNumb">XXXX XXX XXXX 5622</p>
+					<p class="cVal">valid thru <b>8/18</b></p>
+					<p class="cName">cardholder name</p>
+					<p class="cName2"><a href="#">John Brown</a></p>
+				</li>
+				<li>
+					<a href="#" class="btnAdd">Add new card</a>
+				</li>
+			</ul>
+		</div>
+		<div class="bam">
+			<ul class="uJobs2">
+				<li><img src="img/gray.png" alt=""></li>
+				<li><img src="img/gray.png" alt=""></li>
+				<li><img src="img/gray.png" alt=""></li>
+				<li><img src="img/gray.png" alt=""></li>
+				<li><img src="img/gray.png" alt=""></li>
+				<li><img src="img/gray.png" alt=""></li>
+				<li><img src="img/gray.png" alt=""></li>
+				<li><img src="img/gray.png" alt=""></li>
+				<li><img src="img/gray.png" alt=""></li>
+				<li><img src="img/gray.png" alt=""></li>
+				<li><img src="img/gray.png" alt=""></li>
+				<li><img src="img/gray.png" alt=""></li>
+				<li><img src="img/gray.png" alt=""></li>
+				<li><img src="img/gray.png" alt=""></li>
+				<li><img src="img/gray.png" alt=""></li>
+			</ul>
+		</div>
+		<div class="bam">
+		</div>
+		<div class="usSett bam">
+			<div class="usSett_1">
+				<h1>Change Personal Infomation</h1>
+				<form action="#">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6">
+							<label for="sf1">Name</label>
+							<input type="text" id="sf1" placeholder="John Brown" class="sInp">
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<label for="sf2">Email </label>
+							<input type="email" id="sf2" placeholder="johnbrown@test.mail.com" class="sInp">
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<label for="sf3">Phone number</label>
+							<input type="tel" id="sf3" placeholder="+0 000-000-000" class="sInp">
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<label for="sf4">City:</label>
+							<input type="text" id="sf4" placeholder="London" class="sInp">
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<label for="sf5">Street Address:</label>
+							<input type="text" id="sf5" placeholder="46 Gray's Inn Rd, London, WC1X 8LP" class="sInp">
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<label for="sf6">Postal code:</label>
+							<input type="text" id="sf6" placeholder="69106" class="sInp">
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<label for="sf7">State/Province/Region:</label>
+							<input type="text" id="sf7" placeholder="London" class="sInp">
+						</div>
+						<div class="col-xs-12 col-sm-6 col-sm-offset-6 col-sm-pull-6">
+							<label for="sf8">Country:</label>
+							<input type="text" id="sf8" placeholder="United Kingdom" class="sInp">
+						</div>
+					</div>
+					<button class="btnSave bShad">save changes</button>
+				</form>
+			</div>
+			<h2>Change Password</h2>
+			<form action="#">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6">
+						<label for="sf9">Current Password</label>
+						<input type="password" id="sf9" class="sInp">
+					</div>
+					<div class="col-xs-12 col-sm-6 col-sm-offset-6 col-sm-pull-6">
+						<label for="sf10">New Password</label>
+						<input type="password" id="sf10" class="sInp">
+					</div>
+					<div class="col-xs-12 col-sm-6 col-sm-offset-6 col-sm-pull-6">
+						<label for="sf10">New Password Again</label>
+						<input type="password" id="sf10" class="sInp">
+					</div>
+				</div>
+				<button class="btnSave bShad">save password</button>
+			</form>
+		</div>
+
+	</div>
+
+</div>
+
+		</div>
 	</main><!-- .middle -->
 	<div style="display: none;">
-	    <div class="box-modal" id="sIn">
-	    	<h3>Sign Up</h3>
+		<div class="box-modal" id="sIn">
+			<h3>Sign Up</h3>
 			<a class="box-modal_close arcticmodal-close" href="#"><img src="img/close.png"></a>
-	    	<form action="#" class="signForm">
-	    		<label for="iSign1">Email Address</label>
-	    		<input type="email" value="" name="" id="iSign1">
-	    		<label for="iSign2">Password</label>
-	    		<input type="password" value="" name="" id="iSign2">
+			<form action="#" class="signForm">
+				<label for="iSign1">Email Address</label>
+				<input type="email" value="" name="" id="iSign1">
+				<label for="iSign2">Password</label>
+				<input type="password" value="" name="" id="iSign2">
 				<button class="forgot-pass">Forgot Password</button>
-	    		<div class="fBnt">
-	    			<p class="noAcc">Don't Have an Account? <a href="#">Sign Up</a></p>
-	    			<button class="signup-logo">Sign in</button>
-	    		</div>
-	    	</form>
-	    </div>
+				<div class="fBnt">
+					<p class="noAcc">Don't Have an Account? <a href="#">Sign Up</a></p>
+					<button class="signup-logo">Sign in</button>
+				</div>
+			</form>
+		</div>
 		<div class="box-modal" id="sUp">
-	    	<h3>Sign Up</h3>
+			<h3>Sign Up</h3>
 			<a class="box-modal_close arcticmodal-close" href="#"><img src="img/close.png"></a>
 			<div id='tab-container'>
 				<div class="tab-content">
@@ -387,9 +1531,33 @@
 				</div>
 			</div>
 
-	    </div>
+		</div>
 	</div>
+
 </div><!-- .wrapper -->
+<div style="display: none;">
+	<div class="box-modal" id="iPopup">
+<h3>Edit card <span class="card-placeholder">Visa (XXXX XXX XXXX 5622)</span></h3>
+<a class="box-modal_close arcticmodal-close" href="#"><img src="img/close.png"></a>
+<form action="#" class="editCard">
+	<label for="iSign1">Card Number</label>
+	<input placeholder="XXXX XXX XXXX 5622" type="email" value="" name="" id="iSign1">
+	<div class="left">
+		<label for="iSign3">Cardholder Name</label>
+		<input placeholder="John Brown" type="text" value="" name="" id="iSign3">
+	</div>
+	<div class="right">
+		<label for="iSign4">Valid Thru</label>
+		<input placeholder="mm/yy" type="text" value="" name="" id="iSign4">
+	</div>
+
+	<div class="fBnt">
+
+		<button class="signup-logo">Save edit</button>
+	</div>
+</form>
+</div>
+</div>
 <footer class="footer">
 	<div class="footTop">
 		<div class="jaw">
@@ -426,12 +1594,130 @@
 <!--[if gte IE 9]><!-->
 	<script src="js/min/jquery-2.0.3.js" type="text/javascript"></script>
 <!--<![endif]-->
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script>
+$(function() {
+  $( "#datepicker" ).datepicker();
+});
+$(function() {
+  $( "#datepicker1" ).datepicker();
+});
+</script>
 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
 <script type="text/javascript" src="js/arcticmodal.min.js"></script>
 <script type="text/javascript" src="js/jquery.tooltipster.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/picker.js"></script>
+<script type="text/javascript" src="js/picker.date.js"></script>
+<script type="text/javascript" src="js/legacy.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+<script type="text/javascript" src="js/jquery.raty.js"></script>
+<script type="text/javascript" src="js/dropzone.js"></script>
+<script type="text/javascript" src="js/autosize.js"></script>
+<script type="text/javascript" src="js/checkbox.js"></script>
 <script type="text/javascript" src="js/tabs.js"></script>
-<!--[if !IE]> JS INCLUDES END <![endif]-->
+
+	<script type="text/javascript">
+
+		function DropDown(el) {
+			this.dd = el;
+			this.placeholder = this.dd.children('span');
+			this.opts = this.dd.find('ul.dropdown > li');
+			this.val = '';
+			this.index = -1;
+			this.initEvents();
+		}
+		DropDown.prototype = {
+			initEvents : function() {
+				var obj = this;
+
+				obj.dd.on('click', function(event){
+					$(this).toggleClass('active');
+					return false;
+				});
+
+				obj.opts.on('click',function(){
+					var opt = $(this);
+					obj.val = opt.text();
+					obj.index = opt.index();
+					obj.placeholder.text('Gender: ' + obj.val);
+				});
+			},
+			getValue : function() {
+				return this.val;
+			},
+			getIndex : function() {
+				return this.index;
+			}
+		}
+
+		$(function() {
+
+			var dd = new DropDown( $('#dd') );
+
+			$(document).click(function() {
+				// all dropdowns
+				$('.wrapper-dropdown-1').removeClass('active');
+			});
+
+		});
+		$(function() {
+
+			var dd = new DropDown( $('#ddd') );
+
+			$(document).click(function() {
+				// all dropdowns
+				$('.wrapper-dropdown-1').removeClass('active');
+			});
+
+		});
+
+	</script>
+<script type="text/javascript">
+
+	var $input = $( '.datepicker' ).pickadate({
+		formatSubmit: 'yyyy/mm/dd',
+		container: '#container',
+		weekdaysShort: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+ 		showMonthsShort: true
+	})
+
+	var picker = $input.pickadate('picker')
+
+</script>
+<script>
+//...
+
+obj.dd.on('click', function(event){
+	$(this).toggleClass('active');
+	return false;
+});
+
+//...
+
+$(function() {
+
+	var dd = new DropDown( $('#dd') );
+
+	$(document).click(function() {
+		// all dropdowns
+		$('.wrapper-dropdown-1').removeClass('active');
+	});
+
+});
+</script>
+<script type="text/javascript">
+$('#earnings').click(function() {
+  $('.earnings').toggleClass('green-check');
+});
+$('#money').click(function() {
+  $('.money').toggleClass('dollar-check');
+});
+$('#submit-earnings').click(function() {
+  $('.submit-earnings').toggleClass('submit-earn');
+});
+</script>
 </body>
 </html>

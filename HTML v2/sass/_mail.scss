@@ -1,0 +1,79 @@
+.mail {
+    width: 23%;
+    margin: 0 2.5% 55px 0;
+    position: relative;
+    float: left;
+    border-radius: 3px;
+    padding: 33px 0 0;
+    webkit-box-sizing: border-box;
+    moz-box-sizing: border-box;
+    box-sizing: border-box;
+    &_compose{
+        text-align: center;
+        button{
+            background: #1bcd80;
+            border: none;
+            width: 85%;
+            padding: 13px;
+            border-radius: 3px;
+            color: #fff;
+            font-size: 13px;
+            text-transform: uppercase;
+            font-family: 'proxima_nova_ltsemibold', Helvetica;
+            i{
+                padding-left: 15px;
+                font-size: 18px;
+                vertical-align: middle;
+            }
+        }
+    }
+    &_block{
+        margin-top: 40px;
+        li{
+            span{
+                color: #959595 !important;
+                border: none !important;
+                i{
+                    color: #959595 !important;
+                    &:hover{
+                        color: #959595 !important;
+                    }
+                }
+            &:hover{
+                background: none !important;
+                color: #959595 !important;
+            }
+            }
+        }
+        .act2{
+            background: #ebebeb;
+        }
+    &-notification{
+        float: right;
+        width: 35px;
+        height: 25px;
+        border-radius: 4px;
+        margin-top: -5px;
+        color: #fff;
+        text-align: center;
+        padding-top: 7px;
+        text-decoration: none;
+        font-family: 'proxima_nova_ltsemibold', Helvetica;
+    }
+    .orange{
+        background-color: #fea700;
+    }
+    .dark{
+        background-color: #959595;
+    }
+    .dark-red{
+        background-color: red;
+    }
+    }
+}
+.green{
+    background-color: #1bcd80;
+}
+.orange{
+    background-color: #fea700;
+}
