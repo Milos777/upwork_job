@@ -294,7 +294,7 @@
     background-color: #1bcd80;
 }
 .orange{
-    background-color: #fea700;
+    background-color: #fea700 !important;
 }
 .dark-red{
     background-color: red;
@@ -342,7 +342,7 @@ i{
 
 }
 .signout_button{
-    background: #20b373;
+    background: #24a36c;
     border: none;
     color: #fff;
     text-decoration: none;
@@ -356,4 +356,7 @@ i{
 }
 .nja{
     padding-top:0 !important;
+}
+.company{
+    margin-top: 10px !important;
 }

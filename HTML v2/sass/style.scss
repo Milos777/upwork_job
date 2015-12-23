@@ -395,7 +395,7 @@ $act : #fea700;
 .fa-calendar{
 	position: absolute;
 	left: 90px;
-	top: 12px;
+	top: 14px;
 	color: #b1b1b1;
 	@media screen and (max-width: 1080px){
 		left: 40px;
@@ -2684,6 +2684,7 @@ $act : #fea700;
 		    left: 0;
 		    color: #fff;
 		    font-size: 20px;
+			margin-top: -4px;
 		}
 
 		&.dHost:after{
@@ -2905,6 +2906,7 @@ $act : #fea700;
 }
 .managesub-sub{
 	border-radius: 5px !important;
+	padding-left: 11px;
 
 }
 .managesub-sub li{
@@ -2925,10 +2927,10 @@ $act : #fea700;
 		color: #fff !important;
 	}
 	.active{
-		background: green !important;
+		background: #1ccd7f !important;
 	}
 	.rejected{
-		background: red !important;
+		background: #da1425 !important;
 	}
 }
 .absolute-button{
@@ -2970,10 +2972,16 @@ $act : #fea700;
 	}
 }
 .managesub-data {
-	padding: 20px !important
+	padding: 0px !important
 }
 .managesub-data li{
 	border: 3px solid #fff;
+	border-radius: 0px !important;
+	&:last-child{
+		@media screen and (min-width: 769px){
+		width:28.5% !important;
+	}
+	}
 }
 .managesub-data li .right{
 	@media screen and (max-width: 768px){
@@ -3701,6 +3709,7 @@ margin: 0 !important;
 
 	div{
 		float: right;
+		text-align: right;
 
 	}
 	.bold{
@@ -7685,4 +7694,16 @@ a.tooltip span
 		vertical-align: middle;
 		margin-left: 20px;
 	}
+}
+.show{
+	opacity: 1 !important;
+}
+.first-block{
+	border: 1px solid #ebebeb;
+	margin-left: 0px !important;
+	width: 100% !important;
+	padding: 15px 20px 15px 20px !important;
+}
+.fixed-width{
+	width:305px;
 }
