@@ -1,12 +1,18 @@
 .mail-inbox{
     width: 35%;
     border-left:5px solid #959595;
+    @media screen and (max-width: 768px){
+        width: 100%;
+    }
     h2{
         padding: 10px !important;
         color: #959595;
         font-size: 14px;
         font-family: 'proxima_nova_rgregular', Helvetica;
         background: #faf9f9;
+        @media screen and (max-width: 768px){
+            display: inline-block;;
+        }
     }
     &-bottom{
         border: 1px solid #ebebeb;
@@ -28,6 +34,9 @@
             font-size: 34px;
             font-family: 'proxima_nova_ltlight', Helvetica;
             margin-top: 10px;
+            @media screen and (max-width: 768px){
+                line-height: 32px;
+            }
         }
         &-eabout{
             margin-top:30px;
@@ -88,7 +97,10 @@
     }
     &-box{
     width: 65% !important;
-    margin-bottom: 0 !important
+    margin-bottom: 0 !important;
+    @media screen and (max-width: 768px){
+        width: 100% !important;
+    }
     }
     &-list{
         background: #faf9f9 !important;
@@ -129,6 +141,9 @@
     webkit-box-sizing: border-box;
     moz-box-sizing: border-box;
     box-sizing: border-box;
+    @media screen and (max-width: 768px){
+        width: 100%;
+    }
     &_compose{
         text-align: center;
         button{
@@ -187,6 +202,20 @@
         padding-top: 7px;
         text-decoration: none;
         font-family: 'proxima_nova_ltsemibold', Helvetica;
+        @media screen and (max-width:1100px){
+            margin-right: -17px;
+        }
+        @media screen and (min-width:769px) and (max-width:1000px){
+            float: none;
+            display: block;
+            margin-top: 10px;
+        }
+        @media screen and (max-width: 768px){
+            text-align: center !important;
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+            width: auto !important;
+        }
     }
     .orange{
         background-color: #fea700;
@@ -195,7 +224,7 @@
         background-color: #959595;
     }
     .dark-red{
-        background-color: red;
+        background-color: #dc1222;
     }
     }
     &-info{
@@ -307,10 +336,13 @@ i{
     padding-right: 25px;
     margin-top: -6px;
     margin-right: 18px;
+    @media screen and (max-width: 360px){
+        width: 150px;
+    }
 
 }
 .signout_button{
-    background: #1bcd80;
+    background: #20b373;
     border: none;
     color: #fff;
     text-decoration: none;
