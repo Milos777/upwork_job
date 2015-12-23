@@ -2899,8 +2899,9 @@ $act : #fea700;
 	position: relative;
 }
 .managesub li{
+	@media screen and (min-width: 993px){
 	width: 30% !important;
-
+}
 }
 .managesub-sub{
 	border-radius: 5px !important;
